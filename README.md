@@ -478,7 +478,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 For issues, questions, or contributions:
 - 🐛 **Open an issue** on GitHub
-- 📧 **Email**: [Your Email]
+- 📧 **Email**: harjins2005@gmail.com
 - 👤 **Maintainer**: Harjinder Singh ([@harjin2005](https://github.com/harjin2005))
 
 ---
