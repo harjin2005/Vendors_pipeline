@@ -1,246 +1,494 @@
-Vendor Pipeline Backend (Django, LLM-Powered)
+<div align="center">
 
-A production-ready Django REST API for multi-phase, AI-powered vendor evaluation, risk scoring, and compliance mapping.
-Modular, LLM-integrated, and optimized for enterprise automation workflows.
+# 🚀 Vendor Pipeline Backend
+### AI-Powered Vendor Evaluation & Risk Assessment System
 
-🚦 TL;DR — Quickstart
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/downloads/)
+[![Django](https://img.shields.io/badge/Django-4.2+-green.svg?style=for-the-badge&logo=django)](https://www.djangoproject.com/)
+[![Azure OpenAI](https://img.shields.io/badge/Azure-OpenAI-orange.svg?style=for-the-badge&logo=microsoft-azure)](https://azure.microsoft.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+**Enterprise-grade Django REST API for intelligent vendor evaluation, compliance mapping, and risk scoring powered by LLMs**
+
+[Quick Start](#-quick-start) • [Features](#-features) • [API Docs](#-api-endpoints) • [Examples](#-usage-examples) • [Deploy](#-deployment)
+
+</div>
+
+---
+
+## 🎯 What is This?
+
+Ever wondered how to automatically evaluate vendors for compliance, security risks, and capabilities using AI? This pipeline does exactly that!
+
+**Think of it as your AI-powered vendor assessment assistant** that:
+- 🔍 Discovers vendor intelligence automatically
+- 📊 Analyzes historical timelines and patterns
+- 🧠 Uses Azure OpenAI to assess risks and compliance
+- 📝 Generates comprehensive evaluation reports
+- ⚡ Provides a clean REST API for integration
+
+Perfect for **security teams, procurement, and compliance officers** who need to assess vendors at scale.
+
+---
+
+## ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 🤖 AI-Powered
+- **Azure OpenAI Integration**
+- Intelligent risk scoring
+- Natural language analysis
+- Automated compliance checks
+
+</td>
+<td width="50%">
+
+### 🏗️ Production-Ready
+- **Django REST Framework**
+- Modular architecture
+- PostgreSQL/SQLite support
+- Comprehensive logging
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📊 5-Phase Pipeline
+1. **Discovery** - Vendor intelligence gathering
+2. **Timeline** - Historical analysis
+3. **Decomposition** - Capability breakdown
+4. **Mapping** - Gap analysis
+5. **Assessment** - Final AI evaluation
+
+</td>
+<td width="50%">
+
+### 🔌 Easy Integration
+- **RESTful API**
+- JSON responses
+- Clear documentation
+- Copy-paste commands
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚦 Quick Start
+
+### ⚡ Get Running in 5 Minutes
+
+```bash
+# 1️⃣ Clone the repo
 git clone https://github.com/harjin2005/Vendors_pipeline.git
 cd Vendors_pipeline
 
+# 2️⃣ Set up virtual environment
 python -m venv venv
-venv\Scripts\activate  # Windows
-# OR source venv/bin/activate (Mac/Linux)
+venv\\Scripts\\activate          # Windows
+# source venv/bin/activate     # Mac/Linux
 
+# 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-copy .env.example .env   # Create .env
-python manage.py migrate
-python manage.py runserver
+# 4️⃣ Configure environment
+copy .env.example .env         # Windows
+# cp .env.example .env         # Mac/Linux
 
+# Edit .env with your Azure OpenAI credentials
 
-API will run at: http://127.0.0.1:8000/
-
-📦 Project Structure
-vendor_pipeline_django/
-│
-├── pipeline/
-│   ├── models.py
-│   ├── views.py
-│   ├── tasks/        # Phase 1–5 logic
-│   ├── services/     # LLM, vendor collectors, utils
-│   └── prompts/      # Prompt templates
-│
-├── vendor_pipeline/
-│   ├── settings.py
-│   └── urls.py
-│
-├── requirements.txt
-├── manage.py
-└── .env (user-provided, not in repo)
-
-1. 🛠️ Local Setup
-1.1 Clone & Environment Setup
-git clone https://github.com/harjin2005/Vendors_pipeline.git
-cd Vendors_pipeline
-
-python -m venv venv
-venv\Scripts\activate
-
-1.2 Install Dependencies
-pip install -r requirements.txt
-
-1.3 Configure Environment
-
-Copy the example file:
-
-copy .env.example .env
-
-
-Edit .env and fill in your secrets:
-
-AZURE_OPENAI_DEPLOYMENT_NAME=YOUR_DEPLOYMENT
-AZURE_OPENAI_API_KEY=YOUR_API_KEY
-AZURE_OPENAI_ENDPOINT=https://YOUR_RESOURCE.azure.com/
-
-DJANGO_SECRET_KEY=YOUR_SECRET
-
-DB_HOST=localhost
-DB_NAME=vendor_pipeline
-DB_USER=postgres
-DB_PASSWORD=pass
-
-
-Never commit .env to the repository.
-
-1.4 Run Database Migrations
+# 5️⃣ Set up database
 python manage.py migrate
 
-1.5 Start the API
+# 6️⃣ Start the server
 python manage.py runserver
+```
 
+✅ **You're ready!** API running at `http://127.0.0.1:8000/`
 
-Visit: http://127.0.0.1:8000/
+---
 
-2. ✔️ Vendor Pipeline Usage
-2.1 Create a New Evaluation Task
+## 📁 Project Structure
 
-POST /api/tasks/
+```
+Vendors_pipeline/
+│
+├── 🎯 vendor_pipeline/              # Django settings
+│   ├── settings.py                  # Configuration
+│   ├── urls.py                      # URL routing
+│   └── wsgi.py                      # WSGI config
+│
+├── 🔧 pipeline/                     # Main app
+│   ├── models.py                    # Database models
+│   ├── views.py                     # API endpoints
+│   ├── serializers.py               # Data serialization
+│   │
+│   ├── 📦 tasks/                    # Phase implementations
+│   │   ├── phase1_discovery.py      # Vendor discovery
+│   │   ├── phase2_timeline.py       # Timeline analysis
+│   │   ├── phase3_subtask.py        # Subtask decomposition
+│   │   ├── phase4_capability.py     # Capability mapping
+│   │   └── phase5_assessment.py     # Final AI assessment
+│   │
+│   ├── 🛠️ services/                 # Business logic
+│   │   ├── llm_service.py           # Azure OpenAI integration
+│   │   ├── vendor_collector.py      # Data collection
+│   │   └── utils.py                 # Helper functions
+│   │
+│   └── 💬 prompts/                 # LLM prompts
+│       └── phase*.txt               # Prompt templates
+│
+├── 📋 requirements.txt              # Dependencies
+├── 🔧 manage.py                     # Django CLI
+├── 🔒 .env.example                  # Environment template
+└── 📖 README.md                     # You are here!
+```
 
-Example body:
+---
 
-{
-  "user_id": "abc123",
-  "task_description": "Evaluate vendor ABC for cybersecurity compliance"
-}
+## 🔌 API Endpoints
 
+| Method | Endpoint | What It Does | Example |
+|--------|----------|--------------|---------|  
+| `POST` | `/api/tasks/` | Create new evaluation | Create task for "SAP vendor" |
+| `GET` | `/api/tasks/{id}/` | Get task details | Check task status |
+| `POST` | `/api/tasks/{id}/phase1/` | 🔍 Run Discovery | Find vendor info |
+| `POST` | `/api/tasks/{id}/phase2/` | 📈 Run Timeline | Analyze history |
+| `POST` | `/api/tasks/{id}/phase3/` | 🧩 Run Decomposition | Break down capabilities |
+| `POST` | `/api/tasks/{id}/phase4/` | 🗺️ Run Mapping | Map capabilities |
+| `POST` | `/api/tasks/{id}/phase5/` | 🤖 Run AI Assessment | Final risk analysis |
+| `GET` | `/api/tasks/{id}/report/` | 📄 Get Full Report | Complete evaluation |
 
-Returns: Task ID
+---
 
-2.2 Run Each Pipeline Phase
+## 💻 Usage Examples
 
-Run in order:
+### 📌 Example 1: Quick Test (Windows)
 
-Phase 1 — Vendor Discovery
-POST /api/tasks/{task_id}/phase1/
-
-Phase 2 — Timeline Analysis
-POST /api/tasks/{task_id}/phase2/
-
-Phase 3 — Subtask Decomposition
-POST /api/tasks/{task_id}/phase3/
-
-Phase 4 — Capability Mapping
-POST /api/tasks/{task_id}/phase4/
-
-Phase 5 — Final LLM Risk & Compliance Assessment
-POST /api/tasks/{task_id}/phase5/
-
-
-Each phase enriches and stores the results.
-
-2.3 Retrieve Final Combined Report
-GET /api/tasks/{task_id}/report/
-
-
-Sample Python/Windows CMD Test Commands
-1. Create a Vendor Task (Phase 0)
-text
+```cmd
+REM Create a vendor evaluation task
 curl -X POST http://127.0.0.1:8000/api/tasks/ ^
--H "Content-Type: application/json" ^
--d "{\"user_id\": \"testuser01\", \"task_description\": \"Assess SAP vendor for compliance\"}"
-2. Run Phase 1 (Discovery)
-text
+  -H "Content-Type: application/json" ^
+  -d "{\"user_id\": \"demo\", \"task_description\": \"Evaluate Microsoft Azure for security compliance\"}"
+
+REM Response will give you a task ID, use it below (e.g., ID = 1)
+
+REM Run the pipeline phases
 curl -X POST http://127.0.0.1:8000/api/tasks/1/phase1/
-(Replace 1 with the actual task id returned in step 1)
-
-3. Run Phase 2 (Timeline Analysis)
-text
 curl -X POST http://127.0.0.1:8000/api/tasks/1/phase2/
-4. Run Phase 3 (Subtask Decomposition)
-text
 curl -X POST http://127.0.0.1:8000/api/tasks/1/phase3/
-5. Run Phase 4 (Capability Mapping)
-text
 curl -X POST http://127.0.0.1:8000/api/tasks/1/phase4/
-6. Run Phase 5 (AI Risk Final LLM Analysis)
-text
 curl -X POST http://127.0.0.1:8000/api/tasks/1/phase5/
-7. Get Final Vendor Report
-text
+
+REM Get final report
 curl http://127.0.0.1:8000/api/tasks/1/report/
+```
 
-Batch Pipeline Example (Windows CMD)
-:: === Pipeline Demo Batch ===
+### 🚀 Example 2: Automated Pipeline (Windows Batch Script)
+
+Create `run_pipeline.bat`:
+
+```batch
+@echo off
+echo.
+echo ========================================
+echo   🚀 Vendor Pipeline Automation
+echo ========================================
+echo.
+
+echo 📝 Creating evaluation task...
 curl -X POST http://127.0.0.1:8000/api/tasks/ ^
--H "Content-Type: application/json" ^
--d "{\"user_id\": \"demo\", \"task_description\": \"Vendor Y automation\"}"
+  -H "Content-Type: application/json" ^
+  -d "{\"user_id\": \"automation\", \"task_description\": \"Assess vendor for ISO 27001 compliance\"}"
+echo.
 
-curl -X POST http://127.0.0.1:8000/api/tasks/2/phase1/
-curl -X POST http://127.0.0.1:8000/api/tasks/2/phase2/
-curl -X POST http://127.0.0.1:8000/api/tasks/2/phase3/
-curl -X POST http://127.0.0.1:8000/api/tasks/2/phase4/
-curl -X POST http://127.0.0.1:8000/api/tasks/2/phase5/
-curl http://127.0.0.1:8000/api/tasks/2/report/
+REM Replace with actual task ID from response
+set TASK_ID=1
 
+echo.
+echo 🔍 Phase 1: Vendor Discovery...
+curl -s -X POST http://127.0.0.1:8000/api/tasks/%TASK_ID%/phase1/
+echo ✅ Phase 1 Complete
+echo.
 
-Returns a merged JSON report including:
+echo 📊 Phase 2: Timeline Analysis...
+curl -s -X POST http://127.0.0.1:8000/api/tasks/%TASK_ID%/phase2/
+echo ✅ Phase 2 Complete
+echo.
 
-All phase outputs
+echo 🧩 Phase 3: Subtask Decomposition...
+curl -s -X POST http://127.0.0.1:8000/api/tasks/%TASK_ID%/phase3/
+echo ✅ Phase 3 Complete
+echo.
 
-AI scoring
+echo 🗺️ Phase 4: Capability Mapping...
+curl -s -X POST http://127.0.0.1:8000/api/tasks/%TASK_ID%/phase4/
+echo ✅ Phase 4 Complete
+echo.
 
-Risk, gap, and compliance summary
+echo 🤖 Phase 5: AI Risk Assessment...
+curl -s -X POST http://127.0.0.1:8000/api/tasks/%TASK_ID%/phase5/
+echo ✅ Phase 5 Complete
+echo.
 
-Vendor intelligence insights
+echo 📄 Fetching Final Report...
+curl http://127.0.0.1:8000/api/tasks/%TASK_ID%/report/ > report_%TASK_ID%.json
+echo.
 
-3. 🧑‍💻 Developer Notes
+echo ========================================
+echo   ✨ Pipeline Complete!
+echo   📄 Report saved: report_%TASK_ID%.json
+echo ========================================
+```
 
-Modular, extensible architecture
+**Run it:**
+```cmd
+run_pipeline.bat
+```
 
-Business logic in: /pipeline/tasks/ and /pipeline/services/
+### 🐧 Example 3: Linux/Mac Automation
 
-Add new phases by:
+Create `run_pipeline.sh`:
 
-Creating a prompt in /pipeline/prompts/
+```bash
+#!/bin/bash
 
-Adding logic under /pipeline/tasks/
+echo ""
+echo "========================================"
+echo "  🚀 Vendor Pipeline Automation"
+echo "========================================"
+echo ""
 
-Registering a new API endpoint
+echo "📝 Creating evaluation task..."
+RESPONSE=$(curl -s -X POST http://127.0.0.1:8000/api/tasks/ \
+  -H "Content-Type: application/json" \
+  -d '{"user_id": "automation", "task_description": "Vendor compliance assessment"}')
 
-Perfect for AI automation products and SaaS platforms.
+TASK_ID=$(echo $RESPONSE | grep -o '"id":[0-9]*' | grep -o '[0-9]*')
+echo "✅ Task created with ID: $TASK_ID"
+echo ""
 
-4. 🏆 Example CLI Workflow (httpie)
-# Start server
-python manage.py runserver
+echo "🔍 Phase 1: Discovery..."
+curl -s -X POST http://127.0.0.1:8000/api/tasks/$TASK_ID/phase1/ > /dev/null
+echo "✅ Complete"
 
-# Create a new vendor task
-http POST http://127.0.0.1:8000/api/tasks/ \
-    user_id="demo" \
-    task_description="Vendor Z assessment"
+echo "📊 Phase 2: Timeline..."
+curl -s -X POST http://127.0.0.1:8000/api/tasks/$TASK_ID/phase2/ > /dev/null
+echo "✅ Complete"
 
-# Run all 5 phases
-http POST http://127.0.0.1:8000/api/tasks/{id}/phase1/
-http POST http://127.0.0.1:8000/api/tasks/{id}/phase2/
-http POST http://127.0.0.1:8000/api/tasks/{id}/phase3/
-http POST http://127.0.0.1:8000/api/tasks/{id}/phase4/
-http POST http://127.0.0.1:8000/api/tasks/{id}/phase5/
+echo "🧩 Phase 3: Decomposition..."
+curl -s -X POST http://127.0.0.1:8000/api/tasks/$TASK_ID/phase3/ > /dev/null
+echo "✅ Complete"
 
-# Fetch final report
-http GET http://127.0.0.1:8000/api/tasks/{id}/report/
+echo "🗺️ Phase 4: Mapping..."
+curl -s -X POST http://127.0.0.1:8000/api/tasks/$TASK_ID/phase4/ > /dev/null
+echo "✅ Complete"
 
+echo "🤖 Phase 5: Assessment..."
+curl -s -X POST http://127.0.0.1:8000/api/tasks/$TASK_ID/phase5/ > /dev/null
+echo "✅ Complete"
 
-Also compatible with:
-curl, Postman, Insomnia, and Swagger UI (if enabled).
+echo ""
+echo "📄 Generating final report..."
+curl -s http://127.0.0.1:8000/api/tasks/$TASK_ID/report/ | jq '.' > report_$TASK_ID.json
 
-5. 🛡️ Security Best Practices
+echo ""
+echo "========================================"
+echo "  ✨ Pipeline Complete!"
+echo "  📄 Report: report_$TASK_ID.json"
+echo "========================================"
+```
 
-Keep .env secret — never push to GitHub
+**Make it executable and run:**
+```bash
+chmod +x run_pipeline.sh
+./run_pipeline.sh
+```
 
-API keys are loaded securely at runtime
+---
 
-Add authentication before deploying to production
+## ⚙️ Configuration
 
-Use HTTPS + reverse proxy (Nginx) for enterprise setups
+### 🔐 Environment Variables
 
-6. 🔥 Advanced / Production Deployment
+Create `.env` file in project root:
 
-Use Postgres/MySQL in production
+```env
+# 🔑 Azure OpenAI Configuration
+AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4
+AZURE_OPENAI_API_KEY=your-api-key-here
+AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
 
-Deploy via Gunicorn or Uvicorn + Nginx
+# 🔧 Django Settings
+DJANGO_SECRET_KEY=your-django-secret-key
+DEBUG=True                              # Set False in production
+ALLOWED_HOSTS=localhost,127.0.0.1
 
-Add CI/CD (GitHub Actions recommended)
+# 💾 Database (SQLite for development)
+DB_ENGINE=django.db.backends.sqlite3
+DB_NAME=db.sqlite3
 
-Optional Docker scaling (compose not included)
+# 💾 Database (PostgreSQL for production)
+# DB_ENGINE=django.db.backends.postgresql
+# DB_HOST=localhost
+# DB_PORT=5432
+# DB_NAME=vendor_pipeline
+# DB_USER=postgres
+# DB_PASSWORD=your-secure-password
+```
 
-Add JWT/OAuth authentication for clients
+### 🔑 Generate Django Secret Key
 
-7. 🤝 Community & Support
+```bash
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+```
 
-For issues or contributions, open a GitHub issue or PR.
-Maintainer: Harjinder Singh
+---
 
-8. 📜 License
+## 🚀 Deployment
 
-MIT License
+### 🐳 Docker Deployment
 
-“Build fast, test smarter, automate everything.”
+**Dockerfile:**
+```dockerfile
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy project
+COPY . .
+
+# Collect static files & migrate
+RUN python manage.py collectstatic --noinput
+RUN python manage.py migrate
+
+EXPOSE 8000
+
+# Run with Gunicorn
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "4", "vendor_pipeline.wsgi:application"]
+```
+
+**Build & Run:**
+```bash
+# Build image
+docker build -t vendor-pipeline .
+
+# Run container
+docker run -p 8000:8000 --env-file .env vendor-pipeline
+```
+
+### ☁️ Production Checklist
+
+- [ ] Set `DEBUG=False` in `.env`
+- [ ] Update `ALLOWED_HOSTS` with your domain
+- [ ] Use PostgreSQL instead of SQLite
+- [ ] Set up HTTPS with SSL certificate
+- [ ] Configure Nginx reverse proxy
+- [ ] Enable Django security middleware
+- [ ] Set up monitoring & logging
+- [ ] Implement JWT/OAuth authentication
+- [ ] Configure CORS for frontend
+- [ ] Set up automated backups
+
+---
+
+## 👨‍💻 Development
+
+### 🧪 Running Tests
+
+```bash
+# Run all tests
+python manage.py test
+
+# Run specific phase test
+python manage.py test pipeline.tests.test_phase1
+```
+
+### 🔧 Useful Commands
+
+```bash
+# Create superuser
+python manage.py createsuperuser
+
+# Make migrations
+python manage.py makemigrations
+
+# Apply migrations
+python manage.py migrate
+
+# Start Django shell
+python manage.py shell
+
+# Collect static files
+python manage.py collectstatic
+```
+
+---
+
+## 🔒 Security
+
+- ❌ **Never commit `.env` file** - Add it to `.gitignore`
+- 🔑 **Rotate API keys regularly**
+- 🔒 **Use environment variables** for all secrets
+- 🏛️ **Implement authentication** before production
+- 🔐 **Enable HTTPS** in production
+- 🛡️ **Use Django security middleware**
+- 📊 **Monitor API usage** and rate limits
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+MIT License - see [LICENSE](LICENSE) file for details
+
+---
+
+## 🚀 Built With
+
+- **Django REST Framework** - Backend API
+- **Azure OpenAI** - LLM Intelligence
+- **PostgreSQL** - Production Database
+- **Gunicorn** - WSGI Server
+- **Docker** - Containerization
+
+---
+
+## 📞 Support
+
+For issues, questions, or contributions:
+- 🐛 **Open an issue** on GitHub
+- 📧 **Email**: [Your Email]
+- 👤 **Maintainer**: Harjinder Singh ([@harjin2005](https://github.com/harjin2005))
+
+---
+
+<div align="center">
+
+**⭐ Star this repo if you find it helpful!**
+
+*"Build fast, test smarter, automate everything."*
+
+Made with ❤️ for the AI & Automation Community
+
+</div>
