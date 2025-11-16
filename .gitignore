@@ -10,3 +10,7 @@ frontend/
 .github/ 
 *.backup 
 final_report.json 
+
+
+.github/instructions/kluster-code-verify.instructions.md
+.kluster

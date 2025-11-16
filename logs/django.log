@@ -1698,3 +1698,10 @@ INFO 2025-11-17 01:57:34 basehttp 5392 21996 "GET /api/tasks/ HTTP/1.1" 200 3190
 INFO 2025-11-17 01:57:36 basehttp 5392 9792 "GET /api/tasks/22/ HTTP/1.1" 200 273
 INFO 2025-11-17 01:57:43 basehttp 5392 4064 "GET /api/tasks/ HTTP/1.1" 200 31903
 INFO 2025-11-17 02:03:20 autoreload 4072 3848 Watching for file changes with StatReloader
+INFO 2025-11-17 02:04:56 basehttp 4072 6828 "POST /api/tasks/ HTTP/1.1" 201 213
+INFO 2025-11-17 02:05:06 basehttp 4072 3500 "POST /api/tasks/1/phase1/ HTTP/1.1" 200 18631
+INFO 2025-11-17 02:05:11 basehttp 4072 5212 "POST /api/tasks/1/phase2/ HTTP/1.1" 200 20255
+INFO 2025-11-17 02:05:11 basehttp 4072 28316 "POST /api/tasks/1/phase3/ HTTP/1.1" 200 20255
+INFO 2025-11-17 02:06:52 basehttp 4072 23704 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 20255
+INFO 2025-11-17 02:08:42 basehttp 4072 12616 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 20253
+INFO 2025-11-17 02:08:42 basehttp 4072 25340 "GET /api/tasks/1/report/ HTTP/1.1" 200 210

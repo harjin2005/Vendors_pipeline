@@ -2069,3 +2069,130 @@ INFO 2025-11-17 02:03:18 apps 25404 1232 [OK] Azure OpenAI LLM service initializ
 INFO 2025-11-17 02:03:19 apps 4072 3848 [OK] Pipeline app ready with LLM service initialized
 INFO 2025-11-17 02:03:20 llm_service 4072 3848 Using `openai.AzureOpenAI` as client (openai package)
 INFO 2025-11-17 02:03:20 apps 4072 3848 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 02:04:56 phase1 4072 31400 [PHASE1] Generating vendor discovery prompt...
+INFO 2025-11-17 02:04:56 phase1 4072 31400 [PHASE1] Calling LLM for vendor discovery...
+INFO 2025-11-17 02:05:06 phase1 4072 31400 [PHASE1] Discovered 8 vendors, storing to database...
+INFO 2025-11-17 02:05:06 phase2 4072 28468 [PHASE2] Starting subtask decomposition for task 1
+INFO 2025-11-17 02:05:06 phase2 4072 28468 [PHASE2] Calling LLM for subtask decomposition...
+INFO 2025-11-17 02:05:11 phase2 4072 28468 [PHASE2] Parsed 7 subtasks from LLM
+INFO 2025-11-17 02:05:11 phase3 4072 29624 [PHASE3] Analyzing timeline for 25 vendors...
+INFO 2025-11-17 02:05:11 phase4 4072 30756 [PHASE4] Starting for task 1
+INFO 2025-11-17 02:05:11 phase4 4072 30756 [PHASE4] 25 vendors x 29 subtasks. Batch size=1
+INFO 2025-11-17 02:05:11 phase4 4072 30756 [PHASE4] Vendor 1/25: TestVendor
+INFO 2025-11-17 02:05:15 phase4 4072 30756 [PHASE4] Vendor TestVendor: 1 subtask mappings
+INFO 2025-11-17 02:05:15 phase4 4072 30756 [PHASE4] Vendor 2/25: Unknown
+INFO 2025-11-17 02:05:18 phase4 4072 30756 [PHASE4] Vendor Unknown: 1 subtask mappings
+INFO 2025-11-17 02:05:18 phase4 4072 30756 [PHASE4] Vendor 3/25: TestRail, Inc.
+INFO 2025-11-17 02:05:23 phase4 4072 30756 [PHASE4] Vendor TestRail, Inc.: 1 subtask mappings
+INFO 2025-11-17 02:05:23 phase4 4072 30756 [PHASE4] Vendor 4/25: SmartBear Software
+INFO 2025-11-17 02:05:26 phase4 4072 30756 [PHASE4] Vendor SmartBear Software: 1 subtask mappings
+INFO 2025-11-17 02:05:26 phase4 4072 30756 [PHASE4] Vendor 5/25: Atlassian Pty Ltd
+INFO 2025-11-17 02:05:30 phase4 4072 30756 [PHASE4] Vendor Atlassian Pty Ltd: 1 subtask mappings
+INFO 2025-11-17 02:05:30 phase4 4072 30756 [PHASE4] Vendor 6/25: Tricentis GmbH
+INFO 2025-11-17 02:05:34 phase4 4072 30756 [PHASE4] Vendor Tricentis GmbH: 1 subtask mappings
+INFO 2025-11-17 02:05:34 phase4 4072 30756 [PHASE4] Vendor 7/25: Micro Focus International plc
+INFO 2025-11-17 02:05:37 phase4 4072 30756 [PHASE4] Vendor Micro Focus International plc: 1 subtask mappings
+INFO 2025-11-17 02:05:37 phase4 4072 30756 [PHASE4] Vendor 8/25: Selenium Project
+INFO 2025-11-17 02:05:41 phase4 4072 30756 [PHASE4] Vendor Selenium Project: 1 subtask mappings
+INFO 2025-11-17 02:05:41 phase4 4072 30756 [PHASE4] Vendor 9/25: Apache Software Foundation
+INFO 2025-11-17 02:05:49 phase4 4072 30756 [PHASE4] Vendor Apache Software Foundation: 1 subtask mappings
+INFO 2025-11-17 02:05:49 phase4 4072 30756 [PHASE4] Vendor 10/25: BrowserStack Inc.
+INFO 2025-11-17 02:05:53 phase4 4072 30756 [PHASE4] Vendor BrowserStack Inc.: 1 subtask mappings
+INFO 2025-11-17 02:05:53 phase4 4072 30756 [PHASE4] Vendor 11/25: Parasoft Corporation
+INFO 2025-11-17 02:05:56 phase4 4072 30756 [PHASE4] Vendor Parasoft Corporation: 1 subtask mappings
+INFO 2025-11-17 02:05:56 phase4 4072 30756 [PHASE4] Vendor 12/25: Atlassian Corporation Plc
+INFO 2025-11-17 02:05:59 phase4 4072 30756 [PHASE4] Vendor Atlassian Corporation Plc: 1 subtask mappings
+INFO 2025-11-17 02:05:59 phase4 4072 30756 [PHASE4] Vendor 13/25: Katalon LLC
+INFO 2025-11-17 02:06:03 phase4 4072 30756 [PHASE4] Vendor Katalon LLC: 1 subtask mappings
+INFO 2025-11-17 02:06:03 phase4 4072 30756 [PHASE4] Vendor 14/25: Postman, Inc.
+INFO 2025-11-17 02:06:07 phase4 4072 30756 [PHASE4] Vendor Postman, Inc.: 1 subtask mappings
+INFO 2025-11-17 02:06:07 phase4 4072 30756 [PHASE4] Vendor 15/25: Rapid7, Inc.
+INFO 2025-11-17 02:06:11 phase4 4072 30756 [PHASE4] Vendor Rapid7, Inc.: 1 subtask mappings
+INFO 2025-11-17 02:06:11 phase4 4072 30756 [PHASE4] Vendor 16/25: Qualys, Inc.
+INFO 2025-11-17 02:06:15 phase4 4072 30756 [PHASE4] Vendor Qualys, Inc.: 1 subtask mappings
+INFO 2025-11-17 02:06:15 phase4 4072 30756 [PHASE4] Vendor 17/25: BrowserStack
+INFO 2025-11-17 02:06:18 phase4 4072 30756 [PHASE4] Vendor BrowserStack: 1 subtask mappings
+INFO 2025-11-17 02:06:18 phase4 4072 30756 [PHASE4] Vendor 18/25: G2.com, Inc.
+INFO 2025-11-17 02:06:22 phase4 4072 30756 [PHASE4] Vendor G2.com, Inc.: 1 subtask mappings
+INFO 2025-11-17 02:06:22 phase4 4072 30756 [PHASE4] Vendor 19/25: SAP SE
+INFO 2025-11-17 02:06:26 phase4 4072 30756 [PHASE4] Vendor SAP SE: 1 subtask mappings
+INFO 2025-11-17 02:06:26 phase4 4072 30756 [PHASE4] Vendor 20/25: Coupa Software Inc.
+INFO 2025-11-17 02:06:30 phase4 4072 30756 [PHASE4] Vendor Coupa Software Inc.: 1 subtask mappings
+INFO 2025-11-17 02:06:30 phase4 4072 30756 [PHASE4] Vendor 21/25: Infor
+INFO 2025-11-17 02:06:34 phase4 4072 30756 [PHASE4] Vendor Infor: 1 subtask mappings
+INFO 2025-11-17 02:06:34 phase4 4072 30756 [PHASE4] Vendor 22/25: Riskmethods GmbH
+INFO 2025-11-17 02:06:39 phase4 4072 30756 [PHASE4] Vendor Riskmethods GmbH: 1 subtask mappings
+INFO 2025-11-17 02:06:39 phase4 4072 30756 [PHASE4] Vendor 23/25: Oracle Corporation
+INFO 2025-11-17 02:06:42 phase4 4072 30756 [PHASE4] Vendor Oracle Corporation: 1 subtask mappings
+INFO 2025-11-17 02:06:42 phase4 4072 30756 [PHASE4] Vendor 24/25: Salesforce, Inc.
+INFO 2025-11-17 02:06:46 phase4 4072 30756 [PHASE4] Vendor Salesforce, Inc.: 1 subtask mappings
+INFO 2025-11-17 02:06:46 phase4 4072 30756 [PHASE4] Vendor 25/25: MasterControl, Inc.
+INFO 2025-11-17 02:06:50 phase4 4072 30756 [PHASE4] Vendor MasterControl, Inc.: 1 subtask mappings
+INFO 2025-11-17 02:06:52 phase4 4072 30756 [PHASE4] SUCCESS: 250 mappings stored
+INFO 2025-11-17 02:06:52 phase5 4072 30132 [PHASE5] Starting for task 1
+INFO 2025-11-17 02:06:52 phase5 4072 30132 [PHASE5] Preparing analysis for 25 vendors and 250 mappings
+INFO 2025-11-17 02:06:52 phase5 4072 30132 [PHASE5] Analysis batch 1: mappings 0-7
+INFO 2025-11-17 02:06:56 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 1
+INFO 2025-11-17 02:06:56 phase5 4072 30132 [PHASE5] Analysis batch 2: mappings 8-15
+INFO 2025-11-17 02:07:00 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 2
+INFO 2025-11-17 02:07:00 phase5 4072 30132 [PHASE5] Analysis batch 3: mappings 16-23
+INFO 2025-11-17 02:07:03 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 3
+INFO 2025-11-17 02:07:03 phase5 4072 30132 [PHASE5] Analysis batch 4: mappings 24-31
+INFO 2025-11-17 02:07:07 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 4
+INFO 2025-11-17 02:07:07 phase5 4072 30132 [PHASE5] Analysis batch 5: mappings 32-39
+INFO 2025-11-17 02:07:10 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 5
+INFO 2025-11-17 02:07:10 phase5 4072 30132 [PHASE5] Analysis batch 6: mappings 40-47
+INFO 2025-11-17 02:07:13 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 6
+INFO 2025-11-17 02:07:13 phase5 4072 30132 [PHASE5] Analysis batch 7: mappings 48-55
+INFO 2025-11-17 02:07:17 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 7
+INFO 2025-11-17 02:07:17 phase5 4072 30132 [PHASE5] Analysis batch 8: mappings 56-63
+INFO 2025-11-17 02:07:20 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 8
+INFO 2025-11-17 02:07:20 phase5 4072 30132 [PHASE5] Analysis batch 9: mappings 64-71
+INFO 2025-11-17 02:07:25 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 9
+INFO 2025-11-17 02:07:25 phase5 4072 30132 [PHASE5] Analysis batch 10: mappings 72-79
+INFO 2025-11-17 02:07:28 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 10
+INFO 2025-11-17 02:07:28 phase5 4072 30132 [PHASE5] Analysis batch 11: mappings 80-87
+INFO 2025-11-17 02:07:31 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 11
+INFO 2025-11-17 02:07:31 phase5 4072 30132 [PHASE5] Analysis batch 12: mappings 88-95
+INFO 2025-11-17 02:07:34 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 12
+INFO 2025-11-17 02:07:34 phase5 4072 30132 [PHASE5] Analysis batch 13: mappings 96-103
+INFO 2025-11-17 02:07:38 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 13
+INFO 2025-11-17 02:07:38 phase5 4072 30132 [PHASE5] Analysis batch 14: mappings 104-111
+INFO 2025-11-17 02:07:42 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 14
+INFO 2025-11-17 02:07:42 phase5 4072 30132 [PHASE5] Analysis batch 15: mappings 112-119
+INFO 2025-11-17 02:07:45 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 15
+INFO 2025-11-17 02:07:45 phase5 4072 30132 [PHASE5] Analysis batch 16: mappings 120-127
+INFO 2025-11-17 02:07:48 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 16
+INFO 2025-11-17 02:07:48 phase5 4072 30132 [PHASE5] Analysis batch 17: mappings 128-135
+INFO 2025-11-17 02:07:52 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 17
+INFO 2025-11-17 02:07:52 phase5 4072 30132 [PHASE5] Analysis batch 18: mappings 136-143
+INFO 2025-11-17 02:07:55 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 18
+INFO 2025-11-17 02:07:55 phase5 4072 30132 [PHASE5] Analysis batch 19: mappings 144-151
+INFO 2025-11-17 02:07:58 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 19
+INFO 2025-11-17 02:07:58 phase5 4072 30132 [PHASE5] Analysis batch 20: mappings 152-159
+INFO 2025-11-17 02:08:02 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 20
+INFO 2025-11-17 02:08:02 phase5 4072 30132 [PHASE5] Analysis batch 21: mappings 160-167
+INFO 2025-11-17 02:08:04 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 21
+INFO 2025-11-17 02:08:04 phase5 4072 30132 [PHASE5] Analysis batch 22: mappings 168-175
+INFO 2025-11-17 02:08:08 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 22
+INFO 2025-11-17 02:08:08 phase5 4072 30132 [PHASE5] Analysis batch 23: mappings 176-183
+INFO 2025-11-17 02:08:12 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 23
+INFO 2025-11-17 02:08:12 phase5 4072 30132 [PHASE5] Analysis batch 24: mappings 184-191
+INFO 2025-11-17 02:08:15 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 24
+INFO 2025-11-17 02:08:15 phase5 4072 30132 [PHASE5] Analysis batch 25: mappings 192-199
+INFO 2025-11-17 02:08:19 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 25
+INFO 2025-11-17 02:08:19 phase5 4072 30132 [PHASE5] Analysis batch 26: mappings 200-207
+INFO 2025-11-17 02:08:22 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 26
+INFO 2025-11-17 02:08:22 phase5 4072 30132 [PHASE5] Analysis batch 27: mappings 208-215
+INFO 2025-11-17 02:08:26 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 27
+INFO 2025-11-17 02:08:26 phase5 4072 30132 [PHASE5] Analysis batch 28: mappings 216-223
+INFO 2025-11-17 02:08:29 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 28
+INFO 2025-11-17 02:08:29 phase5 4072 30132 [PHASE5] Analysis batch 29: mappings 224-231
+INFO 2025-11-17 02:08:33 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 29
+INFO 2025-11-17 02:08:33 phase5 4072 30132 [PHASE5] Analysis batch 30: mappings 232-239
+INFO 2025-11-17 02:08:35 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 30
+INFO 2025-11-17 02:08:35 phase5 4072 30132 [PHASE5] Analysis batch 31: mappings 240-247
+INFO 2025-11-17 02:08:38 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 31
+INFO 2025-11-17 02:08:38 phase5 4072 30132 [PHASE5] Analysis batch 32: mappings 248-249
+INFO 2025-11-17 02:08:41 phase5 4072 30132 [PHASE5] Received valid final_analysis from batch 32
+INFO 2025-11-17 02:08:42 phase5 4072 30132 [PHASE5] COMPLETE. Final analysis stored for task 1
