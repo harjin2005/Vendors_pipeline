@@ -1,0 +1,2071 @@
+ 
+INFO 2025-11-14 12:22:14 llm_service 22320 15808 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 12:22:18 llm_service 12716 20284 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 12:25:11 llm_service 14348 19236 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 12:25:29 llm_service 17000 4964 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 12:32:23 apps 20524 15448 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:32:23 llm_service 20524 15448 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:32:24 apps 10612 16664 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:32:24 llm_service 10612 16664 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:35:31 apps 13724 9464 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:35:31 llm_service 13724 9464 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:35:33 apps 24084 20880 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:35:34 llm_service 24084 20880 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:35:34 apps 6908 22320 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:35:35 llm_service 6908 22320 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:44:23 apps 13080 16024 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:44:23 llm_service 13080 16024 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:44:24 apps 4180 6620 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:44:24 llm_service 4180 6620 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:48:14 apps 24348 17664 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:48:15 llm_service 24348 17664 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:49:15 apps 20764 24460 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:49:16 llm_service 20764 24460 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:49:24 apps 8472 2108 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:49:24 llm_service 8472 2108 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:49:25 apps 10716 19120 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:49:25 llm_service 10716 19120 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:55:04 apps 25132 25872 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:55:04 llm_service 25132 25872 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:55:05 apps 25312 23584 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:55:05 llm_service 25312 23584 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 12:58:32 apps 26320 24376 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 12:58:32 llm_service 26320 24376 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 13:01:21 apps 19788 25708 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 13:01:22 llm_service 19788 25708 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 14:21:57 apps 5376 436 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 14:21:58 llm_service 5376 436 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 14:29:48 apps 31436 10216 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 14:29:48 llm_service 31436 10216 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 15:08:53 apps 28300 25088 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 15:08:53 llm_service 28300 25088 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 15:12:02 apps 13836 27924 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 15:12:02 llm_service 13836 27924 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 15:12:03 apps 2932 33260 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 15:12:04 llm_service 2932 33260 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 15:14:26 apps 25616 32344 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 15:14:27 llm_service 25616 32344 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 15:19:40 apps 27004 12952 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 15:19:40 llm_service 27004 12952 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 15:56:21 apps 15056 26164 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 15:56:21 llm_service 15056 26164 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 15:56:22 apps 22916 27920 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 15:56:23 llm_service 22916 27920 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 16:04:15 apps 30608 3832 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 16:04:15 llm_service 30608 3832 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 16:04:57 apps 32360 29468 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 16:04:57 llm_service 32360 29468 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 16:34:19 apps 27708 26636 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 16:34:20 llm_service 27708 26636 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 16:34:20 apps 15748 28660 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 16:34:20 llm_service 15748 28660 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 16:38:03 apps 16208 31144 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:38:09 llm_service 16208 31144 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:38:09 apps 16208 31144 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:39:29 apps 33320 5452 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:39:30 llm_service 33320 5452 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:39:30 apps 33320 5452 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:39:38 apps 14912 10624 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:39:39 llm_service 14912 10624 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:39:39 apps 14912 10624 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:39:49 apps 1268 33656 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:39:51 llm_service 1268 33656 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:39:51 apps 1268 33656 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:40:20 apps 26004 33308 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:40:22 llm_service 26004 33308 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:40:22 apps 26004 33308 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:41:28 apps 2912 27996 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:41:29 llm_service 2912 27996 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:41:29 apps 2912 27996 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:41:37 apps 676 19704 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:41:38 llm_service 676 19704 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:41:38 apps 676 19704 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:41:44 apps 31428 28940 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:41:45 llm_service 31428 28940 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:41:45 apps 31428 28940 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:42:06 apps 4772 25296 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:42:07 llm_service 4772 25296 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:42:07 apps 4772 25296 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:42:13 apps 14604 33756 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:42:14 llm_service 14604 33756 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:42:14 apps 14604 33756 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:42:49 apps 17700 7356 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:42:50 llm_service 17700 7356 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:42:50 apps 17700 7356 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:43:19 apps 8848 12028 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:43:20 llm_service 8848 12028 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:43:20 apps 8848 12028 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:43:34 apps 704 23668 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:43:36 llm_service 704 23668 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:43:36 apps 704 23668 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:43:49 apps 28988 33512 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:43:50 llm_service 28988 33512 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:43:50 apps 28988 33512 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:43:58 apps 24196 21288 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:43:59 llm_service 24196 21288 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:43:59 apps 24196 21288 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:44:15 apps 17836 25104 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:44:16 llm_service 17836 25104 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:44:16 apps 17836 25104 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:44:57 apps 24760 30928 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 16:44:58 llm_service 24760 30928 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 16:44:58 apps 24760 30928 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 16:48:13 apps 6728 1988 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 16:48:13 llm_service 6728 1988 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 16:49:46 apps 14808 28916 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 16:49:47 llm_service 14808 28916 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 16:50:49 apps 376 4472 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 16:50:49 llm_service 376 4472 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 16:50:50 apps 32808 24900 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 16:50:50 llm_service 32808 24900 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 17:22:40 apps 30596 33420 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 17:22:41 llm_service 30596 33420 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 17:23:16 apps 24772 27704 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 17:23:18 llm_service 24772 27704 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 17:23:18 apps 24772 27704 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 17:23:20 apps 14416 17016 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 17:23:21 llm_service 14416 17016 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 17:23:44 apps 29916 2812 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 17:23:45 llm_service 29916 2812 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 17:23:45 apps 29916 2812 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 17:23:59 apps 26520 8384 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 17:24:00 llm_service 26520 8384 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 17:24:00 apps 26520 8384 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 17:35:45 apps 27936 31484 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 17:35:46 llm_service 27936 31484 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 17:35:46 apps 27936 31484 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 17:38:58 apps 18724 1516 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 17:38:59 llm_service 18724 1516 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 17:38:59 apps 18724 1516 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 17:41:07 apps 26460 29528 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 17:41:07 llm_service 26460 29528 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 17:41:07 apps 26460 29528 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 17:41:54 apps 32728 16208 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 17:41:55 llm_service 32728 16208 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 17:41:55 apps 26324 26468 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 17:41:56 llm_service 26324 26468 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+ERROR 2025-11-14 17:54:47 views 26324 27704 Phase 1 error: local variable 'task' referenced before assignment
+ERROR 2025-11-14 17:54:51 views 26324 29200 Phase 2 error: local variable 'task' referenced before assignment
+ERROR 2025-11-14 17:54:54 views 26324 3124 Phase 3 error: You cannot call this from an async context - use a thread or sync_to_async.
+ERROR 2025-11-14 17:54:56 views 26324 32856 Phase 4 error: You cannot call this from an async context - use a thread or sync_to_async.
+ERROR 2025-11-14 17:54:57 views 26324 24100 Phase 5 error: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-14 17:59:59 apps 29128 1664 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 17:59:59 llm_service 29128 1664 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:00:03 apps 21308 11976 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:00:04 llm_service 21308 11976 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:00:16 apps 28416 9208 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:00:16 llm_service 28416 9208 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:00:21 apps 30428 27440 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:00:22 llm_service 30428 27440 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:00:27 apps 23176 8724 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:00:27 llm_service 23176 8724 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:00:32 apps 30812 19564 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:00:33 llm_service 30812 19564 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:00:44 apps 31100 4436 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:00:44 llm_service 31100 4436 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:00:49 apps 31528 29788 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:00:49 llm_service 31528 29788 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:00:56 apps 32748 1796 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:00:57 llm_service 32748 1796 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:01:04 apps 13488 30136 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:01:04 llm_service 13488 30136 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:02:12 apps 26224 24712 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:02:13 llm_service 26224 24712 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:02:16 apps 24220 24664 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:02:17 llm_service 24220 24664 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:02:22 apps 30668 31524 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:02:23 llm_service 30668 31524 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:02:33 apps 13564 33292 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:02:33 llm_service 13564 33292 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:02:37 apps 28928 26016 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:02:37 llm_service 28928 26016 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:02:43 apps 26500 29580 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:02:43 llm_service 26500 29580 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:02:47 apps 24020 31592 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:02:47 llm_service 24020 31592 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:02:54 apps 23612 13728 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:02:55 llm_service 23612 13728 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:03:57 apps 31324 4228 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:03:58 llm_service 31324 4228 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:04:01 apps 11524 1844 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:04:02 llm_service 11524 1844 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 18:05:55 apps 22896 10696 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 18:05:55 llm_service 22896 10696 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:18:01 apps 2856 25540 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:18:01 llm_service 2856 25540 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:18:28 apps 18856 31388 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:18:28 llm_service 18856 31388 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:18:29 apps 5844 11564 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:18:29 llm_service 5844 11564 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:19:07 phase1 5844 20184 [PHASE1] Step 1-3: Task loaded - 'Test vendor'
+INFO 2025-11-14 22:19:07 phase1 5844 20184 [PHASE1] Step 4-6: Collecting vendors from RSS feeds & GitHub...
+INFO 2025-11-14 22:19:09 phase1 5844 20184 [PHASE1] Collected 0 vendors from RSS
+INFO 2025-11-14 22:19:09 phase1 5844 20184 [PHASE1] Collected 3 vendors from GitHub
+INFO 2025-11-14 22:19:09 phase1 5844 20184 [PHASE1] Total vendors collected: 3
+INFO 2025-11-14 22:19:09 phase1 5844 20184 [PHASE1] Step 7-9: Validating vendors...
+INFO 2025-11-14 22:19:09 phase1 5844 20184 [PHASE1] Step 10: Returning vendor table (3 vendors)
+ERROR 2025-11-14 22:19:09 views 5844 992 Phase 1 error: Field name `capability` is not valid for model `Vendor`.
+ERROR 2025-11-14 22:19:12 views 5844 33136 Phase 2 error: 'list' object has no attribute 'exists'
+INFO 2025-11-14 22:19:13 phase3 5844 7032 [PHASE3] Starting for task 1
+ERROR 2025-11-14 22:19:13 views 5844 33748 Phase 3 error: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-14 22:19:14 phase4 5844 26168 [PHASE4] Starting for task 1
+ERROR 2025-11-14 22:19:14 views 5844 9204 Phase 4 error: Missing data: 2 vendors, 0 subtasks
+INFO 2025-11-14 22:19:15 phase5 5844 17992 [PHASE5] Starting for task 1
+ERROR 2025-11-14 22:19:15 views 5844 14644 Phase 5 error: Missing data
+INFO 2025-11-14 22:19:23 phase1 5844 28220 [PHASE1] Step 1-3: Task loaded - 'Test vendor'
+INFO 2025-11-14 22:19:23 phase1 5844 28220 [PHASE1] Step 4-6: Collecting vendors from RSS feeds & GitHub...
+INFO 2025-11-14 22:19:24 phase1 5844 28220 [PHASE1] Collected 0 vendors from RSS
+INFO 2025-11-14 22:19:24 phase1 5844 28220 [PHASE1] Collected 3 vendors from GitHub
+INFO 2025-11-14 22:19:24 phase1 5844 28220 [PHASE1] Total vendors collected: 3
+INFO 2025-11-14 22:19:24 phase1 5844 28220 [PHASE1] Step 7-9: Validating vendors...
+INFO 2025-11-14 22:19:24 phase1 5844 28220 [PHASE1] Step 10: Returning vendor table (3 vendors)
+ERROR 2025-11-14 22:19:24 views 5844 23800 Phase 1 error: Field name `capability` is not valid for model `Vendor`.
+ERROR 2025-11-14 22:19:25 views 5844 26588 Phase 2 error: 'list' object has no attribute 'exists'
+INFO 2025-11-14 22:19:27 phase3 5844 22300 [PHASE3] Starting for task 1
+ERROR 2025-11-14 22:19:27 views 5844 26312 Phase 3 error: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-14 22:19:28 phase4 5844 25800 [PHASE4] Starting for task 1
+ERROR 2025-11-14 22:19:28 views 5844 33600 Phase 4 error: Missing data: 2 vendors, 0 subtasks
+INFO 2025-11-14 22:19:29 phase5 5844 24052 [PHASE5] Starting for task 1
+ERROR 2025-11-14 22:19:29 views 5844 34128 Phase 5 error: Missing data
+INFO 2025-11-14 22:21:10 apps 28064 20228 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:21:11 llm_service 28064 20228 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:21:15 apps 25328 23680 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:21:15 llm_service 25328 23680 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:21:22 apps 26816 28172 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:21:22 llm_service 26816 28172 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:21:29 apps 9424 30660 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:21:30 llm_service 9424 30660 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:21:36 apps 21160 7116 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:21:36 llm_service 21160 7116 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:24:17 phase1 21160 28044 [PHASE1] Step 1-3: Task loaded - 'Find cloud vendors'
+INFO 2025-11-14 22:24:17 phase1 21160 28044 [PHASE1] Step 4-6: Collecting vendors from RSS feeds & GitHub...
+INFO 2025-11-14 22:24:18 phase1 21160 28044 [PHASE1] Collected 0 vendors from RSS
+INFO 2025-11-14 22:24:18 phase1 21160 28044 [PHASE1] Collected 3 vendors from GitHub
+INFO 2025-11-14 22:24:18 phase1 21160 28044 [PHASE1] Total vendors collected: 3
+INFO 2025-11-14 22:24:18 phase1 21160 28044 [PHASE1] Step 7-9: Validating vendors...
+INFO 2025-11-14 22:24:18 phase1 21160 28044 [PHASE1] Step 10: Returning vendor table (3 vendors)
+ERROR 2025-11-14 22:24:18 views 21160 30496 Phase 1 error: Field name `capability` is not valid for model `Vendor`.
+INFO 2025-11-14 22:24:26 apps 31480 23176 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:24:26 llm_service 31480 23176 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:24:32 phase1 31480 26792 [PHASE1] Step 1-3: Task loaded - 'Find cloud vendors'
+INFO 2025-11-14 22:24:32 phase1 31480 26792 [PHASE1] Step 4-6: Collecting vendors from RSS feeds & GitHub...
+INFO 2025-11-14 22:24:33 phase1 31480 26792 [PHASE1] Collected 0 vendors from RSS
+INFO 2025-11-14 22:24:33 phase1 31480 26792 [PHASE1] Collected 3 vendors from GitHub
+INFO 2025-11-14 22:24:33 phase1 31480 26792 [PHASE1] Total vendors collected: 3
+INFO 2025-11-14 22:24:33 phase1 31480 26792 [PHASE1] Step 7-9: Validating vendors...
+INFO 2025-11-14 22:24:33 phase1 31480 26792 [PHASE1] Step 10: Returning vendor table (3 vendors)
+INFO 2025-11-14 22:24:48 phase2 31480 8324 [PHASE2] Processing Unknown...
+WARNING 2025-11-14 22:24:48 phase2 31480 8324 [PHASE2] Timeline error for Unknown: Invalid field name(s) for model Timeline: 'aps_2024', 'aps_2025', 'aps_2026'.
+INFO 2025-11-14 22:25:07 apps 25760 26124 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:25:08 llm_service 25760 26124 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:25:09 phase3 25760 34116 [PHASE3] Starting for task 5
+ERROR 2025-11-14 22:25:09 views 25760 27152 Phase 3 error: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-14 22:25:27 apps 24460 19640 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:25:27 llm_service 24460 19640 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:25:33 apps 27344 33812 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:25:33 llm_service 27344 33812 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:25:38 apps 34524 29764 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:25:39 llm_service 34524 29764 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:29:18 apps 21088 23616 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:29:18 llm_service 21088 23616 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:29:20 phase3 21088 26256 [PHASE3] Starting for task 5
+ERROR 2025-11-14 22:29:20 views 21088 10444 Phase 3 error: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-14 22:29:45 apps 27068 25452 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:29:46 llm_service 27068 25452 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:29:51 apps 26788 21756 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:29:51 llm_service 26788 21756 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:29:57 apps 23436 21208 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:29:57 llm_service 23436 21208 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:30:02 apps 18768 10696 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:30:03 llm_service 18768 10696 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:30:08 apps 7208 27508 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:30:08 llm_service 7208 27508 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:30:14 apps 14876 1796 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:30:15 llm_service 14876 1796 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:30:20 apps 33028 34400 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:30:20 llm_service 33028 34400 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:30:40 apps 8768 1764 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:30:40 llm_service 8768 1764 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:30:41 phase3 8768 12256 [PHASE3] Starting for task 5
+ERROR 2025-11-14 22:30:41 views 8768 12256 Phase execution error: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\asgiref\sync.py", line 552, in thread_handler
+    raise exc_info[1]
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\asgiref\sync.py", line 552, in thread_handler
+    raise exc_info[1]
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py", line 32, in run_phase3
+    raise ValueError("LLM service not initialized")
+ValueError: LLM service not initialized
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py", line 82, in run_phase3
+    task.save()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1982, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-14 22:30:56 apps 27932 12696 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:30:56 llm_service 27932 12696 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:30:59 apps 28916 33300 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:30:59 llm_service 28916 33300 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:31:02 apps 24224 24492 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:31:03 llm_service 24224 24492 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:31:10 apps 14024 16788 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:31:11 llm_service 14024 16788 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:31:42 phase3 14024 5764 [PHASE3] Starting for task 5
+WARNING 2025-11-14 22:31:43 phase3 14024 5764 [PHASE3] LLM service not initialized, using fallback data
+INFO 2025-11-14 22:31:49 phase4 14024 9072 [PHASE4] Starting for task 5
+INFO 2025-11-14 22:31:49 phase4 14024 9072 [PHASE4] Processing 1×4 combinations...
+WARNING 2025-11-14 22:31:49 phase4 14024 9072 [PHASE4] LLM service not initialized, using fallback data
+INFO 2025-11-14 22:31:55 phase5 14024 22500 [PHASE5] Starting for task 5
+WARNING 2025-11-14 22:31:55 phase5 14024 22500 [PHASE5] LLM service not initialized, using fallback data
+INFO 2025-11-14 22:32:33 phase1 14024 29080 [PHASE1] Step 1-3: Task loaded - 'Evaluate cloud automation tools for digital transformation'
+INFO 2025-11-14 22:32:33 phase1 14024 29080 [PHASE1] Step 4-6: Collecting vendors from RSS feeds & GitHub...
+INFO 2025-11-14 22:32:37 phase1 14024 29080 [PHASE1] Collected 0 vendors from RSS
+INFO 2025-11-14 22:32:37 phase1 14024 29080 [PHASE1] Collected 3 vendors from GitHub
+INFO 2025-11-14 22:32:37 phase1 14024 29080 [PHASE1] Total vendors collected: 3
+INFO 2025-11-14 22:32:37 phase1 14024 29080 [PHASE1] Step 7-9: Validating vendors...
+INFO 2025-11-14 22:32:37 phase1 14024 29080 [PHASE1] Step 10: Returning vendor table (3 vendors)
+INFO 2025-11-14 22:32:37 phase2 14024 34296 [PHASE2] Processing Unknown...
+WARNING 2025-11-14 22:32:37 phase2 14024 34296 [PHASE2] Timeline error for Unknown: Invalid field name(s) for model Timeline: 'aps_2024', 'aps_2025', 'aps_2026'.
+INFO 2025-11-14 22:32:37 phase3 14024 3440 [PHASE3] Starting for task 6
+WARNING 2025-11-14 22:32:37 phase3 14024 3440 [PHASE3] LLM service not initialized, using fallback data
+INFO 2025-11-14 22:32:37 phase4 14024 18228 [PHASE4] Starting for task 6
+INFO 2025-11-14 22:32:37 phase4 14024 18228 [PHASE4] Processing 1×4 combinations...
+WARNING 2025-11-14 22:32:37 phase4 14024 18228 [PHASE4] LLM service not initialized, using fallback data
+INFO 2025-11-14 22:32:37 phase5 14024 26140 [PHASE5] Starting for task 6
+WARNING 2025-11-14 22:32:37 phase5 14024 26140 [PHASE5] LLM service not initialized, using fallback data
+INFO 2025-11-14 22:32:38 phase1 14024 16464 [PHASE1] Step 1-3: Task loaded - 'Evaluate cloud automation tools for digital transformation'
+INFO 2025-11-14 22:32:38 phase1 14024 16464 [PHASE1] Step 4-6: Collecting vendors from RSS feeds & GitHub...
+INFO 2025-11-14 22:32:40 phase1 14024 16464 [PHASE1] Collected 0 vendors from RSS
+INFO 2025-11-14 22:32:40 phase1 14024 16464 [PHASE1] Collected 3 vendors from GitHub
+INFO 2025-11-14 22:32:40 phase1 14024 16464 [PHASE1] Total vendors collected: 3
+INFO 2025-11-14 22:32:40 phase1 14024 16464 [PHASE1] Step 7-9: Validating vendors...
+INFO 2025-11-14 22:32:40 phase1 14024 16464 [PHASE1] Step 10: Returning vendor table (3 vendors)
+INFO 2025-11-14 22:33:39 phase1 14024 28176 [PHASE1] Step 1-3: Task loaded - 'Test vendor'
+INFO 2025-11-14 22:33:39 phase1 14024 28176 [PHASE1] Step 4-6: Collecting vendors from RSS feeds & GitHub...
+INFO 2025-11-14 22:33:41 phase1 14024 28176 [PHASE1] Collected 0 vendors from RSS
+INFO 2025-11-14 22:33:41 phase1 14024 28176 [PHASE1] Collected 3 vendors from GitHub
+INFO 2025-11-14 22:33:41 phase1 14024 28176 [PHASE1] Total vendors collected: 3
+INFO 2025-11-14 22:33:41 phase1 14024 28176 [PHASE1] Step 7-9: Validating vendors...
+INFO 2025-11-14 22:33:41 phase1 14024 28176 [PHASE1] Step 10: Returning vendor table (3 vendors)
+INFO 2025-11-14 22:33:52 phase2 14024 34296 [PHASE2] Processing TestVendor...
+WARNING 2025-11-14 22:33:52 phase2 14024 34296 [PHASE2] Timeline error for TestVendor: Invalid field name(s) for model Timeline: 'aps_2024', 'aps_2025', 'aps_2026'.
+INFO 2025-11-14 22:33:52 phase2 14024 34296 [PHASE2] Processing Unknown...
+WARNING 2025-11-14 22:33:52 phase2 14024 34296 [PHASE2] Timeline error for Unknown: Invalid field name(s) for model Timeline: 'aps_2024', 'aps_2025', 'aps_2026'.
+INFO 2025-11-14 22:33:54 phase3 14024 8212 [PHASE3] Starting for task 1
+WARNING 2025-11-14 22:33:54 phase3 14024 8212 [PHASE3] LLM service not initialized, using fallback data
+INFO 2025-11-14 22:33:57 phase4 14024 13568 [PHASE4] Starting for task 1
+INFO 2025-11-14 22:33:57 phase4 14024 13568 [PHASE4] Processing 2×4 combinations...
+WARNING 2025-11-14 22:33:57 phase4 14024 13568 [PHASE4] LLM service not initialized, using fallback data
+INFO 2025-11-14 22:33:59 phase5 14024 30864 [PHASE5] Starting for task 1
+WARNING 2025-11-14 22:33:59 phase5 14024 30864 [PHASE5] LLM service not initialized, using fallback data
+INFO 2025-11-14 22:43:30 apps 27736 7336 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:43:30 llm_service 27736 7336 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:43:44 apps 31168 27120 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:43:45 llm_service 31168 27120 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:44:16 apps 33940 31004 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:44:17 llm_service 33940 31004 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:44:52 apps 32628 29944 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:44:52 llm_service 32628 29944 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:45:01 apps 9308 33152 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:45:01 llm_service 9308 33152 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:45:04 apps 31688 28452 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:45:05 llm_service 31688 28452 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:45:08 apps 14312 30864 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:45:08 llm_service 14312 30864 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 22:45:28 apps 29040 26800 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 22:45:28 llm_service 29040 26800 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:06:53 apps 30436 16044 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:06:53 llm_service 30436 16044 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:06:57 apps 19832 27460 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:06:57 llm_service 19832 27460 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:14:30 apps 29552 15980 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:14:30 llm_service 29552 15980 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:15:55 apps 28740 9972 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:15:56 llm_service 28740 9972 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:16:02 apps 19464 19196 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:16:02 llm_service 19464 19196 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:16:15 apps 26788 34152 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:16:16 llm_service 26788 34152 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:16:46 apps 27396 17084 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:16:47 llm_service 27396 17084 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:17:04 apps 25292 2556 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:17:04 llm_service 25292 2556 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:17:16 apps 27944 33828 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:17:17 llm_service 27944 33828 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:20:30 apps 30016 32924 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:20:31 llm_service 30016 32924 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:20:44 apps 8420 32284 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 23:20:46 llm_service 8420 32284 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 23:20:46 apps 8420 32284 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 23:21:10 apps 3532 28136 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:21:10 llm_service 3532 28136 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:21:23 apps 5976 25888 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:21:23 llm_service 5976 25888 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:21:33 apps 26196 19636 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:21:33 llm_service 26196 19636 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:21:49 apps 17228 15776 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:21:49 llm_service 17228 15776 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-14 23:26:11 apps 2336 32436 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-14 23:26:12 llm_service 2336 32436 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-14 23:26:12 apps 2336 32436 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-14 23:28:38 apps 31464 20860 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-14 23:28:38 llm_service 31464 20860 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-15 09:39:24 phase1 31464 7752 [PHASE1] Generating vendor discovery prompt...
+INFO 2025-11-15 09:39:24 phase1 31464 7752 [PHASE1] Calling LLM for vendor discovery...
+ERROR 2025-11-15 09:39:24 views 31464 7752 Phase execution error: 'NoneType' object has no attribute 'call_llm'
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase1.py", line 33, in run_phase1
+    response = await llm_service.call_llm(prompt)
+AttributeError: 'NoneType' object has no attribute 'call_llm'
+INFO 2025-11-15 09:39:30 phase2 31464 29096 [PHASE2] Starting subtask decomposition for task 1
+INFO 2025-11-15 09:39:30 phase2 31464 29096 [PHASE2] Calling LLM for subtask decomposition...
+ERROR 2025-11-15 09:39:30 views 31464 29096 Phase execution error: 'NoneType' object has no attribute 'call_llm'
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py", line 32, in run_phase2
+    response = await llm_service.call_llm(prompt)
+AttributeError: 'NoneType' object has no attribute 'call_llm'
+INFO 2025-11-15 09:39:33 phase3 31464 25932 [PHASE3] Analyzing timeline for 2 vendors...
+INFO 2025-11-15 09:39:35 phase4 31464 13776 [PHASE4] Starting for task 1
+INFO 2025-11-15 09:39:35 phase4 31464 13776 [PHASE4] Processing 2×4 combinations...
+INFO 2025-11-15 09:39:35 phase4 31464 13776 [PHASE4] Calling LLM for capability mapping...
+ERROR 2025-11-15 09:39:35 views 31464 13776 Phase execution error: 'NoneType' object has no attribute 'call_llm'
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 42, in run_phase4
+    response = await llm_service.call_llm(prompt)
+AttributeError: 'NoneType' object has no attribute 'call_llm'
+INFO 2025-11-15 09:39:37 phase5 31464 17804 [PHASE5] Starting final analysis for task 1
+INFO 2025-11-15 09:39:37 phase5 31464 17804 [PHASE5] Preparing final analysis for 2 vendors
+ERROR 2025-11-15 09:39:37 views 31464 17804 Phase execution error: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 35, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-15 11:14:22 apps 25456 22128 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-15 11:14:23 llm_service 25456 22128 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-15 11:14:23 apps 34412 18244 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-15 11:14:24 llm_service 34412 18244 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-15 11:20:05 apps 17248 7964 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-15 11:20:05 llm_service 17248 7964 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-15 11:20:06 apps 9832 17172 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-15 11:20:06 llm_service 9832 17172 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-15 11:49:46 apps 16748 7724 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 11:49:46 llm_service 16748 7724 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 11:49:46 apps 16748 7724 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 11:49:47 apps 22236 22444 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 11:49:47 llm_service 22236 22444 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 11:49:47 apps 22236 22444 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 12:22:32 apps 20260 26756 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 12:22:32 llm_service 20260 26756 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 12:22:32 apps 20260 26756 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 12:22:33 apps 24048 33104 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 12:22:34 llm_service 24048 33104 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 12:22:34 apps 24048 33104 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 12:31:26 phase1 24048 29740 [PHASE1] Generating vendor discovery prompt...
+INFO 2025-11-15 12:31:26 phase1 24048 29740 [PHASE1] Calling LLM for vendor discovery...
+INFO 2025-11-15 12:31:31 phase1 24048 29740 [PHASE1] Discovered 8 vendors, storing to database...
+INFO 2025-11-15 12:31:32 phase2 24048 8088 [PHASE2] Starting subtask decomposition for task 1
+INFO 2025-11-15 12:31:32 phase2 24048 8088 [PHASE2] Calling LLM for subtask decomposition...
+INFO 2025-11-15 12:31:38 phase2 24048 8088 [PHASE2] Parsed 7 subtasks from LLM
+INFO 2025-11-15 12:31:38 phase3 24048 4748 [PHASE3] Analyzing timeline for 10 vendors...
+INFO 2025-11-15 12:31:39 phase4 24048 29804 [PHASE4] Starting for task 1
+INFO 2025-11-15 12:31:39 phase4 24048 29804 [PHASE4] Processing 10×11 combinations...
+INFO 2025-11-15 12:31:39 phase4 24048 29804 [PHASE4] Calling LLM for capability mapping...
+ERROR 2025-11-15 12:31:50 phase4 24048 29804 [PHASE4] Invalid response: <class 'dict'>
+ERROR 2025-11-15 12:31:50 views 24048 29804 Phase execution error: Invalid response: <class 'dict'>
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 49, in run_phase4
+    raise ValueError(f"Invalid response: {type(data)}")
+ValueError: Invalid response: <class 'dict'>
+INFO 2025-11-15 12:31:51 phase5 24048 24636 [PHASE5] Starting final analysis for task 1
+INFO 2025-11-15 12:31:51 phase5 24048 24636 [PHASE5] Preparing final analysis for 10 vendors
+ERROR 2025-11-15 12:31:51 views 24048 24636 Phase execution error: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 35, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-15 16:22:41 apps 35264 26292 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:22:44 llm_service 35264 26292 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:22:44 apps 35264 26292 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:23:07 apps 17644 9472 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:23:07 llm_service 17644 9472 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:23:07 apps 17644 9472 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:23:14 apps 23112 25068 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:23:14 llm_service 23112 25068 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:23:14 apps 23112 25068 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:23:39 apps 28692 25324 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:23:39 llm_service 28692 25324 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:23:39 apps 28692 25324 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:23:40 apps 36216 17664 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:23:40 llm_service 36216 17664 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:23:40 apps 36216 17664 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:23:49 phase1 36216 28260 [PHASE1] Generating vendor discovery prompt...
+INFO 2025-11-15 16:23:49 phase1 36216 28260 [PHASE1] Calling LLM for vendor discovery...
+INFO 2025-11-15 16:23:55 phase1 36216 28260 [PHASE1] Discovered 8 vendors, storing to database...
+INFO 2025-11-15 16:23:55 phase2 36216 23316 [PHASE2] Starting subtask decomposition for task 1
+INFO 2025-11-15 16:23:55 phase2 36216 23316 [PHASE2] Calling LLM for subtask decomposition...
+INFO 2025-11-15 16:24:02 phase2 36216 23316 [PHASE2] Parsed 7 subtasks from LLM
+INFO 2025-11-15 16:24:02 phase3 36216 12572 [PHASE3] Analyzing timeline for 13 vendors...
+INFO 2025-11-15 16:24:03 phase4 36216 25112 [PHASE4] Starting for task 1
+INFO 2025-11-15 16:24:03 phase4 36216 25112 [PHASE4] Processing 13×18 combinations...
+INFO 2025-11-15 16:24:03 phase4 36216 25112 [PHASE4] Calling LLM for capability mapping...
+ERROR 2025-11-15 16:24:15 phase4 36216 25112 [PHASE4] Invalid response structure
+ERROR 2025-11-15 16:24:15 phase4 36216 25112 FAILED [PHASE4] ValueError: Invalid response structure: <class 'dict'>
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 56, in run_phase4
+    raise ValueError(f"Invalid response structure: {type(data)}")
+ValueError: Invalid response structure: <class 'dict'>
+ERROR 2025-11-15 16:24:15 views 36216 25112 Phase execution error: Invalid response structure: <class 'dict'>
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 56, in run_phase4
+    raise ValueError(f"Invalid response structure: {type(data)}")
+ValueError: Invalid response structure: <class 'dict'>
+INFO 2025-11-15 16:24:15 phase5 36216 35196 [PHASE5] Starting final analysis for task 1
+INFO 2025-11-15 16:24:15 phase5 36216 35196 [PHASE5] Preparing final analysis for 13 vendors
+ERROR 2025-11-15 16:24:15 phase5 36216 35196 FAILED [PHASE5] SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+ERROR 2025-11-15 16:24:15 views 36216 35196 Phase execution error: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-15 16:31:02 apps 19892 27164 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:31:03 llm_service 19892 27164 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:31:03 apps 19892 27164 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:31:08 apps 26932 1884 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:31:08 llm_service 26932 1884 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:31:08 apps 26932 1884 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:31:11 apps 22728 21836 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:31:12 llm_service 22728 21836 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:31:12 apps 22728 21836 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:31:15 apps 35812 35004 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:31:15 llm_service 35812 35004 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:31:15 apps 35812 35004 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:31:43 apps 34580 31992 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:31:44 llm_service 34580 31992 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:31:44 apps 34580 31992 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:31:48 apps 13556 11556 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:31:48 llm_service 13556 11556 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:31:48 apps 13556 11556 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:31:53 apps 22164 34584 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:31:54 llm_service 22164 34584 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:31:54 apps 22164 34584 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:31:57 apps 36656 21812 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:31:57 llm_service 36656 21812 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:31:57 apps 36656 21812 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:32:19 apps 28360 30496 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:32:19 llm_service 28360 30496 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:32:19 apps 28360 30496 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:32:20 apps 432 24732 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:32:20 llm_service 432 24732 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:32:20 apps 432 24732 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:32:36 apps 34488 22456 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:32:36 llm_service 34488 22456 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:32:36 apps 34488 22456 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:32:37 apps 27404 34972 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:32:37 llm_service 27404 34972 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:32:37 apps 27404 34972 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:32:40 phase4 432 21740 [PHASE4] Starting for task 1
+INFO 2025-11-15 16:32:40 phase4 432 21740 [PHASE4] Processing 13×18 combinations...
+INFO 2025-11-15 16:32:40 phase4 432 21740 [PHASE4] Calling LLM for capability mapping...
+WARNING 2025-11-15 16:32:54 phase4 432 21740 [PHASE4] capability_analysis key missing! Checking alternative keys...
+WARNING 2025-11-15 16:32:54 phase4 432 21740 [PHASE4] No capability_analysis found, creating fallback data...
+INFO 2025-11-15 16:32:54 phase4 432 21740 [PHASE4] Created fallback mappings for 3 vendors
+INFO 2025-11-15 16:32:54 phase4 432 21740 [PHASE4] Parsed capability analysis, storing mappings...
+INFO 2025-11-15 16:32:54 phase4 432 21740 OK [PHASE4] Done: 9 mappings created
+INFO 2025-11-15 16:32:54 phase5 432 33764 [PHASE5] Starting final analysis for task 1
+INFO 2025-11-15 16:32:54 phase5 432 33764 [PHASE5] Preparing final analysis for 13 vendors
+ERROR 2025-11-15 16:32:54 phase5 432 33764 FAILED [PHASE5] SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+ERROR 2025-11-15 16:32:54 views 432 33764 Phase execution error: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-15 16:42:17 apps 13288 21812 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:42:18 llm_service 13288 21812 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:42:18 apps 13288 21812 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:43:20 apps 36120 36740 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:43:20 llm_service 36120 36740 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:43:20 apps 36120 36740 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:43:23 apps 35172 24072 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:43:24 llm_service 35172 24072 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:43:24 apps 35172 24072 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:43:45 apps 36004 24320 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:43:46 llm_service 36004 24320 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:43:46 apps 36004 24320 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:43:46 apps 35528 29400 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:43:47 llm_service 35528 29400 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:43:47 apps 35528 29400 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 16:45:34 phase4 35528 30796 [PHASE4] Starting for task 1
+INFO 2025-11-15 16:45:34 phase4 35528 30796 [PHASE4] Processing 13×18 combinations...
+INFO 2025-11-15 16:45:34 phase4 35528 30796 [PHASE4] Calling LLM for capability mapping...
+INFO 2025-11-15 16:45:46 phase4 35528 30796 [PHASE4] LLM Response received: <class 'str'>
+ERROR 2025-11-15 16:45:46 phase4 35528 30796 [PHASE4] capability_analysis missing or invalid: None
+ERROR 2025-11-15 16:45:46 phase4 35528 30796 FAILED [PHASE4] ValueError: LLM did not return capability_analysis
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 75, in run_phase4
+    raise ValueError("LLM did not return capability_analysis")
+ValueError: LLM did not return capability_analysis
+ERROR 2025-11-15 16:45:46 views 35528 30796 Phase execution error: LLM did not return capability_analysis
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 75, in run_phase4
+    raise ValueError("LLM did not return capability_analysis")
+ValueError: LLM did not return capability_analysis
+INFO 2025-11-15 16:45:52 phase5 35528 35280 [PHASE5] Starting final analysis for task 1
+INFO 2025-11-15 16:45:52 phase5 35528 35280 [PHASE5] Preparing analysis for 13 vendors, 18 subtasks
+ERROR 2025-11-15 16:45:52 phase5 35528 35280 FAILED [PHASE5] SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+ERROR 2025-11-15 16:45:52 views 35528 35280 Phase execution error: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-15 16:58:08 apps 32128 4964 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 16:58:08 llm_service 32128 4964 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 16:58:08 apps 32128 4964 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:17:58 apps 35888 20424 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:17:59 llm_service 35888 20424 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:17:59 apps 35888 20424 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:18:54 apps 7512 26312 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:18:54 llm_service 7512 26312 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:18:54 apps 7512 26312 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:19:47 apps 35012 28308 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:19:48 llm_service 35012 28308 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:19:48 apps 35012 28308 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:20:18 apps 34020 34756 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:20:19 llm_service 34020 34756 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:20:19 apps 34020 34756 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:20:37 apps 3048 34868 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:20:38 llm_service 3048 34868 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:20:38 apps 3048 34868 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:20:38 apps 36028 4592 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:20:39 llm_service 36028 4592 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:20:39 apps 36028 4592 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:20:48 phase4 36028 15556 [PHASE4] Starting for task 1
+INFO 2025-11-15 17:20:48 phase4 36028 15556 [PHASE4] Processing 13×18 combinations...
+INFO 2025-11-15 17:20:48 phase4 36028 15556 [PHASE4] Calling LLM for capability mapping...
+ERROR 2025-11-15 17:21:01 phase4 36028 15556 [PHASE4] RAW LLM RESPONSE:
+{
+  "capability_analysis": [
+    {
+      "vendor": "TestVendor",
+      "tool": "TestProduct",
+      "subtask_coverage": [
+        {"subtask": "Identify vendors", "can_handle": "partially", "aps_2024": 0.4, "aps_2025": 0.45, "aps_2026": 0.5},
+        {"subtask": "Evaluate capabilities", "can_handle": "partially", "aps_2024": 0.5, "aps_2025": 0.55, "aps_2026": 0.6},
+        {"subtask": "Compare costs", "can_handle": "no", "aps_2024": 0.2, "aps_2025": 0.25, "aps_2026": 0.3},
+        {"subtask": "Dr...
+WARNING 2025-11-15 17:21:01 phase4 36028 15556 [PHASE4] Direct JSON parse failed: Unterminated string starting at: line 61 column 122 (char 5184)
+WARNING 2025-11-15 17:21:01 phase4 36028 15556 [PHASE4] Failed to extract JSON from { } block
+INFO 2025-11-15 17:21:01 phase4 36028 15556 [PHASE4] Extracted JSON using safe_json_extract
+ERROR 2025-11-15 17:21:01 phase4 36028 15556 [PHASE4] capability_analysis missing or invalid: <class 'NoneType'>
+ERROR 2025-11-15 17:21:01 views 36028 15556 Phase execution error: LLM did not return capability_analysis as a list
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 116, in run_phase4
+    raise ValueError("LLM did not return capability_analysis as a list")
+ValueError: LLM did not return capability_analysis as a list
+INFO 2025-11-15 17:21:17 phase5 36028 21284 [PHASE5] Starting final analysis for task 1
+INFO 2025-11-15 17:21:17 phase5 36028 21284 [PHASE5] Preparing analysis for 13 vendors, 18 subtasks
+ERROR 2025-11-15 17:21:17 phase5 36028 21284 FAILED [PHASE5] SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+ERROR 2025-11-15 17:21:17 views 36028 21284 Phase execution error: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-15 17:30:16 apps 14816 9464 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:30:17 llm_service 14816 9464 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:30:17 apps 14816 9464 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:30:29 apps 9832 24840 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:30:30 llm_service 9832 24840 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:30:30 apps 9832 24840 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:30:45 apps 9236 9904 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:30:45 llm_service 9236 9904 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:30:45 apps 9236 9904 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:30:46 apps 28088 27556 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:30:47 llm_service 28088 27556 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:30:47 apps 28088 27556 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:30:56 phase4 28088 10784 [PHASE4] Starting for task 1
+INFO 2025-11-15 17:30:56 phase4 28088 10784 [PHASE4] Processing 13×18 combinations...
+INFO 2025-11-15 17:30:56 phase4 28088 10784 [PHASE4] Calling LLM for capability mapping...
+ERROR 2025-11-15 17:31:08 phase4 28088 10784 [PHASE4] RAW LLM RESPONSE:
+{
+  "capability_analysis": [
+    {
+      "vendor": "TestVendor",
+      "tool": "TestProduct",
+      "subtask_coverage": [
+        {"subtask": "Identify vendors", "can_handle": "partially", "aps_2024": 0.4, "aps_2025": 0.45, "aps_2026": 0.5},
+        {"subtask": "Evaluate capabilities", "can_handle": "partially", "aps_2024": 0.5, "aps_2025": 0.55, "aps_2026": 0.6},
+        {"subtask": "Compare costs", "can_handle": "no", "aps_2024": 0.3, "aps_2025": 0.35, "aps_2026": 0.4},
+        {"subtask": "Dr...
+WARNING 2025-11-15 17:31:08 phase4 28088 10784 [PHASE4] Direct JSON parse failed: Unterminated string starting at: line 61 column 121 (char 5181)
+WARNING 2025-11-15 17:31:08 phase4 28088 10784 [PHASE4] Failed to extract JSON from { } block
+INFO 2025-11-15 17:31:08 phase4 28088 10784 [PHASE4] Extracted JSON using safe_json_extract
+ERROR 2025-11-15 17:31:08 phase4 28088 10784 [PHASE4] capability_analysis missing or invalid: <class 'NoneType'>
+ERROR 2025-11-15 17:31:08 views 28088 10784 Phase execution error: LLM did not return capability_analysis as a list
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 116, in run_phase4
+    raise ValueError("LLM did not return capability_analysis as a list")
+ValueError: LLM did not return capability_analysis as a list
+INFO 2025-11-15 17:31:32 phase5 28088 36948 [PHASE5] Starting final analysis for task 1
+INFO 2025-11-15 17:31:32 phase5 28088 36948 [PHASE5] Preparing analysis for 13 vendors, 18 subtasks
+ERROR 2025-11-15 17:31:32 phase5 28088 36948 FAILED [PHASE5] SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 32, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+ERROR 2025-11-15 17:31:32 views 28088 36948 Phase execution error: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 32, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-15 17:32:11 apps 36072 36324 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:32:13 llm_service 36072 36324 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:32:13 apps 36072 36324 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 17:32:20 apps 21296 21908 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 17:32:20 llm_service 21296 21908 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 17:32:20 apps 21296 21908 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 22:38:34 apps 6404 5908 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 22:38:35 llm_service 6404 5908 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 22:38:35 apps 6404 5908 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 22:40:05 apps 1888 492 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 22:40:06 llm_service 1888 492 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 22:40:06 apps 1888 492 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 22:40:09 apps 23932 35500 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 22:40:09 llm_service 23932 35500 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 22:40:09 apps 23932 35500 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 22:45:25 apps 38508 34988 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 22:45:25 llm_service 38508 34988 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 22:45:25 apps 38508 34988 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 22:45:38 apps 35532 6744 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 22:45:38 llm_service 35532 6744 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 22:45:38 apps 35532 6744 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 22:45:39 apps 24856 15056 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 22:45:39 llm_service 24856 15056 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 22:45:39 apps 24856 15056 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 22:46:17 phase4 24856 38784 [PHASE4] Starting for task 1
+INFO 2025-11-15 22:46:17 phase4 24856 38784 [PHASE4] Processing 13×18 combinations...
+INFO 2025-11-15 22:46:17 phase4 24856 38784 [PHASE4] Calling LLM for capability mapping...
+ERROR 2025-11-15 22:46:29 phase4 24856 38784 [PHASE4] RAW LLM RESPONSE:
+{
+  "capability_analysis": [
+    {
+      "vendor": "TestVendor",
+      "tool": "TestProduct",
+      "subtask_coverage": [
+        {
+          "subtask": "Identify vendors",
+          "can_handle": "partially",
+          "aps_2024": 0.5,
+          "aps_2025": 0.55,
+          "aps_2026": 0.6
+        },
+        {
+          "subtask": "Evaluate capabilities",
+          "can_handle": "partially",
+          "aps_2024": 0.45,
+          "aps_2025": 0.5,
+          "aps_2026": 0.55
+        },
+        {
+  ...
+WARNING 2025-11-15 22:46:29 phase4 24856 38784 [PHASE4] Direct JSON parse failed: Unterminated string starting at: line 247 column 11 (char 6441)
+WARNING 2025-11-15 22:46:30 phase4 24856 38784 [PHASE4] Failed to extract JSON from { } block
+INFO 2025-11-15 22:46:30 phase4 24856 38784 [PHASE4] Extracted JSON using safe_json_extract
+ERROR 2025-11-15 22:46:30 phase4 24856 38784 [PHASE4] capability_analysis missing or invalid: <class 'NoneType'>
+ERROR 2025-11-15 22:46:30 views 24856 38784 Phase execution error: LLM did not return capability_analysis as a list
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 116, in run_phase4
+    raise ValueError("LLM did not return capability_analysis as a list")
+ValueError: LLM did not return capability_analysis as a list
+INFO 2025-11-15 22:54:26 apps 6396 13920 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 22:54:28 llm_service 6396 13920 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 22:54:28 apps 6396 13920 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 22:54:29 apps 2612 13348 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 22:54:29 llm_service 2612 13348 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 22:54:29 apps 2612 13348 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 22:55:27 phase4 2612 11756 [PHASE4] Starting for task 1
+INFO 2025-11-15 22:55:27 phase4 2612 11756 [PHASE4] Processing 13×18 combinations...
+INFO 2025-11-15 22:55:27 phase4 2612 11756 [PHASE4] Calling LLM for capability mapping...
+ERROR 2025-11-15 22:55:42 phase4 2612 11756 [PHASE4] RAW LLM RESPONSE:
+{
+  "capability_analysis": [
+    {
+      "vendor": "TestVendor",
+      "tool": "TestProduct",
+      "subtask_coverage": [
+        {
+          "subtask": "Identify vendors",
+          "can_handle": "partially",
+          "aps_2024": 0.4,
+          "aps_2025": 0.5,
+          "aps_2026": 0.55
+        },
+        {
+          "subtask": "Evaluate capabilities",
+          "can_handle": "partially",
+          "aps_2024": 0.45,
+          "aps_2025": 0.5,
+          "aps_2026": 0.55
+        },
+        {
+  ...
+WARNING 2025-11-15 22:55:42 phase4 2612 11756 [PHASE4] Direct JSON parse failed: Unterminated string starting at: line 247 column 11 (char 6443)
+WARNING 2025-11-15 22:55:42 phase4 2612 11756 [PHASE4] Failed to extract JSON from { } block
+INFO 2025-11-15 22:55:43 phase4 2612 11756 [PHASE4] Extracted JSON using safe_json_extract
+ERROR 2025-11-15 22:55:43 phase4 2612 11756 [PHASE4] capability_analysis missing or invalid: <class 'NoneType'>
+ERROR 2025-11-15 22:55:43 views 2612 11756 Phase execution error: LLM did not return capability_analysis as a list
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 116, in run_phase4
+    raise ValueError("LLM did not return capability_analysis as a list")
+ValueError: LLM did not return capability_analysis as a list
+INFO 2025-11-15 23:00:47 phase5 2612 19748 [PHASE5] Starting final analysis for task 1
+INFO 2025-11-15 23:00:47 phase5 2612 19748 [PHASE5] Preparing analysis for 13 vendors, 18 subtasks
+ERROR 2025-11-15 23:00:47 phase5 2612 19748 FAILED [PHASE5] SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 32, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+ERROR 2025-11-15 23:00:47 views 2612 19748 Phase execution error: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 32, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-15 23:25:53 apps 16940 8000 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 23:25:55 llm_service 16940 8000 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 23:25:55 apps 16940 8000 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 23:25:58 apps 17276 21912 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 23:25:59 llm_service 17276 21912 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 23:25:59 apps 17276 21912 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 23:26:11 apps 21620 19724 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 23:26:12 llm_service 21620 19724 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 23:26:12 apps 21620 19724 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 23:26:20 apps 9956 20732 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 23:26:20 llm_service 9956 20732 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 23:26:20 apps 9956 20732 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 23:26:21 apps 12864 18076 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 23:26:21 llm_service 12864 18076 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 23:26:21 apps 12864 18076 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 23:26:29 phase4 12864 6068 [PHASE4] Starting for task 1
+INFO 2025-11-15 23:26:29 phase4 12864 6068 [PHASE4] 13 vendors x 18 subtasks. Batching with size=5
+INFO 2025-11-15 23:26:29 phase4 12864 6068 [PHASE4] Batch 1: Vendors 0–4
+ERROR 2025-11-15 23:26:42 phase4 12864 6068 [PHASE4] 'capability_analysis' missing or not a list in batch 1
+INFO 2025-11-15 23:26:42 phase4 12864 6068 [PHASE4] Batch 2: Vendors 5–9
+ERROR 2025-11-15 23:26:54 phase4 12864 6068 [PHASE4] 'capability_analysis' missing or not a list in batch 2
+INFO 2025-11-15 23:26:54 phase4 12864 6068 [PHASE4] Batch 3: Vendors 10–12
+ERROR 2025-11-15 23:27:04 phase4 12864 6068 [PHASE4] 'capability_analysis' missing or not a list in batch 3
+ERROR 2025-11-15 23:27:04 phase4 12864 6068 [PHASE4] FAILED: No capability mappings were generated or stored.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 96, in run_phase4
+    raise ValueError("No capability mappings were generated or stored.")
+ValueError: No capability mappings were generated or stored.
+ERROR 2025-11-15 23:27:04 views 12864 6068 Phase execution error: No capability mappings were generated or stored.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py", line 96, in run_phase4
+    raise ValueError("No capability mappings were generated or stored.")
+ValueError: No capability mappings were generated or stored.
+INFO 2025-11-15 23:29:23 apps 12884 7524 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 23:29:24 llm_service 12884 7524 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 23:29:24 apps 12884 7524 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 23:29:24 apps 8596 12880 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 23:29:25 llm_service 8596 12880 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 23:29:25 apps 8596 12880 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 23:29:30 phase4 8596 17980 [PHASE4] Starting for task 1
+INFO 2025-11-15 23:29:30 phase4 8596 17980 [PHASE4] 13 vendors x 18 subtasks. Batch size=1
+INFO 2025-11-15 23:29:30 phase4 8596 17980 [PHASE4] Vendor 1/13: TestVendor
+INFO 2025-11-15 23:29:35 phase4 8596 17980 [PHASE4] Vendor TestVendor: 1 subtask mappings
+INFO 2025-11-15 23:29:35 phase4 8596 17980 [PHASE4] Vendor 2/13: Unknown
+INFO 2025-11-15 23:29:38 phase4 8596 17980 [PHASE4] Vendor Unknown: 1 subtask mappings
+INFO 2025-11-15 23:29:38 phase4 8596 17980 [PHASE4] Vendor 3/13: TestRail, Inc.
+INFO 2025-11-15 23:29:43 phase4 8596 17980 [PHASE4] Vendor TestRail, Inc.: 1 subtask mappings
+INFO 2025-11-15 23:29:43 phase4 8596 17980 [PHASE4] Vendor 4/13: SmartBear Software
+INFO 2025-11-15 23:29:47 phase4 8596 17980 [PHASE4] Vendor SmartBear Software: 1 subtask mappings
+INFO 2025-11-15 23:29:47 phase4 8596 17980 [PHASE4] Vendor 5/13: Atlassian Pty Ltd
+INFO 2025-11-15 23:29:51 phase4 8596 17980 [PHASE4] Vendor Atlassian Pty Ltd: 1 subtask mappings
+INFO 2025-11-15 23:29:51 phase4 8596 17980 [PHASE4] Vendor 6/13: Tricentis GmbH
+INFO 2025-11-15 23:29:55 phase4 8596 17980 [PHASE4] Vendor Tricentis GmbH: 1 subtask mappings
+INFO 2025-11-15 23:29:55 phase4 8596 17980 [PHASE4] Vendor 7/13: Micro Focus International plc
+INFO 2025-11-15 23:29:59 phase4 8596 17980 [PHASE4] Vendor Micro Focus International plc: 1 subtask mappings
+INFO 2025-11-15 23:29:59 phase4 8596 17980 [PHASE4] Vendor 8/13: Selenium Project
+INFO 2025-11-15 23:30:03 phase4 8596 17980 [PHASE4] Vendor Selenium Project: 1 subtask mappings
+INFO 2025-11-15 23:30:03 phase4 8596 17980 [PHASE4] Vendor 9/13: Apache Software Foundation
+INFO 2025-11-15 23:30:07 phase4 8596 17980 [PHASE4] Vendor Apache Software Foundation: 1 subtask mappings
+INFO 2025-11-15 23:30:07 phase4 8596 17980 [PHASE4] Vendor 10/13: BrowserStack Inc.
+INFO 2025-11-15 23:30:11 phase4 8596 17980 [PHASE4] Vendor BrowserStack Inc.: 1 subtask mappings
+INFO 2025-11-15 23:30:11 phase4 8596 17980 [PHASE4] Vendor 11/13: Parasoft Corporation
+INFO 2025-11-15 23:30:15 phase4 8596 17980 [PHASE4] Vendor Parasoft Corporation: 1 subtask mappings
+INFO 2025-11-15 23:30:15 phase4 8596 17980 [PHASE4] Vendor 12/13: Atlassian Corporation Plc
+INFO 2025-11-15 23:30:19 phase4 8596 17980 [PHASE4] Vendor Atlassian Corporation Plc: 1 subtask mappings
+INFO 2025-11-15 23:30:19 phase4 8596 17980 [PHASE4] Vendor 13/13: Katalon LLC
+INFO 2025-11-15 23:30:23 phase4 8596 17980 [PHASE4] Vendor Katalon LLC: 1 subtask mappings
+INFO 2025-11-15 23:30:23 phase4 8596 17980 [PHASE4] SUCCESS: 130 mappings stored
+INFO 2025-11-15 23:31:08 phase5 8596 6384 [PHASE5] Starting for task 1
+ERROR 2025-11-15 23:31:08 phase5 8596 6384 [PHASE5] FAILED: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+ERROR 2025-11-15 23:31:08 views 8596 6384 Phase execution error: You cannot call this from an async context - use a thread or sync_to_async.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 218, in __get__
+    rel_obj = self.field.get_cached_value(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\mixins.py", line 15, in get_cached_value
+    return instance._state.fields_cache[cache_name]
+KeyError: 'vendor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 33, in run_phase5
+    mapping_json = json.dumps([{
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 34, in <listcomp>
+    "vendor": m.vendor.vendor_name,
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 236, in __get__
+    rel_obj = self.get_object(instance)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 199, in get_object
+    return qs.get(self.field.get_reverse_related_filter(instance))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1558, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\asyncio.py", line 24, in inner
+    raise SynchronousOnlyOperation(message)
+django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
+INFO 2025-11-15 23:33:30 apps 2932 3896 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-15 23:33:31 llm_service 2932 3896 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-15 23:33:31 apps 2932 3896 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-15 23:33:55 phase5 2932 3068 [PHASE5] Starting for task 1
+INFO 2025-11-15 23:33:55 phase5 2932 3068 [PHASE5] Analysis batch 1: Mappings 0-7
+INFO 2025-11-15 23:34:03 phase5 2932 3068 [PHASE5] Analysis batch 2: Mappings 8-15
+INFO 2025-11-15 23:34:07 phase5 2932 3068 [PHASE5] Analysis batch 3: Mappings 16-23
+INFO 2025-11-15 23:34:11 phase5 2932 3068 [PHASE5] Analysis batch 4: Mappings 24-31
+INFO 2025-11-15 23:34:16 phase5 2932 3068 [PHASE5] Analysis batch 5: Mappings 32-39
+INFO 2025-11-15 23:34:19 phase5 2932 3068 [PHASE5] Analysis batch 6: Mappings 40-47
+INFO 2025-11-15 23:34:23 phase5 2932 3068 [PHASE5] Analysis batch 7: Mappings 48-55
+INFO 2025-11-15 23:34:26 phase5 2932 3068 [PHASE5] Analysis batch 8: Mappings 56-63
+INFO 2025-11-15 23:34:31 phase5 2932 3068 [PHASE5] Analysis batch 9: Mappings 64-71
+INFO 2025-11-15 23:34:36 phase5 2932 3068 [PHASE5] Analysis batch 10: Mappings 72-79
+INFO 2025-11-15 23:34:39 phase5 2932 3068 [PHASE5] Analysis batch 11: Mappings 80-87
+INFO 2025-11-15 23:34:43 phase5 2932 3068 [PHASE5] Analysis batch 12: Mappings 88-95
+INFO 2025-11-15 23:34:46 phase5 2932 3068 [PHASE5] Analysis batch 13: Mappings 96-103
+INFO 2025-11-15 23:34:50 phase5 2932 3068 [PHASE5] Analysis batch 14: Mappings 104-111
+INFO 2025-11-15 23:34:54 phase5 2932 3068 [PHASE5] Analysis batch 15: Mappings 112-119
+INFO 2025-11-15 23:34:58 phase5 2932 3068 [PHASE5] Analysis batch 16: Mappings 120-127
+INFO 2025-11-15 23:35:02 phase5 2932 3068 [PHASE5] Analysis batch 17: Mappings 128-129
+INFO 2025-11-15 23:35:05 phase5 2932 3068 [PHASE5] COMPLETE. Final analysis stored
+INFO 2025-11-16 01:17:30 apps 2316 7912 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:17:31 llm_service 2316 7912 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:17:31 apps 2316 7912 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:17:41 apps 19884 5696 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:17:42 llm_service 19884 5696 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:17:42 apps 19884 5696 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:17:47 apps 25448 16392 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:17:48 llm_service 25448 16392 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:17:48 apps 25448 16392 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:19:09 apps 23548 18952 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:19:11 llm_service 23548 18952 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:19:11 apps 23548 18952 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:19:13 apps 21684 25220 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:19:14 llm_service 21684 25220 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:19:14 apps 21684 25220 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:19:16 apps 4132 23568 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:19:17 llm_service 4132 23568 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:19:17 apps 4132 23568 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:19:57 apps 20464 20612 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:19:58 llm_service 20464 20612 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:19:58 apps 20464 20612 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:20:01 apps 2368 15884 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:20:02 llm_service 2368 15884 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:20:02 apps 2368 15884 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:20:03 apps 10608 15396 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:20:04 llm_service 10608 15396 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:20:04 apps 10608 15396 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:27:05 apps 7540 10660 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:27:05 apps 14708 12936 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:27:05 apps 23416 21588 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 01:27:07 llm_service 14708 12936 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:27:07 apps 14708 12936 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:27:07 llm_service 7540 10660 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:27:07 apps 7540 10660 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 01:27:07 llm_service 23416 21588 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 01:27:07 apps 23416 21588 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 09:13:50 apps 12068 20812 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 09:13:53 llm_service 12068 20812 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 09:13:53 apps 12068 20812 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 09:13:54 apps 23500 18156 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 09:13:56 llm_service 23500 18156 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 09:13:56 apps 23500 18156 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 09:24:12 phase1 23500 25368 [PHASE1] Generating vendor discovery prompt...
+INFO 2025-11-16 09:24:12 phase1 23500 25368 [PHASE1] Calling LLM for vendor discovery...
+INFO 2025-11-16 09:24:17 phase1 23500 25368 [PHASE1] Discovered 8 vendors, storing to database...
+INFO 2025-11-16 09:24:26 phase2 23500 9152 [PHASE2] Starting subtask decomposition for task 11
+INFO 2025-11-16 09:24:26 phase2 23500 9152 [PHASE2] Calling LLM for subtask decomposition...
+INFO 2025-11-16 09:24:32 phase2 23500 9152 [PHASE2] Parsed 6 subtasks from LLM
+INFO 2025-11-16 09:24:46 phase3 23500 15792 [PHASE3] Analyzing timeline for 8 vendors...
+INFO 2025-11-16 09:25:01 phase4 23500 22684 [PHASE4] Starting for task 11
+INFO 2025-11-16 09:25:01 phase4 23500 22684 [PHASE4] 8 vendors x 6 subtasks. Batch size=1
+INFO 2025-11-16 09:25:01 phase4 23500 22684 [PHASE4] Vendor 1/8: Crunchbase Inc.
+INFO 2025-11-16 09:25:05 phase4 23500 22684 [PHASE4] Vendor Crunchbase Inc.: 1 subtask mappings
+INFO 2025-11-16 09:25:05 phase4 23500 22684 [PHASE4] Vendor 2/8: CB Information Services, Inc.
+INFO 2025-11-16 09:25:07 phase4 23500 22684 [PHASE4] Vendor CB Information Services, Inc.: 1 subtask mappings
+INFO 2025-11-16 09:25:07 phase4 23500 22684 [PHASE4] Vendor 3/8: Owler, Inc.
+INFO 2025-11-16 09:25:10 phase4 23500 22684 [PHASE4] Vendor Owler, Inc.: 1 subtask mappings
+INFO 2025-11-16 09:25:10 phase4 23500 22684 [PHASE4] Vendor 4/8: Kompyte, Inc.
+INFO 2025-11-16 09:25:13 phase4 23500 22684 [PHASE4] Vendor Kompyte, Inc.: 1 subtask mappings
+INFO 2025-11-16 09:25:13 phase4 23500 22684 [PHASE4] Vendor 5/8: Crayon, Inc.
+INFO 2025-11-16 09:25:15 phase4 23500 22684 [PHASE4] Vendor Crayon, Inc.: 1 subtask mappings
+INFO 2025-11-16 09:25:15 phase4 23500 22684 [PHASE4] Vendor 6/8: Similarweb Ltd.
+INFO 2025-11-16 09:25:18 phase4 23500 22684 [PHASE4] Vendor Similarweb Ltd.: 1 subtask mappings
+INFO 2025-11-16 09:25:18 phase4 23500 22684 [PHASE4] Vendor 7/8: AlphaSense Inc.
+INFO 2025-11-16 09:25:20 phase4 23500 22684 [PHASE4] Vendor AlphaSense Inc.: 1 subtask mappings
+INFO 2025-11-16 09:25:20 phase4 23500 22684 [PHASE4] Vendor 8/8: SISTRIX GmbH
+INFO 2025-11-16 09:25:23 phase4 23500 22684 [PHASE4] Vendor SISTRIX GmbH: 1 subtask mappings
+INFO 2025-11-16 09:25:23 phase4 23500 22684 [PHASE4] SUCCESS: 48 mappings stored
+INFO 2025-11-16 09:25:33 phase5 23500 11096 [PHASE5] Starting for task 11
+INFO 2025-11-16 09:25:33 phase5 23500 11096 [PHASE5] Analysis batch 1: Mappings 0-7
+INFO 2025-11-16 09:25:37 phase5 23500 11096 [PHASE5] Analysis batch 2: Mappings 8-15
+INFO 2025-11-16 09:25:41 phase5 23500 11096 [PHASE5] Analysis batch 3: Mappings 16-23
+INFO 2025-11-16 09:25:45 phase5 23500 11096 [PHASE5] Analysis batch 4: Mappings 24-31
+INFO 2025-11-16 09:25:49 phase5 23500 11096 [PHASE5] Analysis batch 5: Mappings 32-39
+INFO 2025-11-16 09:25:52 phase5 23500 11096 [PHASE5] Analysis batch 6: Mappings 40-47
+ERROR 2025-11-16 09:25:56 phase5 23500 11096 [PHASE5] FAILED: Invalid field name(s) for model FinalAnalysis: 'best_vendor_name'.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+pipeline.models.FinalAnalysis.DoesNotExist: FinalAnalysis matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 95, in run_phase5
+    await store_final_analysis(combined)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 82, in store_final_analysis
+    FinalAnalysis.objects.update_or_create(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 949, in update_or_create
+    obj, created = self.select_for_update().get_or_create(defaults, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 918, in get_or_create
+    params = self._extract_model_params(defaults, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 999, in _extract_model_params
+    raise exceptions.FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) for model FinalAnalysis: 'best_vendor_name'.
+ERROR 2025-11-16 09:25:56 views 23500 11096 Phase execution error: Invalid field name(s) for model FinalAnalysis: 'best_vendor_name'.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+pipeline.models.FinalAnalysis.DoesNotExist: FinalAnalysis matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 95, in run_phase5
+    await store_final_analysis(combined)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 82, in store_final_analysis
+    FinalAnalysis.objects.update_or_create(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 949, in update_or_create
+    obj, created = self.select_for_update().get_or_create(defaults, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 918, in get_or_create
+    params = self._extract_model_params(defaults, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\db\models\query.py", line 999, in _extract_model_params
+    raise exceptions.FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) for model FinalAnalysis: 'best_vendor_name'.
+INFO 2025-11-16 10:13:08 apps 15680 18532 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 10:13:11 llm_service 15680 18532 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 10:13:11 apps 15680 18532 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 10:13:12 apps 19692 8840 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 10:13:12 llm_service 19692 8840 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 10:13:12 apps 19692 8840 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 21:18:51 phase1 23500 7948 [PHASE1] Generating vendor discovery prompt...
+INFO 2025-11-16 21:18:51 phase1 23500 7948 [PHASE1] Calling LLM for vendor discovery...
+INFO 2025-11-16 21:18:59 phase1 23500 7948 [PHASE1] Discovered 8 vendors, storing to database...
+INFO 2025-11-16 21:19:00 phase2 23500 28772 [PHASE2] Starting subtask decomposition for task 1
+INFO 2025-11-16 21:19:00 phase2 23500 28772 [PHASE2] Calling LLM for subtask decomposition...
+INFO 2025-11-16 21:19:07 phase2 23500 28772 [PHASE2] Parsed 6 subtasks from LLM
+INFO 2025-11-16 21:19:07 phase3 23500 28604 [PHASE3] Analyzing timeline for 17 vendors...
+INFO 2025-11-16 21:19:08 phase4 23500 14472 [PHASE4] Starting for task 1
+INFO 2025-11-16 21:19:08 phase4 23500 14472 [PHASE4] 17 vendors x 23 subtasks. Batch size=1
+INFO 2025-11-16 21:19:08 phase4 23500 14472 [PHASE4] Vendor 1/17: TestVendor
+INFO 2025-11-16 21:19:12 phase4 23500 14472 [PHASE4] Vendor TestVendor: 1 subtask mappings
+INFO 2025-11-16 21:19:12 phase4 23500 14472 [PHASE4] Vendor 2/17: Unknown
+INFO 2025-11-16 21:19:15 phase4 23500 14472 [PHASE4] Vendor Unknown: 1 subtask mappings
+INFO 2025-11-16 21:19:15 phase4 23500 14472 [PHASE4] Vendor 3/17: TestRail, Inc.
+INFO 2025-11-16 21:19:19 phase4 23500 14472 [PHASE4] Vendor TestRail, Inc.: 1 subtask mappings
+INFO 2025-11-16 21:19:19 phase4 23500 14472 [PHASE4] Vendor 4/17: SmartBear Software
+INFO 2025-11-16 21:19:23 phase4 23500 14472 [PHASE4] Vendor SmartBear Software: 1 subtask mappings
+INFO 2025-11-16 21:19:23 phase4 23500 14472 [PHASE4] Vendor 5/17: Atlassian Pty Ltd
+INFO 2025-11-16 21:19:27 phase4 23500 14472 [PHASE4] Vendor Atlassian Pty Ltd: 1 subtask mappings
+INFO 2025-11-16 21:19:27 phase4 23500 14472 [PHASE4] Vendor 6/17: Tricentis GmbH
+INFO 2025-11-16 21:19:31 phase4 23500 14472 [PHASE4] Vendor Tricentis GmbH: 1 subtask mappings
+INFO 2025-11-16 21:19:31 phase4 23500 14472 [PHASE4] Vendor 7/17: Micro Focus International plc
+INFO 2025-11-16 21:19:35 phase4 23500 14472 [PHASE4] Vendor Micro Focus International plc: 1 subtask mappings
+INFO 2025-11-16 21:19:35 phase4 23500 14472 [PHASE4] Vendor 8/17: Selenium Project
+INFO 2025-11-16 21:19:39 phase4 23500 14472 [PHASE4] Vendor Selenium Project: 1 subtask mappings
+INFO 2025-11-16 21:19:39 phase4 23500 14472 [PHASE4] Vendor 9/17: Apache Software Foundation
+INFO 2025-11-16 21:19:42 phase4 23500 14472 [PHASE4] Vendor Apache Software Foundation: 1 subtask mappings
+INFO 2025-11-16 21:19:42 phase4 23500 14472 [PHASE4] Vendor 10/17: BrowserStack Inc.
+INFO 2025-11-16 21:19:46 phase4 23500 14472 [PHASE4] Vendor BrowserStack Inc.: 1 subtask mappings
+INFO 2025-11-16 21:19:46 phase4 23500 14472 [PHASE4] Vendor 11/17: Parasoft Corporation
+INFO 2025-11-16 21:19:50 phase4 23500 14472 [PHASE4] Vendor Parasoft Corporation: 1 subtask mappings
+INFO 2025-11-16 21:19:50 phase4 23500 14472 [PHASE4] Vendor 12/17: Atlassian Corporation Plc
+INFO 2025-11-16 21:19:54 phase4 23500 14472 [PHASE4] Vendor Atlassian Corporation Plc: 1 subtask mappings
+INFO 2025-11-16 21:19:54 phase4 23500 14472 [PHASE4] Vendor 13/17: Katalon LLC
+INFO 2025-11-16 21:19:57 phase4 23500 14472 [PHASE4] Vendor Katalon LLC: 1 subtask mappings
+INFO 2025-11-16 21:19:57 phase4 23500 14472 [PHASE4] Vendor 14/17: Postman, Inc.
+INFO 2025-11-16 21:20:01 phase4 23500 14472 [PHASE4] Vendor Postman, Inc.: 1 subtask mappings
+INFO 2025-11-16 21:20:01 phase4 23500 14472 [PHASE4] Vendor 15/17: Rapid7, Inc.
+INFO 2025-11-16 21:20:05 phase4 23500 14472 [PHASE4] Vendor Rapid7, Inc.: 1 subtask mappings
+INFO 2025-11-16 21:20:05 phase4 23500 14472 [PHASE4] Vendor 16/17: Qualys, Inc.
+INFO 2025-11-16 21:20:08 phase4 23500 14472 [PHASE4] Vendor Qualys, Inc.: 1 subtask mappings
+INFO 2025-11-16 21:20:08 phase4 23500 14472 [PHASE4] Vendor 17/17: BrowserStack
+INFO 2025-11-16 21:20:12 phase4 23500 14472 [PHASE4] Vendor BrowserStack: 1 subtask mappings
+INFO 2025-11-16 21:20:13 phase4 23500 14472 [PHASE4] SUCCESS: 170 mappings stored
+INFO 2025-11-16 21:20:13 phase5 23500 19136 [PHASE5] Starting for task 1
+INFO 2025-11-16 21:20:13 phase5 23500 19136 [PHASE5] Analysis batch 1: Mappings 0-7
+INFO 2025-11-16 21:20:17 phase5 23500 19136 [PHASE5] Analysis batch 2: Mappings 8-15
+INFO 2025-11-16 21:20:20 phase5 23500 19136 [PHASE5] Analysis batch 3: Mappings 16-23
+INFO 2025-11-16 21:20:24 phase5 23500 19136 [PHASE5] Analysis batch 4: Mappings 24-31
+INFO 2025-11-16 21:20:27 phase5 23500 19136 [PHASE5] Analysis batch 5: Mappings 32-39
+INFO 2025-11-16 21:20:30 phase5 23500 19136 [PHASE5] Analysis batch 6: Mappings 40-47
+INFO 2025-11-16 21:20:33 phase5 23500 19136 [PHASE5] Analysis batch 7: Mappings 48-55
+INFO 2025-11-16 21:20:36 phase5 23500 19136 [PHASE5] Analysis batch 8: Mappings 56-63
+INFO 2025-11-16 21:20:40 phase5 23500 19136 [PHASE5] Analysis batch 9: Mappings 64-71
+INFO 2025-11-16 21:20:45 phase5 23500 19136 [PHASE5] Analysis batch 10: Mappings 72-79
+INFO 2025-11-16 21:20:48 phase5 23500 19136 [PHASE5] Analysis batch 11: Mappings 80-87
+INFO 2025-11-16 21:20:51 phase5 23500 19136 [PHASE5] Analysis batch 12: Mappings 88-95
+INFO 2025-11-16 21:20:56 phase5 23500 19136 [PHASE5] Analysis batch 13: Mappings 96-103
+INFO 2025-11-16 21:21:00 phase5 23500 19136 [PHASE5] Analysis batch 14: Mappings 104-111
+INFO 2025-11-16 21:21:04 phase5 23500 19136 [PHASE5] Analysis batch 15: Mappings 112-119
+INFO 2025-11-16 21:21:08 phase5 23500 19136 [PHASE5] Analysis batch 16: Mappings 120-127
+INFO 2025-11-16 21:21:12 phase5 23500 19136 [PHASE5] Analysis batch 17: Mappings 128-135
+INFO 2025-11-16 21:21:16 phase5 23500 19136 [PHASE5] Analysis batch 18: Mappings 136-143
+INFO 2025-11-16 21:21:20 phase5 23500 19136 [PHASE5] Analysis batch 19: Mappings 144-151
+INFO 2025-11-16 21:21:24 phase5 23500 19136 [PHASE5] Analysis batch 20: Mappings 152-159
+INFO 2025-11-16 21:21:28 phase5 23500 19136 [PHASE5] Analysis batch 21: Mappings 160-167
+INFO 2025-11-16 21:21:31 phase5 23500 19136 [PHASE5] Analysis batch 22: Mappings 168-169
+INFO 2025-11-16 21:21:34 phase5 23500 19136 [PHASE5] COMPLETE. Final analysis stored
+INFO 2025-11-16 23:37:26 apps 27484 17684 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 23:37:27 apps 27700 25760 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 23:37:30 llm_service 27700 25760 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 23:37:30 llm_service 27484 17684 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 23:37:30 apps 27700 25760 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 23:37:30 apps 27484 17684 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 23:55:02 apps 19036 6260 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 23:55:02 apps 29100 8840 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 23:55:03 llm_service 19036 6260 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 23:55:03 apps 19036 6260 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 23:55:03 llm_service 29100 8840 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 23:55:03 apps 29100 8840 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 23:58:01 apps 15164 1652 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 23:58:02 llm_service 15164 1652 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 23:58:02 apps 15164 1652 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 23:58:03 apps 30116 31512 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 23:58:03 llm_service 30116 31512 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 23:58:03 apps 30116 31512 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 23:58:08 phase5 19036 28500 [PHASE5] Starting for task 1
+ERROR 2025-11-16 23:58:08 views 19036 28500 Phase execution error: sync_to_async can only be applied to sync functions.
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py", line 29, in _run
+    result = loop.run_until_complete(phase_func(task_id))
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py", line 27, in run_phase5
+    vendors, mappings, subtasks = await sync_to_async(fetch_data)()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\asgiref\sync.py", line 641, in sync_to_async
+    return SyncToAsync(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\asgiref\sync.py", line 424, in __init__
+    raise TypeError("sync_to_async can only be applied to sync functions.")
+TypeError: sync_to_async can only be applied to sync functions.
+INFO 2025-11-16 23:59:25 apps 27416 18916 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 23:59:26 apps 27804 5064 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-16 23:59:26 llm_service 27416 18916 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 23:59:26 apps 27416 18916 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 23:59:27 llm_service 27804 5064 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-16 23:59:27 apps 27804 5064 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-16 23:59:40 phase5 27416 25920 [PHASE5] Starting for task 1
+INFO 2025-11-16 23:59:40 phase5 27416 25920 [PHASE5] Analysis batch 1: Mappings 0-7
+INFO 2025-11-16 23:59:47 phase5 27416 25920 [PHASE5] Analysis batch 2: Mappings 8-15
+INFO 2025-11-16 23:59:50 phase5 27416 25920 [PHASE5] Analysis batch 3: Mappings 16-23
+INFO 2025-11-16 23:59:53 phase5 27416 25920 [PHASE5] Analysis batch 4: Mappings 24-31
+INFO 2025-11-16 23:59:57 phase5 27416 25920 [PHASE5] Analysis batch 5: Mappings 32-39
+INFO 2025-11-17 00:00:01 phase5 27416 25920 [PHASE5] Analysis batch 6: Mappings 40-47
+INFO 2025-11-17 00:00:04 phase5 27416 25920 [PHASE5] Analysis batch 7: Mappings 48-55
+INFO 2025-11-17 00:00:08 phase5 27416 25920 [PHASE5] Analysis batch 8: Mappings 56-63
+INFO 2025-11-17 00:00:11 phase5 27416 25920 [PHASE5] Analysis batch 9: Mappings 64-71
+INFO 2025-11-17 00:00:15 phase5 27416 25920 [PHASE5] Analysis batch 10: Mappings 72-79
+INFO 2025-11-17 00:00:19 phase5 27416 25920 [PHASE5] Analysis batch 11: Mappings 80-87
+INFO 2025-11-17 00:00:22 phase5 27416 25920 [PHASE5] Analysis batch 12: Mappings 88-95
+INFO 2025-11-17 00:00:26 phase5 27416 25920 [PHASE5] Analysis batch 13: Mappings 96-103
+INFO 2025-11-17 00:00:29 phase5 27416 25920 [PHASE5] Analysis batch 14: Mappings 104-111
+INFO 2025-11-17 00:00:32 phase5 27416 25920 [PHASE5] Analysis batch 15: Mappings 112-119
+INFO 2025-11-17 00:00:35 phase5 27416 25920 [PHASE5] Analysis batch 16: Mappings 120-127
+INFO 2025-11-17 00:00:39 phase5 27416 25920 [PHASE5] Analysis batch 17: Mappings 128-135
+INFO 2025-11-17 00:00:42 phase5 27416 25920 [PHASE5] Analysis batch 18: Mappings 136-143
+INFO 2025-11-17 00:00:46 phase5 27416 25920 [PHASE5] Analysis batch 19: Mappings 144-151
+INFO 2025-11-17 00:00:50 phase5 27416 25920 [PHASE5] Analysis batch 20: Mappings 152-159
+INFO 2025-11-17 00:00:53 phase5 27416 25920 [PHASE5] Analysis batch 21: Mappings 160-167
+INFO 2025-11-17 00:00:56 phase5 27416 25920 [PHASE5] Analysis batch 22: Mappings 168-169
+INFO 2025-11-17 00:00:59 phase5 27416 25920 [PHASE5] COMPLETE. Final analysis stored
+INFO 2025-11-17 00:12:44 apps 20788 6860 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:12:44 apps 26556 19272 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:12:44 llm_service 20788 6860 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:12:44 apps 20788 6860 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:12:45 llm_service 26556 19272 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:12:45 apps 26556 19272 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:13:41 apps 28608 23488 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:13:41 apps 5416 19628 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:13:42 llm_service 28608 23488 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:13:42 apps 28608 23488 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:13:42 llm_service 5416 19628 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:13:42 apps 5416 19628 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:28:50 phase5 5416 29588 [PHASE5] Starting for task 1
+INFO 2025-11-17 00:28:50 phase5 5416 29588 [PHASE5] Preparing analysis for 17 vendors and 170 mappings
+INFO 2025-11-17 00:28:50 phase5 5416 29588 [PHASE5] Analysis batch 1: mappings 0-7
+INFO 2025-11-17 00:28:54 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 1
+INFO 2025-11-17 00:28:54 phase5 5416 29588 [PHASE5] Analysis batch 2: mappings 8-15
+INFO 2025-11-17 00:28:58 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 2
+INFO 2025-11-17 00:28:58 phase5 5416 29588 [PHASE5] Analysis batch 3: mappings 16-23
+INFO 2025-11-17 00:29:01 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 3
+INFO 2025-11-17 00:29:01 phase5 5416 29588 [PHASE5] Analysis batch 4: mappings 24-31
+INFO 2025-11-17 00:29:07 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 4
+INFO 2025-11-17 00:29:07 phase5 5416 29588 [PHASE5] Analysis batch 5: mappings 32-39
+INFO 2025-11-17 00:29:10 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 5
+INFO 2025-11-17 00:29:10 phase5 5416 29588 [PHASE5] Analysis batch 6: mappings 40-47
+INFO 2025-11-17 00:29:13 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 6
+INFO 2025-11-17 00:29:13 phase5 5416 29588 [PHASE5] Analysis batch 7: mappings 48-55
+INFO 2025-11-17 00:29:17 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 7
+INFO 2025-11-17 00:29:17 phase5 5416 29588 [PHASE5] Analysis batch 8: mappings 56-63
+INFO 2025-11-17 00:29:22 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 8
+INFO 2025-11-17 00:29:22 phase5 5416 29588 [PHASE5] Analysis batch 9: mappings 64-71
+INFO 2025-11-17 00:29:26 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 9
+INFO 2025-11-17 00:29:26 phase5 5416 29588 [PHASE5] Analysis batch 10: mappings 72-79
+INFO 2025-11-17 00:29:30 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 10
+INFO 2025-11-17 00:29:30 phase5 5416 29588 [PHASE5] Analysis batch 11: mappings 80-87
+INFO 2025-11-17 00:29:34 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 11
+INFO 2025-11-17 00:29:34 phase5 5416 29588 [PHASE5] Analysis batch 12: mappings 88-95
+INFO 2025-11-17 00:29:38 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 12
+INFO 2025-11-17 00:29:38 phase5 5416 29588 [PHASE5] Analysis batch 13: mappings 96-103
+INFO 2025-11-17 00:29:42 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 13
+INFO 2025-11-17 00:29:42 phase5 5416 29588 [PHASE5] Analysis batch 14: mappings 104-111
+INFO 2025-11-17 00:29:46 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 14
+INFO 2025-11-17 00:29:46 phase5 5416 29588 [PHASE5] Analysis batch 15: mappings 112-119
+INFO 2025-11-17 00:29:49 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 15
+INFO 2025-11-17 00:29:49 phase5 5416 29588 [PHASE5] Analysis batch 16: mappings 120-127
+INFO 2025-11-17 00:29:53 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 16
+INFO 2025-11-17 00:29:53 phase5 5416 29588 [PHASE5] Analysis batch 17: mappings 128-135
+INFO 2025-11-17 00:29:57 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 17
+INFO 2025-11-17 00:29:57 phase5 5416 29588 [PHASE5] Analysis batch 18: mappings 136-143
+INFO 2025-11-17 00:30:00 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 18
+INFO 2025-11-17 00:30:00 phase5 5416 29588 [PHASE5] Analysis batch 19: mappings 144-151
+INFO 2025-11-17 00:30:04 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 19
+INFO 2025-11-17 00:30:04 phase5 5416 29588 [PHASE5] Analysis batch 20: mappings 152-159
+INFO 2025-11-17 00:30:07 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 20
+INFO 2025-11-17 00:30:07 phase5 5416 29588 [PHASE5] Analysis batch 21: mappings 160-167
+INFO 2025-11-17 00:30:10 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 21
+INFO 2025-11-17 00:30:10 phase5 5416 29588 [PHASE5] Analysis batch 22: mappings 168-169
+INFO 2025-11-17 00:30:13 phase5 5416 29588 [PHASE5] Received valid final_analysis from batch 22
+INFO 2025-11-17 00:30:13 phase5 5416 29588 [PHASE5] COMPLETE. Final analysis stored for task 1
+INFO 2025-11-17 00:48:00 apps 9860 21880 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:48:01 llm_service 9860 21880 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:48:01 apps 9860 21880 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:48:01 apps 30740 27312 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:48:02 llm_service 30740 27312 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:48:02 apps 30740 27312 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:48:16 apps 28552 23832 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:48:17 apps 10948 24640 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:48:17 llm_service 28552 23832 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:48:17 apps 28552 23832 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:48:17 llm_service 10948 24640 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:48:17 apps 10948 24640 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:48:24 apps 5212 31652 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:48:24 apps 13016 26568 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:48:24 llm_service 5212 31652 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:48:24 apps 5212 31652 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:48:25 llm_service 13016 26568 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:48:25 apps 13016 26568 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:48:40 apps 25776 28244 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:48:41 apps 29820 7180 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:48:41 llm_service 25776 28244 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:48:41 apps 25776 28244 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:48:41 llm_service 29820 7180 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:48:41 apps 29820 7180 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:49:56 apps 5528 22576 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:49:57 llm_service 5528 22576 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:49:57 apps 5528 22576 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 00:49:57 apps 12664 26052 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 00:49:58 llm_service 12664 26052 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 00:49:58 apps 12664 26052 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:04:13 phase1 25776 3928 [PHASE1] Generating vendor discovery prompt...
+INFO 2025-11-17 01:04:13 phase1 25776 3928 [PHASE1] Calling LLM for vendor discovery...
+INFO 2025-11-17 01:04:21 phase1 25776 3928 [PHASE1] Discovered 8 vendors, storing to database...
+INFO 2025-11-17 01:04:32 phase2 25776 13252 [PHASE2] Starting subtask decomposition for task 17
+INFO 2025-11-17 01:04:32 phase2 25776 13252 [PHASE2] Calling LLM for subtask decomposition...
+INFO 2025-11-17 01:04:37 phase2 25776 13252 [PHASE2] Parsed 7 subtasks from LLM
+INFO 2025-11-17 01:04:46 phase3 25776 20376 [PHASE3] Analyzing timeline for 8 vendors...
+INFO 2025-11-17 01:05:07 phase4 25776 31280 [PHASE4] Starting for task 17
+INFO 2025-11-17 01:05:07 phase4 25776 31280 [PHASE4] 8 vendors x 7 subtasks. Batch size=1
+INFO 2025-11-17 01:05:07 phase4 25776 31280 [PHASE4] Vendor 1/8: Thermo Fisher Scientific Inc.
+INFO 2025-11-17 01:05:11 phase4 25776 31280 [PHASE4] Vendor Thermo Fisher Scientific Inc.: 1 subtask mappings
+INFO 2025-11-17 01:05:11 phase4 25776 31280 [PHASE4] Vendor 2/8: Bruker Corporation
+INFO 2025-11-17 01:05:13 phase4 25776 31280 [PHASE4] Vendor Bruker Corporation: 1 subtask mappings
+INFO 2025-11-17 01:05:13 phase4 25776 31280 [PHASE4] Vendor 3/8: Agilent Technologies Inc.
+INFO 2025-11-17 01:05:17 phase4 25776 31280 [PHASE4] Vendor Agilent Technologies Inc.: 1 subtask mappings
+INFO 2025-11-17 01:05:17 phase4 25776 31280 [PHASE4] Vendor 4/8: SCIEX
+INFO 2025-11-17 01:05:20 phase4 25776 31280 [PHASE4] Vendor SCIEX: 1 subtask mappings
+INFO 2025-11-17 01:05:20 phase4 25776 31280 [PHASE4] Vendor 5/8: Waters Corporation
+INFO 2025-11-17 01:05:22 phase4 25776 31280 [PHASE4] Vendor Waters Corporation: 1 subtask mappings
+INFO 2025-11-17 01:05:22 phase4 25776 31280 [PHASE4] Vendor 6/8: OpenMS Development Team
+INFO 2025-11-17 01:05:25 phase4 25776 31280 [PHASE4] Vendor OpenMS Development Team: 1 subtask mappings
+INFO 2025-11-17 01:05:25 phase4 25776 31280 [PHASE4] Vendor 7/8: GNPS (Global Natural Products Social Molecular Networking)
+INFO 2025-11-17 01:05:27 phase4 25776 31280 [PHASE4] Vendor GNPS (Global Natural Products Social Molecular Networking): 1 subtask mappings
+INFO 2025-11-17 01:05:27 phase4 25776 31280 [PHASE4] Vendor 8/8: mzCloud / Thermo Fisher Scientific
+INFO 2025-11-17 01:05:30 phase4 25776 31280 [PHASE4] Vendor mzCloud / Thermo Fisher Scientific: 1 subtask mappings
+INFO 2025-11-17 01:05:31 phase4 25776 31280 [PHASE4] SUCCESS: 56 mappings stored
+INFO 2025-11-17 01:05:37 phase5 25776 20208 [PHASE5] Starting for task 17
+INFO 2025-11-17 01:05:37 phase5 25776 20208 [PHASE5] Preparing analysis for 8 vendors and 56 mappings
+INFO 2025-11-17 01:05:37 phase5 25776 20208 [PHASE5] Analysis batch 1: mappings 0-7
+INFO 2025-11-17 01:05:42 phase5 25776 20208 [PHASE5] Received valid final_analysis from batch 1
+INFO 2025-11-17 01:05:42 phase5 25776 20208 [PHASE5] Analysis batch 2: mappings 8-15
+INFO 2025-11-17 01:05:46 phase5 25776 20208 [PHASE5] Received valid final_analysis from batch 2
+INFO 2025-11-17 01:05:46 phase5 25776 20208 [PHASE5] Analysis batch 3: mappings 16-23
+INFO 2025-11-17 01:05:49 phase5 25776 20208 [PHASE5] Received valid final_analysis from batch 3
+INFO 2025-11-17 01:05:49 phase5 25776 20208 [PHASE5] Analysis batch 4: mappings 24-31
+INFO 2025-11-17 01:05:53 phase5 25776 20208 [PHASE5] Received valid final_analysis from batch 4
+INFO 2025-11-17 01:05:53 phase5 25776 20208 [PHASE5] Analysis batch 5: mappings 32-39
+INFO 2025-11-17 01:05:57 phase5 25776 20208 [PHASE5] Received valid final_analysis from batch 5
+INFO 2025-11-17 01:05:57 phase5 25776 20208 [PHASE5] Analysis batch 6: mappings 40-47
+INFO 2025-11-17 01:06:01 phase5 25776 20208 [PHASE5] Received valid final_analysis from batch 6
+INFO 2025-11-17 01:06:01 phase5 25776 20208 [PHASE5] Analysis batch 7: mappings 48-55
+INFO 2025-11-17 01:06:04 phase5 25776 20208 [PHASE5] Received valid final_analysis from batch 7
+INFO 2025-11-17 01:06:04 phase5 25776 20208 [PHASE5] COMPLETE. Final analysis stored for task 17
+INFO 2025-11-17 01:20:46 apps 30620 2668 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:20:46 apps 12448 10172 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:20:46 apps 21236 27004 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:20:46 llm_service 30620 2668 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:20:46 apps 30620 2668 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:20:46 llm_service 12448 10172 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:20:46 apps 12448 10172 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:20:47 llm_service 21236 27004 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:20:47 apps 21236 27004 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:22:06 apps 18932 31504 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:22:06 llm_service 18932 31504 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:22:06 apps 18932 31504 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:22:07 apps 21720 31476 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:22:08 llm_service 21720 31476 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:22:08 apps 21720 31476 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:22:34 phase1 21720 21144 [PHASE1] Generating vendor discovery prompt...
+INFO 2025-11-17 01:22:34 phase1 21720 21144 [PHASE1] Calling LLM for vendor discovery...
+INFO 2025-11-17 01:22:41 phase1 21720 21144 [PHASE1] Discovered 8 vendors, storing to database...
+INFO 2025-11-17 01:22:44 phase2 21720 27320 [PHASE2] Starting subtask decomposition for task 19
+INFO 2025-11-17 01:22:44 phase2 21720 27320 [PHASE2] Calling LLM for subtask decomposition...
+INFO 2025-11-17 01:22:51 phase2 21720 27320 [PHASE2] Parsed 7 subtasks from LLM
+INFO 2025-11-17 01:22:54 phase3 21720 22416 [PHASE3] Analyzing timeline for 8 vendors...
+INFO 2025-11-17 01:22:57 phase4 21720 10360 [PHASE4] Starting for task 19
+INFO 2025-11-17 01:22:57 phase4 21720 10360 [PHASE4] 8 vendors x 7 subtasks. Batch size=1
+INFO 2025-11-17 01:22:57 phase4 21720 10360 [PHASE4] Vendor 1/8: Qualtrics International Inc.
+INFO 2025-11-17 01:23:00 phase4 21720 10360 [PHASE4] Vendor Qualtrics International Inc.: 1 subtask mappings
+INFO 2025-11-17 01:23:00 phase4 21720 10360 [PHASE4] Vendor 2/8: Medallia, Inc.
+INFO 2025-11-17 01:23:03 phase4 21720 10360 [PHASE4] Vendor Medallia, Inc.: 1 subtask mappings
+INFO 2025-11-17 01:23:03 phase4 21720 10360 [PHASE4] Vendor 3/8: Clarabridge, Inc. (part of Qualtrics)
+INFO 2025-11-17 01:23:06 phase4 21720 10360 [PHASE4] Vendor Clarabridge, Inc. (part of Qualtrics): 1 subtask mappings
+INFO 2025-11-17 01:23:06 phase4 21720 10360 [PHASE4] Vendor 4/8: MonkeyLearn, Inc.
+INFO 2025-11-17 01:23:09 phase4 21720 10360 [PHASE4] Vendor MonkeyLearn, Inc.: 1 subtask mappings
+INFO 2025-11-17 01:23:09 phase4 21720 10360 [PHASE4] Vendor 5/8: IBM Corporation
+INFO 2025-11-17 01:23:12 phase4 21720 10360 [PHASE4] Vendor IBM Corporation: 1 subtask mappings
+INFO 2025-11-17 01:23:12 phase4 21720 10360 [PHASE4] Vendor 6/8: SAS Institute Inc.
+INFO 2025-11-17 01:23:14 phase4 21720 10360 [PHASE4] Vendor SAS Institute Inc.: 1 subtask mappings
+INFO 2025-11-17 01:23:14 phase4 21720 10360 [PHASE4] Vendor 7/8: Google LLC
+INFO 2025-11-17 01:23:15 phase5 21720 29320 [PHASE5] Starting for task 1
+INFO 2025-11-17 01:23:15 phase5 21720 29320 [PHASE5] Preparing analysis for 17 vendors and 170 mappings
+INFO 2025-11-17 01:23:15 phase5 21720 29320 [PHASE5] Analysis batch 1: mappings 0-7
+INFO 2025-11-17 01:23:17 phase4 21720 10360 [PHASE4] Vendor Google LLC: 1 subtask mappings
+INFO 2025-11-17 01:23:17 phase4 21720 10360 [PHASE4] Vendor 8/8: Kapiche Pty Ltd
+INFO 2025-11-17 01:23:20 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 1
+INFO 2025-11-17 01:23:20 phase5 21720 29320 [PHASE5] Analysis batch 2: mappings 8-15
+INFO 2025-11-17 01:23:20 phase4 21720 10360 [PHASE4] Vendor Kapiche Pty Ltd: 1 subtask mappings
+INFO 2025-11-17 01:23:20 phase4 21720 10360 [PHASE4] SUCCESS: 56 mappings stored
+INFO 2025-11-17 01:23:23 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 2
+INFO 2025-11-17 01:23:23 phase5 21720 29320 [PHASE5] Analysis batch 3: mappings 16-23
+INFO 2025-11-17 01:23:24 phase5 21720 13548 [PHASE5] Starting for task 19
+INFO 2025-11-17 01:23:24 phase5 21720 13548 [PHASE5] Preparing analysis for 8 vendors and 56 mappings
+INFO 2025-11-17 01:23:24 phase5 21720 13548 [PHASE5] Analysis batch 1: mappings 0-7
+INFO 2025-11-17 01:23:26 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 3
+INFO 2025-11-17 01:23:26 phase5 21720 29320 [PHASE5] Analysis batch 4: mappings 24-31
+INFO 2025-11-17 01:23:28 phase5 21720 13548 [PHASE5] Received valid final_analysis from batch 1
+INFO 2025-11-17 01:23:28 phase5 21720 13548 [PHASE5] Analysis batch 2: mappings 8-15
+INFO 2025-11-17 01:23:30 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 4
+INFO 2025-11-17 01:23:30 phase5 21720 29320 [PHASE5] Analysis batch 5: mappings 32-39
+INFO 2025-11-17 01:23:31 phase5 21720 13548 [PHASE5] Received valid final_analysis from batch 2
+INFO 2025-11-17 01:23:31 phase5 21720 13548 [PHASE5] Analysis batch 3: mappings 16-23
+INFO 2025-11-17 01:23:34 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 5
+INFO 2025-11-17 01:23:34 phase5 21720 29320 [PHASE5] Analysis batch 6: mappings 40-47
+INFO 2025-11-17 01:23:35 phase5 21720 13548 [PHASE5] Received valid final_analysis from batch 3
+INFO 2025-11-17 01:23:35 phase5 21720 13548 [PHASE5] Analysis batch 4: mappings 24-31
+INFO 2025-11-17 01:23:37 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 6
+INFO 2025-11-17 01:23:37 phase5 21720 29320 [PHASE5] Analysis batch 7: mappings 48-55
+INFO 2025-11-17 01:23:38 phase5 21720 13548 [PHASE5] Received valid final_analysis from batch 4
+INFO 2025-11-17 01:23:38 phase5 21720 13548 [PHASE5] Analysis batch 5: mappings 32-39
+INFO 2025-11-17 01:23:41 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 7
+INFO 2025-11-17 01:23:41 phase5 21720 29320 [PHASE5] Analysis batch 8: mappings 56-63
+INFO 2025-11-17 01:23:42 phase5 21720 13548 [PHASE5] Received valid final_analysis from batch 5
+INFO 2025-11-17 01:23:42 phase5 21720 13548 [PHASE5] Analysis batch 6: mappings 40-47
+INFO 2025-11-17 01:23:45 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 8
+INFO 2025-11-17 01:23:45 phase5 21720 29320 [PHASE5] Analysis batch 9: mappings 64-71
+INFO 2025-11-17 01:23:46 phase5 21720 13548 [PHASE5] Received valid final_analysis from batch 6
+INFO 2025-11-17 01:23:46 phase5 21720 13548 [PHASE5] Analysis batch 7: mappings 48-55
+INFO 2025-11-17 01:23:48 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 9
+INFO 2025-11-17 01:23:48 phase5 21720 29320 [PHASE5] Analysis batch 10: mappings 72-79
+INFO 2025-11-17 01:23:49 phase5 21720 13548 [PHASE5] Received valid final_analysis from batch 7
+INFO 2025-11-17 01:23:49 phase5 21720 13548 [PHASE5] COMPLETE. Final analysis stored for task 19
+INFO 2025-11-17 01:23:51 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 10
+INFO 2025-11-17 01:23:51 phase5 21720 29320 [PHASE5] Analysis batch 11: mappings 80-87
+INFO 2025-11-17 01:23:54 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 11
+INFO 2025-11-17 01:23:54 phase5 21720 29320 [PHASE5] Analysis batch 12: mappings 88-95
+INFO 2025-11-17 01:23:57 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 12
+INFO 2025-11-17 01:23:57 phase5 21720 29320 [PHASE5] Analysis batch 13: mappings 96-103
+INFO 2025-11-17 01:24:00 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 13
+INFO 2025-11-17 01:24:00 phase5 21720 29320 [PHASE5] Analysis batch 14: mappings 104-111
+INFO 2025-11-17 01:24:04 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 14
+INFO 2025-11-17 01:24:04 phase5 21720 29320 [PHASE5] Analysis batch 15: mappings 112-119
+INFO 2025-11-17 01:24:07 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 15
+INFO 2025-11-17 01:24:07 phase5 21720 29320 [PHASE5] Analysis batch 16: mappings 120-127
+INFO 2025-11-17 01:24:10 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 16
+INFO 2025-11-17 01:24:10 phase5 21720 29320 [PHASE5] Analysis batch 17: mappings 128-135
+INFO 2025-11-17 01:24:14 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 17
+INFO 2025-11-17 01:24:14 phase5 21720 29320 [PHASE5] Analysis batch 18: mappings 136-143
+INFO 2025-11-17 01:24:18 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 18
+INFO 2025-11-17 01:24:18 phase5 21720 29320 [PHASE5] Analysis batch 19: mappings 144-151
+INFO 2025-11-17 01:24:21 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 19
+INFO 2025-11-17 01:24:21 phase5 21720 29320 [PHASE5] Analysis batch 20: mappings 152-159
+INFO 2025-11-17 01:24:25 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 20
+INFO 2025-11-17 01:24:25 phase5 21720 29320 [PHASE5] Analysis batch 21: mappings 160-167
+INFO 2025-11-17 01:24:28 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 21
+INFO 2025-11-17 01:24:28 phase5 21720 29320 [PHASE5] Analysis batch 22: mappings 168-169
+INFO 2025-11-17 01:24:30 phase5 21720 29320 [PHASE5] Received valid final_analysis from batch 22
+INFO 2025-11-17 01:24:30 phase5 21720 29320 [PHASE5] COMPLETE. Final analysis stored for task 1
+INFO 2025-11-17 01:25:22 apps 28096 27096 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:25:23 llm_service 28096 27096 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:25:23 apps 28096 27096 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:33:40 apps 14824 24148 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:33:41 llm_service 14824 24148 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:33:41 apps 14824 24148 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:33:58 apps 13780 8184 [OK] Pipeline app ready with LLM service initialized
+ERROR 2025-11-17 01:34:00 llm_service 13780 8184 Failed to initialize LLM: No supported Azure OpenAI client found. Install `openai` or `azure-ai-openai` packages.
+INFO 2025-11-17 01:44:18 apps 22456 29336 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:44:18 llm_service 22456 29336 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:44:18 apps 22456 29336 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:44:19 apps 22768 24384 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:44:19 llm_service 22768 24384 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:44:19 apps 22768 24384 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:48:22 apps 30816 9292 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:48:22 apps 21056 22944 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:48:22 llm_service 30816 9292 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:48:22 apps 30816 9292 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:48:22 llm_service 21056 22944 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:48:22 apps 21056 22944 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:50:09 phase5 30816 16820 [PHASE5] Starting for task 1
+INFO 2025-11-17 01:50:09 phase5 30816 16820 [PHASE5] Preparing analysis for 17 vendors and 170 mappings
+INFO 2025-11-17 01:50:09 phase5 30816 16820 [PHASE5] Analysis batch 1: mappings 0-7
+INFO 2025-11-17 01:50:14 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 1
+INFO 2025-11-17 01:50:14 phase5 30816 16820 [PHASE5] Analysis batch 2: mappings 8-15
+INFO 2025-11-17 01:50:17 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 2
+INFO 2025-11-17 01:50:17 phase5 30816 16820 [PHASE5] Analysis batch 3: mappings 16-23
+INFO 2025-11-17 01:50:21 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 3
+INFO 2025-11-17 01:50:21 phase5 30816 16820 [PHASE5] Analysis batch 4: mappings 24-31
+INFO 2025-11-17 01:50:24 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 4
+INFO 2025-11-17 01:50:24 phase5 30816 16820 [PHASE5] Analysis batch 5: mappings 32-39
+INFO 2025-11-17 01:50:27 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 5
+INFO 2025-11-17 01:50:27 phase5 30816 16820 [PHASE5] Analysis batch 6: mappings 40-47
+INFO 2025-11-17 01:50:31 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 6
+INFO 2025-11-17 01:50:31 phase5 30816 16820 [PHASE5] Analysis batch 7: mappings 48-55
+INFO 2025-11-17 01:50:34 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 7
+INFO 2025-11-17 01:50:34 phase5 30816 16820 [PHASE5] Analysis batch 8: mappings 56-63
+INFO 2025-11-17 01:50:38 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 8
+INFO 2025-11-17 01:50:38 phase5 30816 16820 [PHASE5] Analysis batch 9: mappings 64-71
+INFO 2025-11-17 01:50:41 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 9
+INFO 2025-11-17 01:50:41 phase5 30816 16820 [PHASE5] Analysis batch 10: mappings 72-79
+INFO 2025-11-17 01:50:44 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 10
+INFO 2025-11-17 01:50:44 phase5 30816 16820 [PHASE5] Analysis batch 11: mappings 80-87
+INFO 2025-11-17 01:50:47 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 11
+INFO 2025-11-17 01:50:47 phase5 30816 16820 [PHASE5] Analysis batch 12: mappings 88-95
+INFO 2025-11-17 01:50:51 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 12
+INFO 2025-11-17 01:50:51 phase5 30816 16820 [PHASE5] Analysis batch 13: mappings 96-103
+INFO 2025-11-17 01:50:54 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 13
+INFO 2025-11-17 01:50:54 phase5 30816 16820 [PHASE5] Analysis batch 14: mappings 104-111
+INFO 2025-11-17 01:50:58 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 14
+INFO 2025-11-17 01:50:58 phase5 30816 16820 [PHASE5] Analysis batch 15: mappings 112-119
+INFO 2025-11-17 01:51:01 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 15
+INFO 2025-11-17 01:51:01 phase5 30816 16820 [PHASE5] Analysis batch 16: mappings 120-127
+INFO 2025-11-17 01:51:08 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 16
+INFO 2025-11-17 01:51:08 phase5 30816 16820 [PHASE5] Analysis batch 17: mappings 128-135
+INFO 2025-11-17 01:51:11 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 17
+INFO 2025-11-17 01:51:11 phase5 30816 16820 [PHASE5] Analysis batch 18: mappings 136-143
+INFO 2025-11-17 01:51:15 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 18
+INFO 2025-11-17 01:51:15 phase5 30816 16820 [PHASE5] Analysis batch 19: mappings 144-151
+INFO 2025-11-17 01:51:18 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 19
+INFO 2025-11-17 01:51:18 phase5 30816 16820 [PHASE5] Analysis batch 20: mappings 152-159
+INFO 2025-11-17 01:51:21 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 20
+INFO 2025-11-17 01:51:21 phase5 30816 16820 [PHASE5] Analysis batch 21: mappings 160-167
+INFO 2025-11-17 01:51:24 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 21
+INFO 2025-11-17 01:51:24 phase5 30816 16820 [PHASE5] Analysis batch 22: mappings 168-169
+INFO 2025-11-17 01:51:27 phase5 30816 16820 [PHASE5] Received valid final_analysis from batch 22
+INFO 2025-11-17 01:51:27 phase5 30816 16820 [PHASE5] COMPLETE. Final analysis stored for task 1
+INFO 2025-11-17 01:56:39 apps 5392 24732 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:56:39 apps 30028 19260 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 01:56:39 llm_service 5392 24732 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:56:39 apps 5392 24732 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 01:56:39 llm_service 30028 19260 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 01:56:39 apps 30028 19260 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 02:03:18 apps 25404 1232 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 02:03:18 llm_service 25404 1232 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 02:03:18 apps 25404 1232 [OK] Azure OpenAI LLM service initialized
+INFO 2025-11-17 02:03:19 apps 4072 3848 [OK] Pipeline app ready with LLM service initialized
+INFO 2025-11-17 02:03:20 llm_service 4072 3848 Using `openai.AzureOpenAI` as client (openai package)
+INFO 2025-11-17 02:03:20 apps 4072 3848 [OK] Azure OpenAI LLM service initialized

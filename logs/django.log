@@ -1,0 +1,1700 @@
+INFO 2025-11-14 12:22:18 autoreload 12716 20284 Watching for file changes with StatReloader
+INFO 2025-11-14 12:25:09 autoreload 12716 20284 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-14 12:25:11 autoreload 14348 19236 Watching for file changes with StatReloader
+INFO 2025-11-14 12:25:26 autoreload 14348 19236 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-14 12:25:29 autoreload 17000 4964 Watching for file changes with StatReloader
+INFO 2025-11-14 12:32:24 autoreload 10612 16664 Watching for file changes with StatReloader
+INFO 2025-11-14 12:35:35 autoreload 6908 22320 Watching for file changes with StatReloader
+INFO 2025-11-14 12:44:24 autoreload 4180 6620 Watching for file changes with StatReloader
+INFO 2025-11-14 12:48:13 autoreload 4180 6620 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\services\vendor_validator.py changed, reloading.
+INFO 2025-11-14 12:48:15 autoreload 24348 17664 Watching for file changes with StatReloader
+INFO 2025-11-14 12:49:14 autoreload 24348 17664 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\services\vendor_validator.py changed, reloading.
+INFO 2025-11-14 12:49:16 autoreload 20764 24460 Watching for file changes with StatReloader
+INFO 2025-11-14 12:49:25 autoreload 10716 19120 Watching for file changes with StatReloader
+ERROR 2025-11-14 12:50:27 log 10716 20752 Internal Server Error: /api/tasks/
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'vendor_pipeline.exception_handler'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 463, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 225, in __getattr__
+    val = perform_import(val, attr)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'vendor_pipeline.exception_handler.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'vendor_pipeline.exception_handler'.
+ERROR 2025-11-14 12:50:27 basehttp 10716 20752 "GET /api/tasks/ HTTP/1.1" 500 144274
+INFO 2025-11-14 12:55:05 autoreload 25312 23584 Watching for file changes with StatReloader
+ERROR 2025-11-14 12:55:15 log 25312 9376 Internal Server Error: /api/tasks/
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'vendor_pipeline.exception_handler'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 463, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 225, in __getattr__
+    val = perform_import(val, attr)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'vendor_pipeline.exception_handler.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'vendor_pipeline.exception_handler'.
+ERROR 2025-11-14 12:55:15 basehttp 25312 9376 "GET /api/tasks/ HTTP/1.1" 500 144274
+ERROR 2025-11-14 12:55:21 log 25312 14648 Internal Server Error: /api/tasks/
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 333, in check_permissions
+    self.permission_denied(
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 174, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'vendor_pipeline.exception_handler'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\harji\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 463, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 225, in __getattr__
+    val = perform_import(val, attr)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "D:\vendor-pipeline-production\vendor_pipeline_django\venv\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'vendor_pipeline.exception_handler.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'vendor_pipeline.exception_handler'.
+ERROR 2025-11-14 12:55:21 basehttp 25312 14648 "POST /api/tasks/ HTTP/1.1" 500 144295
+INFO 2025-11-14 12:58:30 autoreload 25312 23584 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-14 12:58:33 autoreload 26320 24376 Watching for file changes with StatReloader
+INFO 2025-11-14 13:01:18 autoreload 26320 24376 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-14 13:01:22 autoreload 19788 25708 Watching for file changes with StatReloader
+WARNING 2025-11-14 13:07:15 log 19788 5460 Unauthorized: /api/tasks/
+WARNING 2025-11-14 13:07:15 basehttp 19788 5460 "GET /api/tasks/ HTTP/1.1" 401 58
+WARNING 2025-11-14 13:07:42 log 19788 25960 Unauthorized: /api/tasks/
+WARNING 2025-11-14 13:07:42 basehttp 19788 25960 "GET /api/tasks/ HTTP/1.1" 401 58
+INFO 2025-11-14 14:21:56 autoreload 19788 25708 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-14 14:21:58 autoreload 5376 436 Watching for file changes with StatReloader
+INFO 2025-11-14 14:29:46 autoreload 5376 436 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-14 14:29:48 autoreload 31436 10216 Watching for file changes with StatReloader
+INFO 2025-11-14 15:08:51 autoreload 31436 10216 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase1.py changed, reloading.
+INFO 2025-11-14 15:08:53 autoreload 28300 25088 Watching for file changes with StatReloader
+WARNING 2025-11-14 15:09:15 log 28300 27012 Unauthorized: /api/tasks/1/phase1/
+WARNING 2025-11-14 15:09:15 basehttp 28300 27012 "POST /api/tasks/1/phase1/ HTTP/1.1" 401 58
+WARNING 2025-11-14 15:11:17 log 28300 27700 Unauthorized: /api/tasks/
+WARNING 2025-11-14 15:11:17 basehttp 28300 27700 "GET /api/tasks/ HTTP/1.1" 401 58
+WARNING 2025-11-14 15:11:19 log 28300 27700 Not Found: /favicon.ico
+WARNING 2025-11-14 15:11:19 basehttp 28300 27700 "GET /favicon.ico HTTP/1.1" 404 2223
+INFO 2025-11-14 15:12:04 autoreload 2932 33260 Watching for file changes with StatReloader
+INFO 2025-11-14 15:14:25 autoreload 2932 33260 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-14 15:14:27 autoreload 25616 32344 Watching for file changes with StatReloader
+INFO 2025-11-14 15:19:38 autoreload 25616 32344 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-14 15:19:40 autoreload 27004 12952 Watching for file changes with StatReloader
+ERROR 2025-11-14 15:20:54 log 27004 29272 Internal Server Error: /api/tasks/1/phase1/
+ERROR 2025-11-14 15:20:54 basehttp 27004 29272 "POST /api/tasks/1/phase1/ HTTP/1.1" 500 124
+INFO 2025-11-14 15:56:23 autoreload 22916 27920 Watching for file changes with StatReloader
+WARNING 2025-11-14 15:57:21 log 22916 25136 Bad Request: /api/tasks/
+WARNING 2025-11-14 15:57:21 basehttp 22916 25136 "POST /api/tasks/ HTTP/1.1" 400 86
+ERROR 2025-11-14 15:57:21 log 22916 18264 Internal Server Error: /api/tasks/1/phase1/
+ERROR 2025-11-14 15:57:21 basehttp 22916 18264 "POST /api/tasks/1/phase1/ HTTP/1.1" 500 124
+ERROR 2025-11-14 15:57:22 log 22916 25292 Internal Server Error: /api/tasks/1/phase2/
+ERROR 2025-11-14 15:57:22 basehttp 22916 25292 "POST /api/tasks/1/phase2/ HTTP/1.1" 500 124
+ERROR 2025-11-14 15:57:22 log 22916 25700 Internal Server Error: /api/tasks/1/phase3/
+ERROR 2025-11-14 15:57:22 basehttp 22916 25700 "POST /api/tasks/1/phase3/ HTTP/1.1" 500 124
+ERROR 2025-11-14 15:57:22 log 22916 31296 Internal Server Error: /api/tasks/1/phase4/
+ERROR 2025-11-14 15:57:22 basehttp 22916 31296 "POST /api/tasks/1/phase4/ HTTP/1.1" 500 124
+ERROR 2025-11-14 15:57:23 log 22916 26772 Internal Server Error: /api/tasks/1/phase5/
+ERROR 2025-11-14 15:57:23 basehttp 22916 26772 "POST /api/tasks/1/phase5/ HTTP/1.1" 500 124
+ERROR 2025-11-14 15:57:23 log 22916 24300 Internal Server Error: /api/tasks/1/report/
+ERROR 2025-11-14 15:57:23 basehttp 22916 24300 "GET /api/tasks/1/report/ HTTP/1.1" 500 124
+INFO 2025-11-14 16:04:13 autoreload 22916 27920 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase1.py changed, reloading.
+INFO 2025-11-14 16:04:15 autoreload 30608 3832 Watching for file changes with StatReloader
+INFO 2025-11-14 16:04:55 autoreload 30608 3832 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 16:04:57 autoreload 32360 29468 Watching for file changes with StatReloader
+ERROR 2025-11-14 16:34:01 log 32360 17820 Internal Server Error: /api/tasks/
+ERROR 2025-11-14 16:34:01 basehttp 32360 17820 "POST /api/tasks/ HTTP/1.1" 500 124
+INFO 2025-11-14 16:34:20 autoreload 15748 28660 Watching for file changes with StatReloader
+ERROR 2025-11-14 16:34:26 log 15748 32564 Internal Server Error: /api/tasks/
+ERROR 2025-11-14 16:34:26 basehttp 15748 32564 "POST /api/tasks/ HTTP/1.1" 500 124
+ERROR 2025-11-14 16:34:41 log 15748 27572 Internal Server Error: /api/tasks/1/phase1/
+ERROR 2025-11-14 16:34:41 basehttp 15748 27572 "POST /api/tasks/1/phase1/ HTTP/1.1" 500 124
+ERROR 2025-11-14 16:34:44 log 15748 30464 Internal Server Error: /api/tasks/1/phase2/
+ERROR 2025-11-14 16:34:44 basehttp 15748 30464 "POST /api/tasks/1/phase2/ HTTP/1.1" 500 124
+ERROR 2025-11-14 16:34:47 log 15748 3788 Internal Server Error: /api/tasks/1/phase3/
+ERROR 2025-11-14 16:34:47 basehttp 15748 3788 "POST /api/tasks/1/phase3/ HTTP/1.1" 500 124
+ERROR 2025-11-14 16:34:48 log 15748 32072 Internal Server Error: /api/tasks/1/phase4/
+ERROR 2025-11-14 16:34:48 basehttp 15748 32072 "POST /api/tasks/1/phase4/ HTTP/1.1" 500 124
+ERROR 2025-11-14 16:34:50 log 15748 3132 Internal Server Error: /api/tasks/1/phase5/
+ERROR 2025-11-14 16:34:50 basehttp 15748 3132 "POST /api/tasks/1/phase5/ HTTP/1.1" 500 124
+INFO 2025-11-14 16:50:50 autoreload 32808 24900 Watching for file changes with StatReloader
+ERROR 2025-11-14 16:51:42 log 32808 25260 Internal Server Error: /api/tasks/
+ERROR 2025-11-14 16:51:42 basehttp 32808 25260 "POST /api/tasks/ HTTP/1.1" 500 124
+INFO 2025-11-14 17:22:39 autoreload 32808 24900 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\models.py changed, reloading.
+INFO 2025-11-14 17:22:41 autoreload 30596 33420 Watching for file changes with StatReloader
+INFO 2025-11-14 17:23:19 autoreload 30596 33420 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\migrations\0001_initial.py changed, reloading.
+INFO 2025-11-14 17:23:21 autoreload 14416 17016 Watching for file changes with StatReloader
+INFO 2025-11-14 17:36:43 autoreload 14416 17016 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-14 17:41:56 autoreload 26324 26468 Watching for file changes with StatReloader
+INFO 2025-11-14 17:42:05 basehttp 26324 1752 "POST /api/tasks/ HTTP/1.1" 201 240
+WARNING 2025-11-14 17:54:47 log 26324 27704 Bad Request: /api/tasks/1/phase1/
+WARNING 2025-11-14 17:54:47 basehttp 26324 27704 "POST /api/tasks/1/phase1/ HTTP/1.1" 400 62
+WARNING 2025-11-14 17:54:51 log 26324 29200 Bad Request: /api/tasks/1/phase2/
+WARNING 2025-11-14 17:54:51 basehttp 26324 29200 "POST /api/tasks/1/phase2/ HTTP/1.1" 400 62
+WARNING 2025-11-14 17:54:54 log 26324 3124 Bad Request: /api/tasks/1/phase3/
+WARNING 2025-11-14 17:54:54 basehttp 26324 3124 "POST /api/tasks/1/phase3/ HTTP/1.1" 400 87
+WARNING 2025-11-14 17:54:56 log 26324 32856 Bad Request: /api/tasks/1/phase4/
+WARNING 2025-11-14 17:54:56 basehttp 26324 32856 "POST /api/tasks/1/phase4/ HTTP/1.1" 400 87
+WARNING 2025-11-14 17:54:57 log 26324 24100 Bad Request: /api/tasks/1/phase5/
+WARNING 2025-11-14 17:54:57 basehttp 26324 24100 "POST /api/tasks/1/phase5/ HTTP/1.1" 400 87
+INFO 2025-11-14 17:59:58 autoreload 26324 26468 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase1.py changed, reloading.
+INFO 2025-11-14 17:59:59 autoreload 29128 1664 Watching for file changes with StatReloader
+INFO 2025-11-14 18:00:03 autoreload 29128 1664 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase1.py changed, reloading.
+INFO 2025-11-14 18:00:04 autoreload 21308 11976 Watching for file changes with StatReloader
+INFO 2025-11-14 18:00:14 autoreload 21308 11976 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase1.py changed, reloading.
+INFO 2025-11-14 18:00:16 autoreload 28416 9208 Watching for file changes with StatReloader
+INFO 2025-11-14 18:00:20 autoreload 28416 9208 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-14 18:00:22 autoreload 30428 27440 Watching for file changes with StatReloader
+INFO 2025-11-14 18:00:25 autoreload 30428 27440 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 18:00:27 autoreload 23176 8724 Watching for file changes with StatReloader
+INFO 2025-11-14 18:00:31 autoreload 23176 8724 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 18:00:33 autoreload 30812 19564 Watching for file changes with StatReloader
+INFO 2025-11-14 18:00:43 autoreload 30812 19564 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 18:00:44 autoreload 31100 4436 Watching for file changes with StatReloader
+INFO 2025-11-14 18:00:48 autoreload 31100 4436 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 18:00:49 autoreload 31528 29788 Watching for file changes with StatReloader
+INFO 2025-11-14 18:00:55 autoreload 31528 29788 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py changed, reloading.
+INFO 2025-11-14 18:00:57 autoreload 32748 1796 Watching for file changes with StatReloader
+INFO 2025-11-14 18:01:03 autoreload 32748 1796 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py changed, reloading.
+INFO 2025-11-14 18:01:05 autoreload 13488 30136 Watching for file changes with StatReloader
+INFO 2025-11-14 18:02:11 autoreload 13488 30136 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 18:02:13 autoreload 26224 24712 Watching for file changes with StatReloader
+INFO 2025-11-14 18:02:15 autoreload 26224 24712 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 18:02:17 autoreload 24220 24664 Watching for file changes with StatReloader
+INFO 2025-11-14 18:02:21 autoreload 24220 24664 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 18:02:23 autoreload 30668 31524 Watching for file changes with StatReloader
+INFO 2025-11-14 18:02:32 autoreload 30668 31524 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 18:02:33 autoreload 13564 33292 Watching for file changes with StatReloader
+INFO 2025-11-14 18:02:36 autoreload 13564 33292 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 18:02:37 autoreload 28928 26016 Watching for file changes with StatReloader
+INFO 2025-11-14 18:02:42 autoreload 28928 26016 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 18:02:44 autoreload 26500 29580 Watching for file changes with StatReloader
+INFO 2025-11-14 18:02:46 autoreload 26500 29580 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 18:02:47 autoreload 24020 31592 Watching for file changes with StatReloader
+INFO 2025-11-14 18:02:53 autoreload 24020 31592 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 18:02:55 autoreload 23612 13728 Watching for file changes with StatReloader
+INFO 2025-11-14 18:03:56 autoreload 23612 13728 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 18:03:58 autoreload 31324 4228 Watching for file changes with StatReloader
+INFO 2025-11-14 18:04:00 autoreload 31324 4228 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 18:04:02 autoreload 11524 1844 Watching for file changes with StatReloader
+INFO 2025-11-14 18:05:53 autoreload 11524 1844 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 18:05:55 autoreload 22896 10696 Watching for file changes with StatReloader
+INFO 2025-11-14 22:18:29 autoreload 5844 11564 Watching for file changes with StatReloader
+INFO 2025-11-14 22:19:04 basehttp 5844 20968 "POST /api/tasks/ HTTP/1.1" 201 240
+WARNING 2025-11-14 22:19:09 log 5844 992 Bad Request: /api/tasks/1/phase1/
+WARNING 2025-11-14 22:19:09 basehttp 5844 992 "POST /api/tasks/1/phase1/ HTTP/1.1" 400 68
+WARNING 2025-11-14 22:19:12 log 5844 33136 Bad Request: /api/tasks/1/phase2/
+WARNING 2025-11-14 22:19:12 basehttp 5844 33136 "POST /api/tasks/1/phase2/ HTTP/1.1" 400 51
+WARNING 2025-11-14 22:19:13 log 5844 33748 Bad Request: /api/tasks/1/phase3/
+WARNING 2025-11-14 22:19:13 basehttp 5844 33748 "POST /api/tasks/1/phase3/ HTTP/1.1" 400 87
+WARNING 2025-11-14 22:19:14 log 5844 9204 Bad Request: /api/tasks/1/phase4/
+WARNING 2025-11-14 22:19:14 basehttp 5844 9204 "POST /api/tasks/1/phase4/ HTTP/1.1" 400 47
+WARNING 2025-11-14 22:19:15 log 5844 14644 Bad Request: /api/tasks/1/phase5/
+WARNING 2025-11-14 22:19:15 basehttp 5844 14644 "POST /api/tasks/1/phase5/ HTTP/1.1" 400 24
+INFO 2025-11-14 22:19:22 basehttp 5844 9888 "POST /api/tasks/ HTTP/1.1" 201 240
+WARNING 2025-11-14 22:19:24 log 5844 23800 Bad Request: /api/tasks/1/phase1/
+WARNING 2025-11-14 22:19:24 basehttp 5844 23800 "POST /api/tasks/1/phase1/ HTTP/1.1" 400 68
+WARNING 2025-11-14 22:19:25 log 5844 26588 Bad Request: /api/tasks/1/phase2/
+WARNING 2025-11-14 22:19:25 basehttp 5844 26588 "POST /api/tasks/1/phase2/ HTTP/1.1" 400 51
+WARNING 2025-11-14 22:19:27 log 5844 26312 Bad Request: /api/tasks/1/phase3/
+WARNING 2025-11-14 22:19:27 basehttp 5844 26312 "POST /api/tasks/1/phase3/ HTTP/1.1" 400 87
+WARNING 2025-11-14 22:19:28 log 5844 33600 Bad Request: /api/tasks/1/phase4/
+WARNING 2025-11-14 22:19:28 basehttp 5844 33600 "POST /api/tasks/1/phase4/ HTTP/1.1" 400 47
+WARNING 2025-11-14 22:19:29 log 5844 34128 Bad Request: /api/tasks/1/phase5/
+WARNING 2025-11-14 22:19:29 basehttp 5844 34128 "POST /api/tasks/1/phase5/ HTTP/1.1" 400 24
+INFO 2025-11-14 22:21:09 autoreload 5844 11564 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 22:21:11 autoreload 28064 20228 Watching for file changes with StatReloader
+INFO 2025-11-14 22:21:14 autoreload 28064 20228 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py changed, reloading.
+INFO 2025-11-14 22:21:15 autoreload 25328 23680 Watching for file changes with StatReloader
+INFO 2025-11-14 22:21:21 autoreload 25328 23680 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py changed, reloading.
+INFO 2025-11-14 22:21:22 autoreload 26816 28172 Watching for file changes with StatReloader
+INFO 2025-11-14 22:21:29 autoreload 26816 28172 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 22:21:30 autoreload 9424 30660 Watching for file changes with StatReloader
+INFO 2025-11-14 22:21:35 autoreload 9424 30660 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 22:21:36 autoreload 21160 7116 Watching for file changes with StatReloader
+INFO 2025-11-14 22:24:12 basehttp 21160 30496 "POST /api/tasks/ HTTP/1.1" 201 240
+WARNING 2025-11-14 22:24:18 log 21160 30496 Bad Request: /api/tasks/5/phase1/
+WARNING 2025-11-14 22:24:18 basehttp 21160 30496 "POST /api/tasks/5/phase1/ HTTP/1.1" 400 68
+INFO 2025-11-14 22:24:25 autoreload 21160 7116 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\serializers.py changed, reloading.
+INFO 2025-11-14 22:24:26 autoreload 31480 23176 Watching for file changes with StatReloader
+INFO 2025-11-14 22:24:33 basehttp 31480 8324 "POST /api/tasks/5/phase1/ HTTP/1.1" 200 559
+INFO 2025-11-14 22:24:48 basehttp 31480 8324 "POST /api/tasks/5/phase2/ HTTP/1.1" 200 559
+INFO 2025-11-14 22:25:07 autoreload 31480 23176 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 22:25:08 autoreload 25760 26124 Watching for file changes with StatReloader
+WARNING 2025-11-14 22:25:09 log 25760 27152 Bad Request: /api/tasks/5/phase3/
+WARNING 2025-11-14 22:25:09 basehttp 25760 27152 "POST /api/tasks/5/phase3/ HTTP/1.1" 400 87
+INFO 2025-11-14 22:25:26 autoreload 25760 26124 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py changed, reloading.
+INFO 2025-11-14 22:25:27 autoreload 24460 19640 Watching for file changes with StatReloader
+INFO 2025-11-14 22:25:32 autoreload 24460 19640 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 22:25:33 autoreload 27344 33812 Watching for file changes with StatReloader
+INFO 2025-11-14 22:25:38 autoreload 27344 33812 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 22:25:39 autoreload 34524 29764 Watching for file changes with StatReloader
+INFO 2025-11-14 22:29:17 autoreload 34524 29764 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py changed, reloading.
+INFO 2025-11-14 22:29:18 autoreload 21088 23616 Watching for file changes with StatReloader
+WARNING 2025-11-14 22:29:20 log 21088 10444 Bad Request: /api/tasks/5/phase3/
+WARNING 2025-11-14 22:29:20 basehttp 21088 10444 "POST /api/tasks/5/phase3/ HTTP/1.1" 400 87
+INFO 2025-11-14 22:29:44 autoreload 21088 23616 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-14 22:29:46 autoreload 27068 25452 Watching for file changes with StatReloader
+INFO 2025-11-14 22:29:50 autoreload 27068 25452 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-14 22:29:51 autoreload 26788 21756 Watching for file changes with StatReloader
+INFO 2025-11-14 22:29:56 autoreload 26788 21756 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-14 22:29:57 autoreload 23436 21208 Watching for file changes with StatReloader
+INFO 2025-11-14 22:30:01 autoreload 23436 21208 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-14 22:30:03 autoreload 18768 10696 Watching for file changes with StatReloader
+INFO 2025-11-14 22:30:07 autoreload 18768 10696 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-14 22:30:08 autoreload 7208 27508 Watching for file changes with StatReloader
+INFO 2025-11-14 22:30:13 autoreload 7208 27508 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-14 22:30:15 autoreload 14876 1796 Watching for file changes with StatReloader
+INFO 2025-11-14 22:30:18 autoreload 14876 1796 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-14 22:30:20 autoreload 33028 34400 Watching for file changes with StatReloader
+INFO 2025-11-14 22:30:39 autoreload 33028 34400 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-14 22:30:40 autoreload 8768 1764 Watching for file changes with StatReloader
+INFO 2025-11-14 22:30:41 basehttp 8768 18744 "POST /api/tasks/5/phase3/ HTTP/1.1" 200 524
+INFO 2025-11-14 22:30:55 autoreload 8768 1764 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py changed, reloading.
+INFO 2025-11-14 22:30:56 autoreload 27932 12696 Watching for file changes with StatReloader
+INFO 2025-11-14 22:30:58 autoreload 27932 12696 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py changed, reloading.
+INFO 2025-11-14 22:30:59 autoreload 28916 33300 Watching for file changes with StatReloader
+INFO 2025-11-14 22:31:02 autoreload 28916 33300 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 22:31:03 autoreload 24224 24492 Watching for file changes with StatReloader
+INFO 2025-11-14 22:31:09 autoreload 24224 24492 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 22:31:11 autoreload 14024 16788 Watching for file changes with StatReloader
+INFO 2025-11-14 22:31:43 basehttp 14024 11304 "POST /api/tasks/5/phase3/ HTTP/1.1" 200 1154
+INFO 2025-11-14 22:31:49 basehttp 14024 11304 "POST /api/tasks/5/phase4/ HTTP/1.1" 200 1154
+INFO 2025-11-14 22:31:55 basehttp 14024 11304 "POST /api/tasks/5/phase5/ HTTP/1.1" 200 1451
+INFO 2025-11-14 22:32:26 basehttp 14024 11304 "POST /api/tasks/ HTTP/1.1" 201 280
+INFO 2025-11-14 22:32:37 basehttp 14024 11304 "POST /api/tasks/6/phase1/ HTTP/1.1" 200 545
+INFO 2025-11-14 22:32:37 basehttp 14024 11304 "POST /api/tasks/6/phase2/ HTTP/1.1" 200 545
+INFO 2025-11-14 22:32:37 basehttp 14024 11304 "POST /api/tasks/6/phase3/ HTTP/1.1" 200 1169
+INFO 2025-11-14 22:32:37 basehttp 14024 11304 "POST /api/tasks/6/phase4/ HTTP/1.1" 200 1169
+INFO 2025-11-14 22:32:37 basehttp 14024 11304 "POST /api/tasks/6/phase5/ HTTP/1.1" 200 1466
+INFO 2025-11-14 22:32:40 basehttp 14024 11304 "POST /api/tasks/6/phase1/ HTTP/1.1" 200 1468
+INFO 2025-11-14 22:33:35 basehttp 14024 18684 "POST /api/tasks/ HTTP/1.1" 201 240
+INFO 2025-11-14 22:33:41 basehttp 14024 28376 "POST /api/tasks/1/phase1/ HTTP/1.1" 200 761
+INFO 2025-11-14 22:33:52 basehttp 14024 20740 "POST /api/tasks/1/phase2/ HTTP/1.1" 200 761
+INFO 2025-11-14 22:33:55 basehttp 14024 22308 "POST /api/tasks/1/phase3/ HTTP/1.1" 200 1388
+INFO 2025-11-14 22:33:57 basehttp 14024 14452 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 1388
+INFO 2025-11-14 22:33:59 basehttp 14024 13572 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 1688
+INFO 2025-11-14 22:43:28 autoreload 14024 16788 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase1.py changed, reloading.
+INFO 2025-11-14 22:43:30 autoreload 27736 7336 Watching for file changes with StatReloader
+INFO 2025-11-14 22:43:43 autoreload 27736 7336 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase1.py changed, reloading.
+INFO 2025-11-14 22:43:45 autoreload 31168 27120 Watching for file changes with StatReloader
+INFO 2025-11-14 22:44:15 autoreload 31168 27120 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 22:44:17 autoreload 33940 31004 Watching for file changes with StatReloader
+INFO 2025-11-14 22:44:51 autoreload 33940 31004 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 22:44:52 autoreload 32628 29944 Watching for file changes with StatReloader
+INFO 2025-11-14 22:45:00 autoreload 32628 29944 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 22:45:01 autoreload 9308 33152 Watching for file changes with StatReloader
+INFO 2025-11-14 22:45:03 autoreload 9308 33152 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 22:45:05 autoreload 31688 28452 Watching for file changes with StatReloader
+INFO 2025-11-14 22:45:07 autoreload 31688 28452 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 22:45:08 autoreload 14312 30864 Watching for file changes with StatReloader
+INFO 2025-11-14 22:45:27 autoreload 14312 30864 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 22:45:28 autoreload 29040 26800 Watching for file changes with StatReloader
+INFO 2025-11-14 23:06:52 autoreload 29040 26800 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 23:06:53 autoreload 30436 16044 Watching for file changes with StatReloader
+INFO 2025-11-14 23:06:56 autoreload 30436 16044 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 23:06:57 autoreload 19832 27460 Watching for file changes with StatReloader
+INFO 2025-11-14 23:14:29 autoreload 19832 27460 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 23:14:30 autoreload 29552 15980 Watching for file changes with StatReloader
+INFO 2025-11-14 23:15:54 autoreload 29552 15980 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 23:15:56 autoreload 28740 9972 Watching for file changes with StatReloader
+INFO 2025-11-14 23:16:01 autoreload 28740 9972 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py changed, reloading.
+INFO 2025-11-14 23:16:02 autoreload 19464 19196 Watching for file changes with StatReloader
+INFO 2025-11-14 23:16:14 autoreload 19464 19196 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase3.py changed, reloading.
+INFO 2025-11-14 23:16:16 autoreload 26788 34152 Watching for file changes with StatReloader
+INFO 2025-11-14 23:16:46 autoreload 26788 34152 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase1.py changed, reloading.
+INFO 2025-11-14 23:16:47 autoreload 27396 17084 Watching for file changes with StatReloader
+INFO 2025-11-14 23:17:03 autoreload 27396 17084 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 23:17:04 autoreload 25292 2556 Watching for file changes with StatReloader
+INFO 2025-11-14 23:17:15 autoreload 25292 2556 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 23:17:17 autoreload 27944 33828 Watching for file changes with StatReloader
+INFO 2025-11-14 23:20:29 autoreload 27944 33828 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 23:20:31 autoreload 30016 32924 Watching for file changes with StatReloader
+INFO 2025-11-14 23:21:09 autoreload 30016 32924 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 23:21:10 autoreload 3532 28136 Watching for file changes with StatReloader
+INFO 2025-11-14 23:21:22 autoreload 3532 28136 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase2.py changed, reloading.
+INFO 2025-11-14 23:21:23 autoreload 5976 25888 Watching for file changes with StatReloader
+INFO 2025-11-14 23:21:32 autoreload 5976 25888 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-14 23:21:33 autoreload 26196 19636 Watching for file changes with StatReloader
+INFO 2025-11-14 23:21:48 autoreload 26196 19636 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 23:21:49 autoreload 17228 15776 Watching for file changes with StatReloader
+INFO 2025-11-14 23:28:37 autoreload 17228 15776 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-14 23:28:38 autoreload 31464 20860 Watching for file changes with StatReloader
+INFO 2025-11-15 09:39:22 basehttp 31464 21520 "POST /api/tasks/ HTTP/1.1" 201 240
+INFO 2025-11-15 09:39:24 basehttp 31464 24184 "POST /api/tasks/1/phase1/ HTTP/1.1" 200 1732
+INFO 2025-11-15 09:39:30 basehttp 31464 27956 "POST /api/tasks/1/phase2/ HTTP/1.1" 200 1717
+INFO 2025-11-15 09:39:33 basehttp 31464 30116 "POST /api/tasks/1/phase3/ HTTP/1.1" 200 2531
+INFO 2025-11-15 09:39:35 basehttp 31464 26400 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 2525
+INFO 2025-11-15 09:39:37 basehttp 31464 10760 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 2555
+INFO 2025-11-15 11:14:24 autoreload 34412 18244 Watching for file changes with StatReloader
+INFO 2025-11-15 11:20:06 autoreload 9832 17172 Watching for file changes with StatReloader
+INFO 2025-11-15 11:49:47 autoreload 22236 22444 Watching for file changes with StatReloader
+INFO 2025-11-15 12:22:34 autoreload 24048 33104 Watching for file changes with StatReloader
+WARNING 2025-11-15 12:28:34 log 24048 15896 Bad Request: /api/tasks/
+WARNING 2025-11-15 12:28:34 basehttp 24048 15896 "POST /api/tasks/ HTTP/1.1" 400 86
+WARNING 2025-11-15 12:29:31 log 24048 32764 Bad Request: /api/tasks/
+WARNING 2025-11-15 12:29:31 basehttp 24048 32764 "POST /api/tasks/ HTTP/1.1" 400 86
+INFO 2025-11-15 12:31:25 basehttp 24048 8416 "POST /api/tasks/ HTTP/1.1" 201 241
+INFO 2025-11-15 12:31:32 basehttp 24048 16932 "POST /api/tasks/1/phase1/ HTTP/1.1" 200 4954
+INFO 2025-11-15 12:31:38 basehttp 24048 6324 "POST /api/tasks/1/phase2/ HTTP/1.1" 200 7212
+INFO 2025-11-15 12:31:39 basehttp 24048 25576 "POST /api/tasks/1/phase3/ HTTP/1.1" 200 10798
+INFO 2025-11-15 12:31:50 basehttp 24048 28220 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 10749
+INFO 2025-11-15 12:31:51 basehttp 24048 27336 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 10792
+INFO 2025-11-15 12:31:51 basehttp 24048 9904 "GET /api/tasks/1/ HTTP/1.1" 200 10764
+INFO 2025-11-15 16:22:39 autoreload 24048 33104 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 16:22:44 autoreload 35264 26292 Watching for file changes with StatReloader
+INFO 2025-11-15 16:23:05 autoreload 35264 26292 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-15 16:23:07 autoreload 17644 9472 Watching for file changes with StatReloader
+INFO 2025-11-15 16:23:13 autoreload 17644 9472 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-15 16:23:14 autoreload 23112 25068 Watching for file changes with StatReloader
+INFO 2025-11-15 16:23:40 autoreload 36216 17664 Watching for file changes with StatReloader
+INFO 2025-11-15 16:23:48 basehttp 36216 32516 "POST /api/tasks/ HTTP/1.1" 201 235
+INFO 2025-11-15 16:23:55 basehttp 36216 20268 "POST /api/tasks/1/phase1/ HTTP/1.1" 200 11671
+INFO 2025-11-15 16:24:02 basehttp 36216 32284 "POST /api/tasks/1/phase2/ HTTP/1.1" 200 13527
+INFO 2025-11-15 16:24:02 basehttp 36216 28928 "POST /api/tasks/1/phase3/ HTTP/1.1" 200 13527
+INFO 2025-11-15 16:24:15 basehttp 36216 28100 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 13488
+INFO 2025-11-15 16:24:15 basehttp 36216 30804 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 13521
+INFO 2025-11-15 16:24:16 basehttp 36216 36644 "GET /api/tasks/1/ HTTP/1.1" 200 13493
+INFO 2025-11-15 16:31:01 autoreload 36216 17664 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 16:31:03 autoreload 19892 27164 Watching for file changes with StatReloader
+INFO 2025-11-15 16:31:07 autoreload 19892 27164 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 16:31:08 autoreload 26932 1884 Watching for file changes with StatReloader
+INFO 2025-11-15 16:31:11 autoreload 26932 1884 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 16:31:12 autoreload 22728 21836 Watching for file changes with StatReloader
+INFO 2025-11-15 16:31:14 autoreload 22728 21836 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 16:31:15 autoreload 35812 35004 Watching for file changes with StatReloader
+INFO 2025-11-15 16:31:42 autoreload 35812 35004 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-15 16:31:44 autoreload 34580 31992 Watching for file changes with StatReloader
+INFO 2025-11-15 16:31:47 autoreload 34580 31992 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-15 16:31:48 autoreload 13556 11556 Watching for file changes with StatReloader
+INFO 2025-11-15 16:31:52 autoreload 13556 11556 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-15 16:31:54 autoreload 22164 34584 Watching for file changes with StatReloader
+INFO 2025-11-15 16:31:56 autoreload 22164 34584 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 16:31:57 autoreload 36656 21812 Watching for file changes with StatReloader
+INFO 2025-11-15 16:32:20 autoreload 432 24732 Watching for file changes with StatReloader
+INFO 2025-11-15 16:32:37 autoreload 27404 34972 Watching for file changes with StatReloader
+INFO 2025-11-15 16:32:54 basehttp 432 28260 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 13527
+INFO 2025-11-15 16:32:54 basehttp 432 15104 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 13521
+INFO 2025-11-15 16:42:16 autoreload 432 24732 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 16:42:18 autoreload 13288 21812 Watching for file changes with StatReloader
+INFO 2025-11-15 16:43:19 autoreload 13288 21812 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-15 16:43:20 autoreload 36120 36740 Watching for file changes with StatReloader
+INFO 2025-11-15 16:43:22 autoreload 36120 36740 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-15 16:43:24 autoreload 35172 24072 Watching for file changes with StatReloader
+INFO 2025-11-15 16:43:47 autoreload 35528 29400 Watching for file changes with StatReloader
+INFO 2025-11-15 16:45:47 basehttp 35528 34844 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 13492
+INFO 2025-11-15 16:45:52 basehttp 35528 9500 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 13529
+INFO 2025-11-15 16:58:07 autoreload 35528 29400 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 16:58:08 autoreload 32128 4964 Watching for file changes with StatReloader
+INFO 2025-11-15 17:17:57 autoreload 32128 4964 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\prompts\prompt_3.py changed, reloading.
+INFO 2025-11-15 17:17:59 autoreload 35888 20424 Watching for file changes with StatReloader
+INFO 2025-11-15 17:18:53 autoreload 35888 20424 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\prompts\prompt_3.py changed, reloading.
+INFO 2025-11-15 17:18:54 autoreload 7512 26312 Watching for file changes with StatReloader
+INFO 2025-11-15 17:19:46 autoreload 7512 26312 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\prompts\prompt_3.py changed, reloading.
+INFO 2025-11-15 17:19:48 autoreload 35012 28308 Watching for file changes with StatReloader
+INFO 2025-11-15 17:20:17 autoreload 35012 28308 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 17:20:19 autoreload 34020 34756 Watching for file changes with StatReloader
+INFO 2025-11-15 17:20:39 autoreload 36028 4592 Watching for file changes with StatReloader
+INFO 2025-11-15 17:21:01 basehttp 36028 13704 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 13502
+INFO 2025-11-15 17:21:17 basehttp 36028 8916 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 13529
+INFO 2025-11-15 17:30:14 autoreload 36028 4592 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\prompts\prompt_3.py changed, reloading.
+INFO 2025-11-15 17:30:17 autoreload 14816 9464 Watching for file changes with StatReloader
+INFO 2025-11-15 17:30:28 autoreload 14816 9464 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-15 17:30:30 autoreload 9832 24840 Watching for file changes with StatReloader
+INFO 2025-11-15 17:30:47 autoreload 28088 27556 Watching for file changes with StatReloader
+INFO 2025-11-15 17:31:08 basehttp 28088 31956 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 13502
+INFO 2025-11-15 17:31:32 basehttp 28088 37008 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 13529
+INFO 2025-11-15 17:32:10 autoreload 28088 27556 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\prompts\prompt_3.py changed, reloading.
+INFO 2025-11-15 17:32:13 autoreload 36072 36324 Watching for file changes with StatReloader
+INFO 2025-11-15 17:32:18 autoreload 36072 36324 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\prompts\prompt_3.py changed, reloading.
+INFO 2025-11-15 17:32:21 autoreload 21296 21908 Watching for file changes with StatReloader
+INFO 2025-11-15 22:38:33 autoreload 21296 21908 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\prompts\prompt_3.py changed, reloading.
+INFO 2025-11-15 22:38:35 autoreload 6404 5908 Watching for file changes with StatReloader
+INFO 2025-11-15 22:40:04 autoreload 6404 5908 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\prompts\prompt_3.py changed, reloading.
+INFO 2025-11-15 22:40:06 autoreload 1888 492 Watching for file changes with StatReloader
+INFO 2025-11-15 22:40:08 autoreload 1888 492 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\prompts\prompt_3.py changed, reloading.
+INFO 2025-11-15 22:40:09 autoreload 23932 35500 Watching for file changes with StatReloader
+INFO 2025-11-15 22:45:23 autoreload 23932 35500 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\prompts\prompt_3.py changed, reloading.
+INFO 2025-11-15 22:45:25 autoreload 38508 34988 Watching for file changes with StatReloader
+INFO 2025-11-15 22:45:39 autoreload 24856 15056 Watching for file changes with StatReloader
+INFO 2025-11-15 22:46:30 basehttp 24856 27088 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 13502
+INFO 2025-11-15 22:54:29 autoreload 2612 13348 Watching for file changes with StatReloader
+INFO 2025-11-15 22:55:43 basehttp 2612 16512 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 13502
+INFO 2025-11-15 23:00:47 basehttp 2612 13116 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 13529
+INFO 2025-11-15 23:25:52 autoreload 2612 13348 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 23:25:55 autoreload 16940 8000 Watching for file changes with StatReloader
+INFO 2025-11-15 23:25:57 autoreload 16940 8000 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase4.py changed, reloading.
+INFO 2025-11-15 23:25:59 autoreload 17276 21912 Watching for file changes with StatReloader
+INFO 2025-11-15 23:26:10 autoreload 17276 21912 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-15 23:26:12 autoreload 21620 19724 Watching for file changes with StatReloader
+INFO 2025-11-15 23:26:21 autoreload 12864 18076 Watching for file changes with StatReloader
+INFO 2025-11-15 23:27:04 basehttp 12864 2060 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 13502
+INFO 2025-11-15 23:29:25 autoreload 8596 12880 Watching for file changes with StatReloader
+INFO 2025-11-15 23:30:23 basehttp 8596 3616 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 13508
+INFO 2025-11-15 23:31:08 basehttp 8596 6068 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 13529
+INFO 2025-11-15 23:33:29 autoreload 8596 12880 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-15 23:33:31 autoreload 2932 3896 Watching for file changes with StatReloader
+INFO 2025-11-15 23:35:05 basehttp 2932 15836 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 13386
+INFO 2025-11-16 01:17:28 autoreload 2932 3896 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-16 01:17:31 autoreload 2316 7912 Watching for file changes with StatReloader
+INFO 2025-11-16 01:17:39 autoreload 2316 7912 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-16 01:17:42 autoreload 19884 5696 Watching for file changes with StatReloader
+INFO 2025-11-16 01:17:45 autoreload 19884 5696 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-16 01:17:48 autoreload 25448 16392 Watching for file changes with StatReloader
+INFO 2025-11-16 01:19:17 autoreload 4132 23568 Watching for file changes with StatReloader
+INFO 2025-11-16 01:20:04 autoreload 10608 15396 Watching for file changes with StatReloader
+WARNING 2025-11-16 01:26:29 log 25448 21620 Unauthorized: /api/
+WARNING 2025-11-16 01:26:29 basehttp 25448 21620 "GET /api/ HTTP/1.1" 401 58
+INFO 2025-11-16 01:27:01 autoreload 25448 16392 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-16 01:27:01 autoreload 4132 23568 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-16 01:27:01 autoreload 10608 15396 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-16 01:27:07 autoreload 14708 12936 Watching for file changes with StatReloader
+INFO 2025-11-16 01:27:07 autoreload 7540 10660 Watching for file changes with StatReloader
+INFO 2025-11-16 01:27:07 autoreload 23416 21588 Watching for file changes with StatReloader
+INFO 2025-11-16 09:13:56 autoreload 23500 18156 Watching for file changes with StatReloader
+INFO 2025-11-16 09:21:17 basehttp 23500 17412 "POST /api/tasks/ HTTP/1.1" 201 288
+INFO 2025-11-16 09:21:19 basehttp 23500 11972 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:21:26 basehttp 23500 18376 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:21:33 basehttp 23500 19860 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:21:41 basehttp 23500 22924 "GET /api/tasks/1/ HTTP/1.1" 200 13253
+INFO 2025-11-16 09:21:43 basehttp 23500 17616 "GET /api/tasks/1/ HTTP/1.1" 200 13253
+INFO 2025-11-16 09:21:45 basehttp 23500 9496 "GET /api/vendors/?task_id=1 HTTP/1.1" 200 8102
+INFO 2025-11-16 09:21:47 basehttp 23500 25492 "GET /api/subtasks/?task_id=1 HTTP/1.1" 200 4794
+INFO 2025-11-16 09:22:24 basehttp 23500 24612 "GET /api/ HTTP/1.1" 200 140
+INFO 2025-11-16 09:22:30 basehttp 23500 12764 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:22:38 basehttp 23500 22200 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:22:39 basehttp 23500 24612 "GET /api/ HTTP/1.1" 200 140
+INFO 2025-11-16 09:22:45 basehttp 23500 20200 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:22:52 basehttp 23500 10272 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:22:59 basehttp 23500 21976 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:23:06 basehttp 23500 21092 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:23:13 basehttp 23500 24188 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:23:21 basehttp 23500 15052 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:23:28 basehttp 23500 25056 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:23:35 basehttp 23500 20068 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:23:42 basehttp 23500 24040 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:23:49 basehttp 23500 25476 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:24:03 basehttp 23500 3156 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:24:09 basehttp 23500 25572 "GET /api/tasks/11/ HTTP/1.1" 200 288
+INFO 2025-11-16 09:24:17 basehttp 23500 13320 "POST /api/tasks/11/phase1/ HTTP/1.1" 200 2603
+INFO 2025-11-16 09:24:19 basehttp 23500 15316 "GET /api/tasks/11/ HTTP/1.1" 200 2575
+INFO 2025-11-16 09:24:24 basehttp 23500 16908 "GET /api/tasks/11/ HTTP/1.1" 200 2575
+INFO 2025-11-16 09:24:28 basehttp 23500 19620 "GET /api/tasks/11/ HTTP/1.1" 200 2578
+INFO 2025-11-16 09:24:32 basehttp 23500 5644 "POST /api/tasks/11/phase2/ HTTP/1.1" 200 4319
+INFO 2025-11-16 09:24:40 basehttp 23500 7012 "GET /api/tasks/11/ HTTP/1.1" 200 4291
+INFO 2025-11-16 09:24:42 basehttp 23500 25148 "GET /api/tasks/11/ HTTP/1.1" 200 4291
+INFO 2025-11-16 09:24:44 basehttp 23500 21080 "GET /api/tasks/11/ HTTP/1.1" 200 4291
+INFO 2025-11-16 09:24:46 basehttp 23500 2884 "POST /api/tasks/11/phase3/ HTTP/1.1" 200 7821
+INFO 2025-11-16 09:24:47 basehttp 23500 16780 "GET /api/tasks/11/ HTTP/1.1" 200 7793
+INFO 2025-11-16 09:24:59 basehttp 23500 19436 "GET /api/tasks/11/ HTTP/1.1" 200 7793
+INFO 2025-11-16 09:25:23 basehttp 23500 2204 "POST /api/tasks/11/phase4/ HTTP/1.1" 200 7821
+INFO 2025-11-16 09:25:26 basehttp 23500 21172 "GET /api/tasks/11/ HTTP/1.1" 200 7793
+INFO 2025-11-16 09:25:30 basehttp 23500 25032 "GET /api/tasks/11/ HTTP/1.1" 200 7793
+INFO 2025-11-16 09:25:56 basehttp 23500 2816 "POST /api/tasks/11/phase5/ HTTP/1.1" 200 7887
+INFO 2025-11-16 09:25:58 basehttp 23500 21984 "GET /api/tasks/11/ HTTP/1.1" 200 7859
+INFO 2025-11-16 09:26:52 basehttp 23500 22840 "GET /api/tasks/11/ HTTP/1.1" 200 7859
+INFO 2025-11-16 09:27:08 basehttp 23500 9348 "GET /api/tasks/1/ HTTP/1.1" 200 13253
+INFO 2025-11-16 09:27:10 basehttp 23500 24664 "GET /api/tasks/1/ HTTP/1.1" 200 13253
+INFO 2025-11-16 09:27:12 basehttp 23500 11348 "GET /api/vendors/?task_id=1 HTTP/1.1" 200 8102
+INFO 2025-11-16 09:27:14 basehttp 23500 19148 "GET /api/subtasks/?task_id=1 HTTP/1.1" 200 4794
+INFO 2025-11-16 10:13:12 autoreload 19692 8840 Watching for file changes with StatReloader
+WARNING 2025-11-16 10:13:43 log 23500 12104 Bad Request: /api/tasks/
+WARNING 2025-11-16 10:13:43 basehttp 23500 12104 "POST /api/tasks/ HTTP/1.1" 400 86
+WARNING 2025-11-16 10:19:16 log 23500 15628 Method Not Allowed: /api/tasks/create/
+WARNING 2025-11-16 10:19:16 basehttp 23500 15628 "POST /api/tasks/create/ HTTP/1.1" 405 41
+WARNING 2025-11-16 10:19:42 log 23500 3312 Method Not Allowed: /api/tasks/create/
+WARNING 2025-11-16 10:19:42 basehttp 23500 3312 "POST /api/tasks/create/ HTTP/1.1" 405 41
+WARNING 2025-11-16 10:19:46 log 23500 1296 Method Not Allowed: /api/tasks/create/
+WARNING 2025-11-16 10:19:46 basehttp 23500 1296 "POST /api/tasks/create/ HTTP/1.1" 405 41
+WARNING 2025-11-16 21:15:59 log 23500 26812 Bad Request: /api/tasks/
+WARNING 2025-11-16 21:15:59 basehttp 23500 26812 "POST /api/tasks/ HTTP/1.1" 400 39
+INFO 2025-11-16 21:18:30 basehttp 23500 31340 "POST /api/tasks/ HTTP/1.1" 201 249
+INFO 2025-11-16 21:19:00 basehttp 23500 28692 "POST /api/tasks/1/phase1/ HTTP/1.1" 200 14535
+INFO 2025-11-16 21:19:07 basehttp 23500 14356 "POST /api/tasks/1/phase2/ HTTP/1.1" 200 16096
+INFO 2025-11-16 21:19:08 basehttp 23500 30164 "POST /api/tasks/1/phase3/ HTTP/1.1" 200 16096
+INFO 2025-11-16 21:20:13 basehttp 23500 17316 "POST /api/tasks/1/phase4/ HTTP/1.1" 200 16096
+INFO 2025-11-16 21:21:34 basehttp 23500 26504 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 16094
+INFO 2025-11-16 23:37:25 autoreload 23500 18156 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-16 23:37:25 autoreload 19692 8840 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-16 23:37:30 autoreload 27700 25760 Watching for file changes with StatReloader
+INFO 2025-11-16 23:37:30 autoreload 27484 17684 Watching for file changes with StatReloader
+INFO 2025-11-16 23:55:01 autoreload 27484 17684 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-16 23:55:01 autoreload 27700 25760 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-16 23:55:03 autoreload 29100 8840 Watching for file changes with StatReloader
+INFO 2025-11-16 23:55:03 autoreload 19036 6260 Watching for file changes with StatReloader
+INFO 2025-11-16 23:58:03 autoreload 30116 31512 Watching for file changes with StatReloader
+INFO 2025-11-16 23:58:09 basehttp 19036 19896 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 16067
+INFO 2025-11-16 23:59:24 autoreload 30116 31512 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-16 23:59:24 autoreload 19036 6260 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-16 23:59:26 autoreload 27416 18916 Watching for file changes with StatReloader
+INFO 2025-11-16 23:59:27 autoreload 27804 5064 Watching for file changes with StatReloader
+INFO 2025-11-17 00:00:59 basehttp 27416 25664 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 16071
+INFO 2025-11-17 00:01:06 basehttp 27416 7316 "POST /api/tasks/ HTTP/1.1" 201 272
+INFO 2025-11-17 00:01:08 basehttp 27416 29512 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:01:16 basehttp 27416 22908 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:01:23 basehttp 27416 14840 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:01:30 basehttp 27416 17172 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:01:37 basehttp 27416 13096 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:01:44 basehttp 27416 23480 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:01:51 basehttp 27416 13820 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:01:59 basehttp 27416 17128 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:02:06 basehttp 27416 30396 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:02:13 basehttp 27416 11620 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:02:20 basehttp 27416 28380 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:02:27 basehttp 27416 7820 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:02:34 basehttp 27416 5664 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:02:42 basehttp 27416 12992 "GET /api/tasks/13/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:02:43 basehttp 27416 29584 "POST /api/tasks/ HTTP/1.1" 201 272
+INFO 2025-11-17 00:02:45 basehttp 27416 21600 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:02:52 basehttp 27416 29992 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:03:00 basehttp 27416 27616 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:03:07 basehttp 27416 24196 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:03:14 basehttp 27416 21288 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:03:21 basehttp 27416 28092 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:03:28 basehttp 27416 20988 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:03:36 basehttp 27416 29320 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:03:43 basehttp 27416 15088 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:03:50 basehttp 27416 16748 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:03:57 basehttp 27416 26632 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:04:04 basehttp 27416 29408 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:04:11 basehttp 27416 28320 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:04:18 basehttp 27416 30544 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:04:26 basehttp 27416 14036 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:04:33 basehttp 27416 28852 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:04:40 basehttp 27416 31172 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:04:47 basehttp 27416 28892 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:04:54 basehttp 27416 29576 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:05:01 basehttp 27416 7368 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:05:09 basehttp 27416 15708 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:05:16 basehttp 27416 29508 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:05:23 basehttp 27416 27120 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:05:30 basehttp 27416 30656 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:05:37 basehttp 27416 14304 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:05:44 basehttp 27416 31504 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:05:51 basehttp 27416 30148 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:05:59 basehttp 27416 30528 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:06:06 basehttp 27416 22664 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:06:13 basehttp 27416 28764 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:06:20 basehttp 27416 27488 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:06:27 basehttp 27416 13260 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:06:34 basehttp 27416 29044 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:06:42 basehttp 27416 17804 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:06:49 basehttp 27416 26084 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:06:56 basehttp 27416 22296 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:07:03 basehttp 27416 3336 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:07:10 basehttp 27416 14292 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:07:17 basehttp 27416 2748 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:07:24 basehttp 27416 26424 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:07:32 basehttp 27416 23688 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:07:39 basehttp 27416 23476 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:07:46 basehttp 27416 16232 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:07:53 basehttp 27416 17140 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:08:00 basehttp 27416 8348 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:08:07 basehttp 27416 29980 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:08:15 basehttp 27416 6644 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:08:22 basehttp 27416 28560 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:08:29 basehttp 27416 14164 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:08:36 basehttp 27416 12064 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:08:43 basehttp 27416 20544 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:08:48 basehttp 27416 26300 "GET /api/ HTTP/1.1" 200 140
+INFO 2025-11-17 00:08:50 basehttp 27416 28004 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:08:57 basehttp 27416 29748 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:09:05 basehttp 27416 27044 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:09:12 basehttp 27416 13260 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:09:19 basehttp 27416 24364 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:09:26 basehttp 27416 29048 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:09:33 basehttp 27416 26296 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:09:40 basehttp 27416 1456 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:09:47 basehttp 27416 28732 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:09:55 basehttp 27416 26940 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:10:02 basehttp 27416 11268 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:10:09 basehttp 27416 24524 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:10:16 basehttp 27416 19072 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:10:23 basehttp 27416 31204 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:10:30 basehttp 27416 15336 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:10:37 basehttp 27416 8840 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:10:45 basehttp 27416 13832 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:10:52 basehttp 27416 11944 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:10:59 basehttp 27416 8280 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:11:06 basehttp 27416 1988 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:11:13 basehttp 27416 5736 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:11:18 basehttp 27416 23112 "GET /api/ HTTP/1.1" 200 140
+INFO 2025-11-17 00:11:20 basehttp 27416 27484 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:11:27 basehttp 27416 5072 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:11:35 basehttp 27416 30476 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:11:42 basehttp 27416 25796 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:11:49 basehttp 27416 30768 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:11:56 basehttp 27416 30936 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:12:03 basehttp 27416 22272 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:12:10 basehttp 27416 24604 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:12:18 basehttp 27416 29324 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:12:25 basehttp 27416 29076 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:12:32 basehttp 27416 22724 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:12:39 basehttp 27416 20276 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:12:42 autoreload 27416 18916 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 00:12:43 autoreload 27804 5064 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 00:12:44 autoreload 20788 6860 Watching for file changes with StatReloader
+INFO 2025-11-17 00:12:45 autoreload 26556 19272 Watching for file changes with StatReloader
+INFO 2025-11-17 00:12:46 basehttp 20788 30056 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:12:54 basehttp 20788 29312 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:13:01 basehttp 20788 26908 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:13:08 basehttp 20788 24012 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:13:15 basehttp 20788 17368 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:13:22 basehttp 20788 23484 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:13:29 basehttp 20788 19048 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:13:36 basehttp 20788 14520 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:13:40 autoreload 26556 19272 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 00:13:40 autoreload 20788 6860 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 00:13:42 autoreload 28608 23488 Watching for file changes with StatReloader
+INFO 2025-11-17 00:13:42 autoreload 5416 19628 Watching for file changes with StatReloader
+INFO 2025-11-17 00:13:44 basehttp 5416 30792 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:13:51 basehttp 5416 18532 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:13:58 basehttp 5416 27976 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:14:05 basehttp 5416 2472 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:14:12 basehttp 5416 12572 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:14:19 basehttp 5416 28720 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:14:27 basehttp 5416 20760 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:14:34 basehttp 5416 23316 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:14:41 basehttp 5416 31000 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:14:48 basehttp 5416 13820 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:14:55 basehttp 5416 31040 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:15:02 basehttp 5416 28912 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:15:10 basehttp 5416 23520 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:15:17 basehttp 5416 11788 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:15:24 basehttp 5416 22264 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:15:31 basehttp 5416 29076 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:15:38 basehttp 5416 29028 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:15:45 basehttp 5416 23504 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:15:53 basehttp 5416 29048 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:16:00 basehttp 5416 28712 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:16:07 basehttp 5416 17012 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:16:14 basehttp 5416 22524 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:16:21 basehttp 5416 14544 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:16:29 basehttp 5416 16784 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:16:36 basehttp 5416 25800 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:16:43 basehttp 5416 23316 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:16:50 basehttp 5416 21072 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:16:57 basehttp 5416 17652 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:17:05 basehttp 5416 30496 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:17:12 basehttp 5416 28544 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:17:19 basehttp 5416 20828 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:17:26 basehttp 5416 12892 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:17:33 basehttp 5416 17108 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:17:40 basehttp 5416 6092 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:17:48 basehttp 5416 4548 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:17:55 basehttp 5416 7556 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:18:02 basehttp 5416 24004 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:18:09 basehttp 5416 16932 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:18:16 basehttp 5416 22816 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:18:23 basehttp 5416 17028 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:18:31 basehttp 5416 16552 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:18:38 basehttp 5416 31336 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:18:45 basehttp 5416 25216 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:18:52 basehttp 5416 28080 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:18:59 basehttp 5416 29808 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:19:06 basehttp 5416 25824 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:19:14 basehttp 5416 29260 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:19:21 basehttp 5416 29048 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:19:28 basehttp 5416 25828 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:19:35 basehttp 5416 24464 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:19:42 basehttp 5416 31620 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:19:49 basehttp 5416 4436 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:19:57 basehttp 5416 20268 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:20:04 basehttp 5416 26164 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:20:11 basehttp 5416 24948 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:20:18 basehttp 5416 28744 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:20:25 basehttp 5416 6340 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:20:33 basehttp 5416 17604 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:20:40 basehttp 5416 4448 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:20:47 basehttp 5416 11920 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:20:54 basehttp 5416 16948 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:21:01 basehttp 5416 29440 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:21:08 basehttp 5416 21972 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:21:16 basehttp 5416 21980 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:21:23 basehttp 5416 13520 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:21:30 basehttp 5416 2872 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:21:37 basehttp 5416 28444 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:21:44 basehttp 5416 3292 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:21:52 basehttp 5416 24336 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:21:59 basehttp 5416 22524 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:22:06 basehttp 5416 17252 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:22:13 basehttp 5416 29808 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:22:20 basehttp 5416 19224 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:22:27 basehttp 5416 20660 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:22:35 basehttp 5416 9880 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:22:42 basehttp 5416 22912 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:22:49 basehttp 5416 25112 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:22:56 basehttp 5416 2340 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:23:03 basehttp 5416 7012 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:23:10 basehttp 5416 31680 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:23:17 basehttp 5416 25992 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:23:25 basehttp 5416 11472 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:23:32 basehttp 5416 25428 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:23:39 basehttp 5416 14580 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:23:46 basehttp 5416 25252 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:23:53 basehttp 5416 18776 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:24:01 basehttp 5416 18748 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:24:08 basehttp 5416 21108 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:24:15 basehttp 5416 24164 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:24:22 basehttp 5416 7308 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:24:29 basehttp 5416 17140 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:24:36 basehttp 5416 5372 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:24:44 basehttp 5416 20752 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:24:51 basehttp 5416 4616 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:24:58 basehttp 5416 11860 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:25:05 basehttp 5416 15240 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:25:12 basehttp 5416 25324 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:25:19 basehttp 5416 22236 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:25:27 basehttp 5416 22508 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:25:34 basehttp 5416 13584 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:25:41 basehttp 5416 14436 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:25:48 basehttp 5416 31652 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:25:55 basehttp 5416 25536 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:26:02 basehttp 5416 27132 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:26:09 basehttp 5416 25108 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:26:17 basehttp 5416 30128 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:26:24 basehttp 5416 21056 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:26:31 basehttp 5416 27052 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:26:38 basehttp 5416 28348 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:26:45 basehttp 5416 2308 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:26:52 basehttp 5416 22696 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:27:00 basehttp 5416 14896 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:27:07 basehttp 5416 24060 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:27:14 basehttp 5416 28368 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:27:21 basehttp 5416 29840 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:27:28 basehttp 5416 14620 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:27:36 basehttp 5416 4820 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:27:43 basehttp 5416 25360 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:27:50 basehttp 5416 29092 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:27:57 basehttp 5416 24432 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:28:04 basehttp 5416 28404 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:28:12 basehttp 5416 13568 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:28:19 basehttp 5416 9928 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:28:26 basehttp 5416 26216 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:28:33 basehttp 5416 2352 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:28:40 basehttp 5416 26064 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:28:48 basehttp 5416 28596 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:28:55 basehttp 5416 24864 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:29:02 basehttp 5416 29816 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:29:09 basehttp 5416 31504 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:29:16 basehttp 5416 15396 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:29:24 basehttp 5416 22772 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:29:31 basehttp 5416 3024 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:29:38 basehttp 5416 21240 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:29:45 basehttp 5416 1628 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:29:52 basehttp 5416 20792 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:29:59 basehttp 5416 20512 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:30:07 basehttp 5416 18072 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:30:13 basehttp 5416 22292 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 16077
+INFO 2025-11-17 00:30:14 basehttp 5416 29864 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:30:21 basehttp 5416 21664 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:30:28 basehttp 5416 27252 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:30:35 basehttp 5416 25348 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:30:42 basehttp 5416 17156 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:30:50 basehttp 5416 26920 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:30:57 basehttp 5416 24316 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:31:04 basehttp 5416 24300 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:31:11 basehttp 5416 10368 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:31:18 basehttp 5416 14048 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:31:25 basehttp 5416 26456 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:31:32 basehttp 5416 26356 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:31:40 basehttp 5416 10904 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:31:47 basehttp 5416 23272 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:31:54 basehttp 5416 14412 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:32:01 basehttp 5416 21052 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:32:08 basehttp 5416 17044 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:32:15 basehttp 5416 29164 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:32:23 basehttp 5416 7488 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:32:30 basehttp 5416 22700 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:32:37 basehttp 5416 31700 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:32:44 basehttp 5416 31576 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:32:51 basehttp 5416 16708 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:32:58 basehttp 5416 20684 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:33:05 basehttp 5416 27452 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:33:13 basehttp 5416 27096 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:33:20 basehttp 5416 31528 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:33:27 basehttp 5416 19488 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:33:34 basehttp 5416 7388 "GET /api/tasks/14/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:33:56 basehttp 5416 2808 "POST /api/tasks/ HTTP/1.1" 201 272
+INFO 2025-11-17 00:33:59 basehttp 5416 2000 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:34:06 basehttp 5416 30540 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:34:13 basehttp 5416 17620 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:34:20 basehttp 5416 25032 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:34:27 basehttp 5416 3372 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:34:34 basehttp 5416 29136 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:34:42 basehttp 5416 20268 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:34:49 basehttp 5416 22376 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:34:56 basehttp 5416 3064 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:35:03 basehttp 5416 3004 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:35:10 basehttp 5416 29316 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:35:18 basehttp 5416 24300 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:35:25 basehttp 5416 16232 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:35:32 basehttp 5416 25056 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:35:39 basehttp 5416 29804 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:35:46 basehttp 5416 25988 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:35:54 basehttp 5416 29872 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:36:01 basehttp 5416 26356 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:36:08 basehttp 5416 14412 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:36:15 basehttp 5416 18500 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:36:22 basehttp 5416 7272 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:36:30 basehttp 5416 26632 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:36:37 basehttp 5416 21720 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:36:44 basehttp 5416 28068 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:36:52 basehttp 5416 5724 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:36:59 basehttp 5416 16748 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:37:06 basehttp 5416 26980 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:37:13 basehttp 5416 6856 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:37:20 basehttp 5416 22416 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:37:28 basehttp 5416 22764 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:37:35 basehttp 5416 3636 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:37:42 basehttp 5416 30392 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:37:49 basehttp 5416 30124 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:37:56 basehttp 5416 28444 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:38:04 basehttp 5416 22604 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:38:11 basehttp 5416 14824 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:38:18 basehttp 5416 31472 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:38:25 basehttp 5416 12696 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:38:32 basehttp 5416 19116 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:38:39 basehttp 5416 13124 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:38:47 basehttp 5416 31244 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:38:54 basehttp 5416 24508 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:39:01 basehttp 5416 21592 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:39:08 basehttp 5416 27500 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:39:15 basehttp 5416 8548 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:39:23 basehttp 5416 14040 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:39:30 basehttp 5416 20776 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:39:37 basehttp 5416 27156 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:39:44 basehttp 5416 20600 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:39:51 basehttp 5416 21012 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:39:58 basehttp 5416 28040 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:40:06 basehttp 5416 28640 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:40:13 basehttp 5416 22608 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:40:20 basehttp 5416 8820 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:40:27 basehttp 5416 25956 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:40:34 basehttp 5416 23928 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:41:04 basehttp 5416 25384 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:41:11 basehttp 5416 29044 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:41:18 basehttp 5416 24888 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:41:25 basehttp 5416 11024 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:41:32 basehttp 5416 30360 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:41:39 basehttp 5416 17760 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:41:46 basehttp 5416 12728 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:41:51 basehttp 5416 12292 "GET /api/ HTTP/1.1" 200 140
+INFO 2025-11-17 00:41:53 basehttp 5416 15432 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:42:01 basehttp 5416 28408 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:42:08 basehttp 5416 10984 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:42:15 basehttp 5416 18144 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:42:22 basehttp 5416 9352 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:42:29 basehttp 5416 31452 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:42:36 basehttp 5416 30980 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:42:43 basehttp 5416 5708 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:42:51 basehttp 5416 27072 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:42:58 basehttp 5416 16852 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:43:05 basehttp 5416 4064 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:43:12 basehttp 5416 26224 "GET /api/tasks/15/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:43:36 basehttp 5416 29432 "POST /api/tasks/ HTTP/1.1" 201 272
+INFO 2025-11-17 00:43:38 basehttp 5416 17316 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:43:45 basehttp 5416 2308 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:43:52 basehttp 5416 17292 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:43:59 basehttp 5416 27636 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:44:07 basehttp 5416 23420 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:44:14 basehttp 5416 15248 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:44:21 basehttp 5416 23828 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:44:28 basehttp 5416 10956 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:44:35 basehttp 5416 6864 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:44:42 basehttp 5416 25880 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:44:50 basehttp 5416 28492 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:44:57 basehttp 5416 7180 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:45:04 basehttp 5416 24716 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:45:11 basehttp 5416 11632 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:45:18 basehttp 5416 31304 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:45:25 basehttp 5416 27364 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:45:32 basehttp 5416 30660 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:45:40 basehttp 5416 17656 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:45:47 basehttp 5416 31380 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:45:54 basehttp 5416 23732 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:46:01 basehttp 5416 12736 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:46:08 basehttp 5416 13872 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:46:15 basehttp 5416 17424 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:46:22 basehttp 5416 31220 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:46:29 basehttp 5416 7972 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:46:37 basehttp 5416 29392 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:46:44 basehttp 5416 31212 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:46:51 basehttp 5416 23848 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:46:58 basehttp 5416 22732 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:47:05 basehttp 5416 19804 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:47:12 basehttp 5416 25828 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:47:19 basehttp 5416 23840 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:47:27 basehttp 5416 19072 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:47:34 basehttp 5416 23164 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:47:41 basehttp 5416 15004 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:47:48 basehttp 5416 3064 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:47:55 basehttp 5416 5552 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:47:59 autoreload 5416 19628 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 00:48:00 autoreload 28608 23488 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 00:48:01 autoreload 9860 21880 Watching for file changes with StatReloader
+INFO 2025-11-17 00:48:02 autoreload 30740 27312 Watching for file changes with StatReloader
+INFO 2025-11-17 00:48:02 basehttp 9860 28952 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:48:09 basehttp 9860 6520 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:48:15 autoreload 9860 21880 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-17 00:48:15 autoreload 30740 27312 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-17 00:48:17 autoreload 28552 23832 Watching for file changes with StatReloader
+INFO 2025-11-17 00:48:17 autoreload 10948 24640 Watching for file changes with StatReloader
+INFO 2025-11-17 00:48:18 basehttp 28552 29132 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:48:23 autoreload 28552 23832 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-17 00:48:23 autoreload 10948 24640 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-17 00:48:24 autoreload 5212 31652 Watching for file changes with StatReloader
+INFO 2025-11-17 00:48:25 autoreload 13016 26568 Watching for file changes with StatReloader
+INFO 2025-11-17 00:48:25 basehttp 5212 6684 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:48:32 basehttp 5212 14816 "GET /api/tasks/16/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:48:39 autoreload 13016 26568 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-17 00:48:39 autoreload 5212 31652 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\views.py changed, reloading.
+INFO 2025-11-17 00:48:41 autoreload 25776 28244 Watching for file changes with StatReloader
+INFO 2025-11-17 00:48:41 autoreload 29820 7180 Watching for file changes with StatReloader
+INFO 2025-11-17 00:49:58 autoreload 12664 26052 Watching for file changes with StatReloader
+INFO 2025-11-17 00:52:53 basehttp 25776 29776 "POST /api/tasks/ HTTP/1.1" 201 272
+INFO 2025-11-17 00:52:55 basehttp 25776 25916 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:53:02 basehttp 25776 21852 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:53:10 basehttp 25776 22248 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:53:17 basehttp 25776 29132 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:53:24 basehttp 25776 29228 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:53:31 basehttp 25776 24796 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:53:38 basehttp 25776 11472 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:53:45 basehttp 25776 30148 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:53:53 basehttp 25776 31288 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:54:00 basehttp 25776 15480 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:54:07 basehttp 25776 8032 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:54:14 basehttp 25776 31064 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:54:21 basehttp 25776 30056 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:54:28 basehttp 25776 18144 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:54:35 basehttp 25776 27048 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:54:42 basehttp 25776 2812 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:54:50 basehttp 25776 9420 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:54:57 basehttp 25776 16852 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:55:04 basehttp 25776 18824 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:55:11 basehttp 25776 23912 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:55:18 basehttp 25776 30060 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:55:25 basehttp 25776 18168 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:55:32 basehttp 25776 30432 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:55:40 basehttp 25776 12992 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:55:47 basehttp 25776 24640 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:55:54 basehttp 25776 29264 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:56:01 basehttp 25776 18940 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:56:08 basehttp 25776 29092 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:56:15 basehttp 25776 23680 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:56:22 basehttp 25776 30964 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:56:30 basehttp 25776 16940 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:56:37 basehttp 25776 21560 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:56:44 basehttp 25776 9784 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:56:51 basehttp 25776 6572 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:56:58 basehttp 25776 17776 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:57:05 basehttp 25776 16084 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:57:12 basehttp 25776 23704 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:57:20 basehttp 25776 11868 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:57:27 basehttp 25776 20208 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:57:34 basehttp 25776 3804 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:57:41 basehttp 25776 24632 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:57:48 basehttp 25776 30156 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:57:55 basehttp 25776 14060 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:58:02 basehttp 25776 12000 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:58:09 basehttp 25776 29076 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:58:17 basehttp 25776 21164 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:58:24 basehttp 25776 10364 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:58:31 basehttp 25776 31032 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:58:38 basehttp 25776 28640 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:58:45 basehttp 25776 31588 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:58:52 basehttp 25776 19768 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:58:59 basehttp 25776 29400 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:59:06 basehttp 25776 25004 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:59:14 basehttp 25776 31704 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:59:21 basehttp 25776 22376 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:59:28 basehttp 25776 6008 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:59:35 basehttp 25776 17696 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:59:42 basehttp 25776 23184 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:59:49 basehttp 25776 30840 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 00:59:56 basehttp 25776 28324 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:00:03 basehttp 25776 23332 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:00:10 basehttp 25776 1600 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:00:18 basehttp 25776 18828 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:00:25 basehttp 25776 14176 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:00:32 basehttp 25776 26356 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:00:39 basehttp 25776 25644 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:00:46 basehttp 25776 24152 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:00:53 basehttp 25776 4592 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:01:01 basehttp 25776 25784 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:01:08 basehttp 25776 8028 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:01:15 basehttp 25776 27176 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:01:22 basehttp 25776 23560 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:01:29 basehttp 25776 200 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:01:36 basehttp 25776 31712 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:01:43 basehttp 25776 22516 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:01:50 basehttp 25776 13932 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:01:58 basehttp 25776 3924 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:02:05 basehttp 25776 4616 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:02:12 basehttp 25776 29408 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:02:19 basehttp 25776 31468 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:02:26 basehttp 25776 26168 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:02:33 basehttp 25776 22432 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:02:40 basehttp 25776 23416 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:02:47 basehttp 25776 23752 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:02:55 basehttp 25776 26872 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:03:02 basehttp 25776 5684 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:03:09 basehttp 25776 12984 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:03:16 basehttp 25776 16748 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:03:23 basehttp 25776 24804 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:03:30 basehttp 25776 5960 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:03:37 basehttp 25776 28600 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:03:44 basehttp 25776 24376 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:03:52 basehttp 25776 24452 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:03:59 basehttp 25776 19480 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:04:01 basehttp 25776 22932 "GET /api/tasks/ HTTP/1.1" 200 29985
+INFO 2025-11-17 01:04:06 basehttp 25776 21924 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:04:13 basehttp 25776 31704 "GET /api/tasks/17/ HTTP/1.1" 200 272
+INFO 2025-11-17 01:04:20 basehttp 25776 23704 "GET /api/tasks/17/ HTTP/1.1" 200 279
+INFO 2025-11-17 01:04:22 basehttp 25776 22932 "POST /api/tasks/17/phase1/ HTTP/1.1" 200 2861
+INFO 2025-11-17 01:04:26 basehttp 25776 22932 "GET /api/tasks/17/ HTTP/1.1" 200 2833
+INFO 2025-11-17 01:04:27 basehttp 25776 14404 "GET /api/tasks/17/ HTTP/1.1" 200 2833
+INFO 2025-11-17 01:04:34 basehttp 25776 29544 "GET /api/tasks/17/ HTTP/1.1" 200 2836
+INFO 2025-11-17 01:04:38 basehttp 25776 22932 "POST /api/tasks/17/phase2/ HTTP/1.1" 200 4652
+INFO 2025-11-17 01:04:42 basehttp 25776 23808 "GET /api/tasks/17/ HTTP/1.1" 200 4624
+INFO 2025-11-17 01:04:42 basehttp 25776 22932 "GET /api/tasks/17/ HTTP/1.1" 200 4624
+INFO 2025-11-17 01:04:46 basehttp 25776 22932 "POST /api/tasks/17/phase3/ HTTP/1.1" 200 8418
+INFO 2025-11-17 01:04:49 basehttp 25776 29848 "GET /api/tasks/17/ HTTP/1.1" 200 8390
+INFO 2025-11-17 01:04:56 basehttp 25776 18456 "GET /api/tasks/17/ HTTP/1.1" 200 8390
+INFO 2025-11-17 01:05:03 basehttp 25776 22932 "GET /api/tasks/17/ HTTP/1.1" 200 8390
+INFO 2025-11-17 01:05:03 basehttp 25776 27688 "GET /api/tasks/17/ HTTP/1.1" 200 8390
+INFO 2025-11-17 01:05:10 basehttp 25776 23328 "GET /api/tasks/17/ HTTP/1.1" 200 8393
+INFO 2025-11-17 01:05:17 basehttp 25776 25284 "GET /api/tasks/17/ HTTP/1.1" 200 8393
+INFO 2025-11-17 01:05:24 basehttp 25776 22560 "GET /api/tasks/17/ HTTP/1.1" 200 8393
+INFO 2025-11-17 01:05:31 basehttp 25776 22932 "POST /api/tasks/17/phase4/ HTTP/1.1" 200 8418
+INFO 2025-11-17 01:05:32 basehttp 25776 25176 "GET /api/tasks/17/ HTTP/1.1" 200 8390
+INFO 2025-11-17 01:05:34 basehttp 25776 22932 "GET /api/tasks/17/ HTTP/1.1" 200 8390
+INFO 2025-11-17 01:05:39 basehttp 25776 27004 "GET /api/tasks/17/ HTTP/1.1" 200 8393
+INFO 2025-11-17 01:05:46 basehttp 25776 23220 "GET /api/tasks/17/ HTTP/1.1" 200 8393
+INFO 2025-11-17 01:05:53 basehttp 25776 4936 "GET /api/tasks/17/ HTTP/1.1" 200 8393
+INFO 2025-11-17 01:06:00 basehttp 25776 22696 "GET /api/tasks/17/ HTTP/1.1" 200 8393
+INFO 2025-11-17 01:06:04 basehttp 25776 22932 "POST /api/tasks/17/phase5/ HTTP/1.1" 200 8542
+INFO 2025-11-17 01:06:07 basehttp 25776 31032 "GET /api/tasks/17/ HTTP/1.1" 200 8514
+INFO 2025-11-17 01:06:09 basehttp 25776 22932 "GET /api/tasks/17/ HTTP/1.1" 200 8514
+INFO 2025-11-17 01:06:10 basehttp 25776 11884 "GET /api/tasks/17/ HTTP/1.1" 200 8514
+INFO 2025-11-17 01:06:12 basehttp 25776 1548 "GET /api/vendors/?task_id=17 HTTP/1.1" 200 6375
+INFO 2025-11-17 01:06:14 basehttp 25776 10908 "GET /api/vendors/28/ HTTP/1.1" 200 810
+INFO 2025-11-17 01:06:16 basehttp 25776 18488 "GET /api/vendors/29/ HTTP/1.1" 200 801
+INFO 2025-11-17 01:06:18 basehttp 25776 21108 "GET /api/vendors/30/ HTTP/1.1" 200 857
+INFO 2025-11-17 01:06:20 basehttp 25776 28804 "GET /api/vendors/31/ HTTP/1.1" 200 694
+INFO 2025-11-17 01:06:22 basehttp 25776 15004 "GET /api/vendors/32/ HTTP/1.1" 200 771
+INFO 2025-11-17 01:06:24 basehttp 25776 23100 "GET /api/vendors/33/ HTTP/1.1" 200 733
+INFO 2025-11-17 01:06:26 basehttp 25776 12544 "GET /api/vendors/34/ HTTP/1.1" 200 871
+INFO 2025-11-17 01:06:28 basehttp 25776 25764 "GET /api/vendors/35/ HTTP/1.1" 200 779
+INFO 2025-11-17 01:06:33 basehttp 25776 21924 "GET /api/subtasks/?task_id=17 HTTP/1.1" 200 1843
+INFO 2025-11-17 01:10:13 basehttp 25776 8416 "POST /api/tasks/ HTTP/1.1" 201 264
+INFO 2025-11-17 01:10:15 basehttp 25776 17292 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:10:22 basehttp 25776 27472 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:10:29 basehttp 25776 7920 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:10:36 basehttp 25776 30540 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:10:44 basehttp 25776 4376 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:10:51 basehttp 25776 24916 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:10:58 basehttp 25776 17284 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:11:05 basehttp 25776 30016 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:11:12 basehttp 25776 28004 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:11:19 basehttp 25776 1456 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:11:26 basehttp 25776 7552 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:11:34 basehttp 25776 25740 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:11:41 basehttp 25776 29776 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:11:48 basehttp 25776 2104 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:11:55 basehttp 25776 25588 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:12:02 basehttp 25776 24644 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:12:09 basehttp 25776 13228 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:12:16 basehttp 25776 15236 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:12:24 basehttp 25776 2976 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:12:31 basehttp 25776 22036 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:12:38 basehttp 25776 30332 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:12:45 basehttp 25776 27472 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:12:52 basehttp 25776 29664 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:12:59 basehttp 25776 30160 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:13:06 basehttp 25776 2744 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:13:14 basehttp 25776 26696 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:13:21 basehttp 25776 28324 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:13:28 basehttp 25776 2732 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:13:35 basehttp 25776 17136 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:13:42 basehttp 25776 21144 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:13:49 basehttp 25776 21272 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:13:57 basehttp 25776 29064 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:14:04 basehttp 25776 19480 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:14:11 basehttp 25776 9340 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:14:18 basehttp 25776 1456 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:14:25 basehttp 25776 30848 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:14:32 basehttp 25776 21644 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:14:39 basehttp 25776 15088 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:14:47 basehttp 25776 25736 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:14:54 basehttp 25776 9424 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:15:01 basehttp 25776 26936 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:15:08 basehttp 25776 18748 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:15:15 basehttp 25776 15880 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:15:22 basehttp 25776 23704 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:15:29 basehttp 25776 27392 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:15:37 basehttp 25776 1316 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:15:44 basehttp 25776 2000 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:15:51 basehttp 25776 440 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:15:58 basehttp 25776 29808 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:16:05 basehttp 25776 7396 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:16:12 basehttp 25776 23164 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:16:19 basehttp 25776 8804 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:16:27 basehttp 25776 24632 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:16:34 basehttp 25776 4560 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:16:41 basehttp 25776 11868 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:16:48 basehttp 25776 28868 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:16:55 basehttp 25776 17404 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:17:02 basehttp 25776 27600 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:17:09 basehttp 25776 9740 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:17:17 basehttp 25776 16592 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:17:24 basehttp 25776 10196 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:17:31 basehttp 25776 12264 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:17:38 basehttp 25776 15200 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:17:45 basehttp 25776 7872 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:17:52 basehttp 25776 29868 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:18:00 basehttp 25776 7720 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:18:07 basehttp 25776 24360 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:18:14 basehttp 25776 30836 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:18:21 basehttp 25776 21012 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:18:28 basehttp 25776 30316 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:18:35 basehttp 25776 29916 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:18:43 basehttp 25776 27512 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:18:50 basehttp 25776 19624 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:18:57 basehttp 25776 22036 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:19:04 basehttp 25776 15628 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:19:11 basehttp 25776 27840 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:19:18 basehttp 25776 15660 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:19:25 basehttp 25776 23100 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:19:33 basehttp 25776 29956 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:19:40 basehttp 25776 17096 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:19:47 basehttp 25776 24216 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:19:54 basehttp 25776 28824 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:20:01 basehttp 25776 9496 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:20:08 basehttp 25776 19376 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:20:15 basehttp 25776 24612 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:20:23 basehttp 25776 29804 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:20:30 basehttp 25776 27208 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:20:37 basehttp 25776 18044 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:20:44 basehttp 25776 12472 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:20:45 autoreload 12664 26052 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 01:20:45 autoreload 29820 7180 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 01:20:45 autoreload 25776 28244 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 01:20:46 autoreload 30620 2668 Watching for file changes with StatReloader
+INFO 2025-11-17 01:20:46 autoreload 12448 10172 Watching for file changes with StatReloader
+INFO 2025-11-17 01:20:47 autoreload 21236 27004 Watching for file changes with StatReloader
+INFO 2025-11-17 01:20:51 basehttp 30620 16080 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:20:58 basehttp 30620 21532 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:21:05 basehttp 30620 28004 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:21:13 basehttp 30620 13820 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:21:20 basehttp 30620 22832 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:21:27 basehttp 30620 14648 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:21:34 basehttp 30620 10908 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:21:41 basehttp 30620 29956 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:21:48 basehttp 30620 19492 "GET /api/tasks/18/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:22:08 autoreload 21720 31476 Watching for file changes with StatReloader
+INFO 2025-11-17 01:22:30 basehttp 21720 1356 "POST /api/tasks/ HTTP/1.1" 201 268
+INFO 2025-11-17 01:22:41 basehttp 21720 1356 "POST /api/tasks/19/phase1/ HTTP/1.1" 200 2793
+INFO 2025-11-17 01:22:51 basehttp 21720 1356 "POST /api/tasks/19/phase2/ HTTP/1.1" 200 5110
+INFO 2025-11-17 01:22:54 basehttp 21720 1356 "POST /api/tasks/19/phase3/ HTTP/1.1" 200 8747
+INFO 2025-11-17 01:23:20 basehttp 21720 1356 "POST /api/tasks/19/phase4/ HTTP/1.1" 200 8747
+INFO 2025-11-17 01:23:50 basehttp 21720 1356 "POST /api/tasks/19/phase5/ HTTP/1.1" 200 8874
+INFO 2025-11-17 01:23:53 basehttp 21720 1356 "GET /api/tasks/19/ HTTP/1.1" 200 8846
+INFO 2025-11-17 01:24:30 basehttp 21720 7140 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 16041
+INFO 2025-11-17 01:24:47 basehttp 21720 13124 "POST /api/tasks/ HTTP/1.1" 201 264
+INFO 2025-11-17 01:24:49 basehttp 21720 21032 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:24:56 basehttp 21720 27532 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:25:03 basehttp 21720 29268 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:25:10 basehttp 21720 23848 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:25:17 basehttp 21720 24884 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:25:21 autoreload 21720 31476 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 01:25:23 autoreload 28096 27096 Watching for file changes with StatReloader
+INFO 2025-11-17 01:25:25 basehttp 28096 31132 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:25:32 basehttp 28096 25696 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:25:39 basehttp 28096 27048 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:25:46 basehttp 28096 30660 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:25:53 basehttp 28096 22284 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:26:00 basehttp 28096 11700 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:26:07 basehttp 28096 13224 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:26:14 basehttp 28096 1704 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:26:22 basehttp 28096 23668 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:26:29 basehttp 28096 28688 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:26:36 basehttp 28096 25852 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:26:43 basehttp 28096 25096 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:26:50 basehttp 28096 28708 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:26:57 basehttp 28096 25660 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:27:04 basehttp 28096 31168 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:27:11 basehttp 28096 30732 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:27:19 basehttp 28096 18040 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:27:26 basehttp 28096 20600 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:27:33 basehttp 28096 28496 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:27:40 basehttp 28096 27956 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:27:47 basehttp 28096 12944 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:27:54 basehttp 28096 29292 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:28:01 basehttp 28096 11896 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:28:09 basehttp 28096 5684 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:28:16 basehttp 28096 20520 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:28:23 basehttp 28096 22980 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:28:30 basehttp 28096 28360 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:28:37 basehttp 28096 24008 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:28:44 basehttp 28096 25232 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:28:51 basehttp 28096 31176 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:28:59 basehttp 28096 28348 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:29:06 basehttp 28096 21044 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:29:13 basehttp 28096 22576 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:29:20 basehttp 28096 24236 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:29:27 basehttp 28096 11436 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:29:34 basehttp 28096 26248 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:29:41 basehttp 28096 26956 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:29:49 basehttp 28096 31716 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:29:56 basehttp 28096 25536 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:30:03 basehttp 28096 29584 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:30:10 basehttp 28096 268 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:30:17 basehttp 28096 7104 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:30:24 basehttp 28096 25164 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:30:32 basehttp 28096 25928 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:30:39 basehttp 28096 28216 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:30:46 basehttp 28096 2732 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:30:53 basehttp 28096 16780 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:31:00 basehttp 28096 8348 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:31:07 basehttp 28096 26568 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:31:14 basehttp 28096 31692 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:31:22 basehttp 28096 28504 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:31:29 basehttp 28096 26920 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:31:36 basehttp 28096 7140 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:31:43 basehttp 28096 7504 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:31:50 basehttp 28096 28648 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:31:57 basehttp 28096 15772 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:32:04 basehttp 28096 440 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:32:11 basehttp 28096 23300 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:32:19 basehttp 28096 28324 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:32:26 basehttp 28096 27240 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:32:33 basehttp 28096 26404 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:32:40 basehttp 28096 17012 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:32:47 basehttp 28096 31336 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:32:54 basehttp 28096 17084 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:33:01 basehttp 28096 11276 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:33:09 basehttp 28096 17772 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:33:16 basehttp 28096 1480 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:33:23 basehttp 28096 27976 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:33:30 basehttp 28096 12696 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:33:37 basehttp 28096 6084 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:33:39 autoreload 28096 27096 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-17 01:33:41 autoreload 14824 24148 Watching for file changes with StatReloader
+INFO 2025-11-17 01:33:44 basehttp 14824 11508 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:33:51 basehttp 14824 30780 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:33:58 basehttp 14824 29904 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:34:06 basehttp 14824 23692 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:34:13 basehttp 14824 15888 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:34:20 basehttp 14824 22832 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:34:27 basehttp 14824 28952 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:34:34 basehttp 14824 18584 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:34:41 basehttp 14824 30360 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:34:48 basehttp 14824 22964 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:34:55 basehttp 14824 15440 "GET /api/tasks/ HTTP/1.1" 200 47568
+INFO 2025-11-17 01:34:57 basehttp 14824 16080 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:35:05 basehttp 14824 16948 "GET /api/tasks/ HTTP/1.1" 200 47568
+INFO 2025-11-17 01:35:07 basehttp 14824 26908 "GET /api/tasks/20/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:35:14 basehttp 14824 24724 "GET /api/tasks/ HTTP/1.1" 200 47568
+INFO 2025-11-17 01:35:25 basehttp 14824 404 "GET /api/tasks/ HTTP/1.1" 200 47568
+INFO 2025-11-17 01:35:25 basehttp 14824 20776 "GET /api/tasks/ HTTP/1.1" 200 47568
+INFO 2025-11-17 01:35:27 basehttp 14824 27960 "POST /api/tasks/ HTTP/1.1" 201 264
+INFO 2025-11-17 01:35:28 basehttp 14824 26076 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:35:29 basehttp 14824 29740 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:35:31 basehttp 14824 31364 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:35:39 basehttp 14824 24796 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:35:41 basehttp 14824 22716 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:35:48 basehttp 14824 12412 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:35:50 basehttp 14824 23104 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:35:57 basehttp 14824 29896 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:35:59 basehttp 14824 30160 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:36:06 basehttp 14824 24160 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:36:08 basehttp 14824 24760 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:36:16 basehttp 14824 22892 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:36:18 basehttp 14824 31380 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:36:25 basehttp 14824 17268 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:36:27 basehttp 14824 15532 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:36:34 basehttp 14824 27916 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:36:36 basehttp 14824 15648 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:36:43 basehttp 14824 25660 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:36:45 basehttp 14824 14956 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:36:53 basehttp 14824 29344 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:36:55 basehttp 14824 14748 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:37:02 basehttp 14824 7360 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:37:04 basehttp 14824 18444 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:37:11 basehttp 14824 27664 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:37:13 basehttp 14824 14160 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:37:20 basehttp 14824 20732 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:37:22 basehttp 14824 7268 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:37:29 basehttp 14824 15672 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:37:32 basehttp 14824 19248 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:37:39 basehttp 14824 24060 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:37:41 basehttp 14824 28368 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:37:48 basehttp 14824 22724 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:37:50 basehttp 14824 18512 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:37:57 basehttp 14824 25704 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:37:59 basehttp 14824 31228 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:38:06 basehttp 14824 27960 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:38:08 basehttp 14824 17696 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:38:16 basehttp 14824 13812 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:38:18 basehttp 14824 30104 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:38:25 basehttp 14824 30924 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:38:27 basehttp 14824 10196 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:38:34 basehttp 14824 24796 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:38:36 basehttp 14824 16708 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:38:43 basehttp 14824 5900 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:38:45 basehttp 14824 20828 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:38:53 basehttp 14824 11872 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:38:55 basehttp 14824 26824 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:39:02 basehttp 14824 31344 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:39:04 basehttp 14824 23912 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:39:11 basehttp 14824 29496 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:39:13 basehttp 14824 3888 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:39:20 basehttp 14824 14948 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:39:22 basehttp 14824 7504 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:39:30 basehttp 14824 28332 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:39:32 basehttp 14824 16556 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:39:39 basehttp 14824 7508 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:39:41 basehttp 14824 30292 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:39:48 basehttp 14824 22664 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:39:50 basehttp 14824 21852 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:39:57 basehttp 14824 4936 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:39:59 basehttp 14824 8368 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:40:07 basehttp 14824 14252 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:40:09 basehttp 14824 14792 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:40:16 basehttp 14824 5924 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:40:18 basehttp 14824 27564 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:40:25 basehttp 14824 29480 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:40:27 basehttp 14824 27680 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:40:34 basehttp 14824 14472 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:40:36 basehttp 14824 30568 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:40:43 basehttp 14824 26156 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:40:46 basehttp 14824 31616 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:40:53 basehttp 14824 19072 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:40:55 basehttp 14824 25796 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:41:02 basehttp 14824 22772 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:41:04 basehttp 14824 5180 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:41:11 basehttp 14824 12160 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:41:13 basehttp 14824 16776 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:41:20 basehttp 14824 30764 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:41:22 basehttp 14824 30544 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:41:30 basehttp 14824 18312 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:41:32 basehttp 14824 6252 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:41:39 basehttp 14824 28416 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:41:41 basehttp 14824 23488 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:41:48 basehttp 14824 30916 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:41:50 basehttp 14824 26968 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:41:57 basehttp 14824 12992 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:41:59 basehttp 14824 30212 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:42:07 basehttp 14824 15920 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:42:09 basehttp 14824 31232 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:42:16 basehttp 14824 8796 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:42:18 basehttp 14824 21032 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:42:25 basehttp 14824 26940 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:43:55 basehttp 14824 19204 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:43:58 basehttp 14824 3916 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:44:00 basehttp 14824 5260 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:44:07 basehttp 14824 25596 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:44:09 basehttp 14824 27836 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:44:17 basehttp 14824 24296 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:44:19 basehttp 14824 30400 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:44:19 autoreload 22768 24384 Watching for file changes with StatReloader
+INFO 2025-11-17 01:44:26 basehttp 14824 26788 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:44:28 basehttp 14824 22264 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:44:35 basehttp 14824 928 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:44:37 basehttp 14824 28456 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:44:44 basehttp 14824 1448 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:44:46 basehttp 14824 22116 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:44:54 basehttp 14824 22184 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:44:56 basehttp 14824 21720 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:45:03 basehttp 14824 22000 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:45:05 basehttp 14824 12068 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:45:12 basehttp 14824 25852 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:45:14 basehttp 14824 31580 "GET /api/tasks/21/ HTTP/1.1" 200 264
+INFO 2025-11-17 01:45:24 basehttp 14824 25232 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:45:50 basehttp 14824 15660 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:45:51 basehttp 14824 28284 "GET /api/tasks/ HTTP/1.1" 200 31856
+INFO 2025-11-17 01:45:53 basehttp 14824 31596 "POST /api/tasks/ HTTP/1.1" 201 273
+INFO 2025-11-17 01:45:55 basehttp 14824 27348 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:46:03 basehttp 14824 15332 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:46:05 basehttp 14824 3024 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:46:12 basehttp 14824 29688 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:46:14 basehttp 14824 18536 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:46:21 basehttp 14824 8028 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:46:23 basehttp 14824 24616 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:46:31 basehttp 14824 18584 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:46:33 basehttp 14824 19080 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:46:40 basehttp 14824 6520 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:46:42 basehttp 14824 15208 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:46:49 basehttp 14824 1448 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:46:51 basehttp 14824 23168 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:46:58 basehttp 14824 30924 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:47:00 basehttp 14824 21032 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:47:08 basehttp 14824 31040 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:47:10 basehttp 14824 22724 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:47:17 basehttp 14824 26256 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:47:19 basehttp 14824 7972 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:47:26 basehttp 14824 15480 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:47:28 basehttp 14824 10172 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:47:35 basehttp 14824 25596 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:47:37 basehttp 14824 24124 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:47:45 basehttp 14824 25252 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:47:47 basehttp 14824 22676 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:47:54 basehttp 14824 13044 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:47:56 basehttp 14824 25760 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:48:03 basehttp 14824 21744 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:48:05 basehttp 14824 31712 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:48:12 basehttp 14824 27392 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:48:14 basehttp 14824 11644 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:48:21 autoreload 22768 24384 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-17 01:48:21 autoreload 14824 24148 D:\vendor-pipeline-production\vendor_pipeline_django\vendor_pipeline\settings.py changed, reloading.
+INFO 2025-11-17 01:48:22 autoreload 30816 9292 Watching for file changes with StatReloader
+INFO 2025-11-17 01:48:22 autoreload 21056 22944 Watching for file changes with StatReloader
+INFO 2025-11-17 01:48:23 basehttp 30816 31380 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:48:25 basehttp 30816 28804 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:48:32 basehttp 30816 27292 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:48:34 basehttp 30816 19688 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:48:42 basehttp 30816 14500 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:48:44 basehttp 30816 21588 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:48:51 basehttp 30816 1872 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:48:53 basehttp 30816 24188 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:49:00 basehttp 30816 31692 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:49:02 basehttp 30816 17696 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:49:09 basehttp 30816 22676 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:49:12 basehttp 30816 25056 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:49:19 basehttp 30816 29492 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:49:21 basehttp 30816 24312 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:49:28 basehttp 30816 23036 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:49:30 basehttp 30816 22056 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:49:37 basehttp 30816 27560 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:49:40 basehttp 30816 1704 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:49:47 basehttp 30816 25756 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:49:49 basehttp 30816 12936 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:49:56 basehttp 30816 22828 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:49:58 basehttp 30816 16492 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:50:06 basehttp 30816 19080 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:50:08 basehttp 30816 13220 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:50:15 basehttp 30816 31616 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:50:17 basehttp 30816 11024 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:50:24 basehttp 30816 10900 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:50:26 basehttp 30816 10904 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:50:33 basehttp 30816 21788 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:50:35 basehttp 30816 28228 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:50:43 basehttp 30816 14192 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:50:45 basehttp 30816 24008 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:50:52 basehttp 30816 16600 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:50:54 basehttp 30816 28696 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:51:01 basehttp 30816 24140 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:51:03 basehttp 30816 22460 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:51:10 basehttp 30816 28920 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:51:12 basehttp 30816 11132 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:51:20 basehttp 30816 17012 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:51:22 basehttp 30816 5544 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:51:27 basehttp 30816 20296 "POST /api/tasks/1/phase5/ HTTP/1.1" 200 16044
+INFO 2025-11-17 01:51:29 basehttp 30816 23968 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:51:31 basehttp 30816 24612 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:51:38 basehttp 30816 29512 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:51:40 basehttp 30816 14908 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:51:47 basehttp 30816 28296 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:51:49 basehttp 30816 31408 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:51:56 basehttp 30816 31644 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:51:59 basehttp 30816 15840 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:52:06 basehttp 30816 12672 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:52:08 basehttp 30816 15172 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:52:15 basehttp 30816 28096 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:52:17 basehttp 30816 28844 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:52:24 basehttp 30816 25164 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:52:26 basehttp 30816 11632 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:52:34 basehttp 30816 24832 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:52:36 basehttp 30816 24172 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:52:43 basehttp 30816 19348 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:52:45 basehttp 30816 24048 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:52:52 basehttp 30816 27628 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:52:54 basehttp 30816 21224 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:53:02 basehttp 30816 18296 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:53:04 basehttp 30816 29984 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:53:11 basehttp 30816 19204 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:53:13 basehttp 30816 30648 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:53:20 basehttp 30816 15460 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:53:22 basehttp 30816 23240 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:53:30 basehttp 30816 23080 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:53:32 basehttp 30816 17740 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:53:39 basehttp 30816 23648 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:53:41 basehttp 30816 23476 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:53:48 basehttp 30816 14500 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:53:51 basehttp 30816 30092 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:53:58 basehttp 30816 28648 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:54:00 basehttp 30816 30820 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:54:07 basehttp 30816 13328 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:54:09 basehttp 30816 27904 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:54:16 basehttp 30816 20620 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:54:19 basehttp 30816 29200 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:54:26 basehttp 30816 26224 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:54:28 basehttp 30816 2668 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:54:35 basehttp 30816 25216 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:54:37 basehttp 30816 26488 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:54:44 basehttp 30816 3336 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:54:47 basehttp 30816 28996 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:54:54 basehttp 30816 24808 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:54:56 basehttp 30816 13724 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:55:03 basehttp 30816 27772 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:55:05 basehttp 30816 18188 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:55:13 basehttp 30816 24720 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:55:15 basehttp 30816 5124 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:55:22 basehttp 30816 6844 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:55:24 basehttp 30816 25676 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:55:31 basehttp 30816 21576 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:55:33 basehttp 30816 7224 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:55:40 basehttp 30816 4560 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:55:43 basehttp 30816 17760 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:55:50 basehttp 30816 22804 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:55:52 basehttp 30816 6896 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:55:59 basehttp 30816 27992 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:56:01 basehttp 30816 26752 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:56:08 basehttp 30816 11944 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:56:10 basehttp 30816 24928 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:56:18 basehttp 30816 14376 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:56:20 basehttp 30816 7892 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:56:27 basehttp 30816 29180 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:56:29 basehttp 30816 24056 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:56:36 basehttp 30816 28360 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:56:38 autoreload 21056 22944 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 01:56:38 autoreload 30816 9292 D:\vendor-pipeline-production\vendor_pipeline_django\pipeline\tasks\phase5.py changed, reloading.
+INFO 2025-11-17 01:56:39 autoreload 5392 24732 Watching for file changes with StatReloader
+INFO 2025-11-17 01:56:39 autoreload 30028 19260 Watching for file changes with StatReloader
+INFO 2025-11-17 01:56:40 basehttp 5392 20532 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:56:47 basehttp 5392 26116 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:56:49 basehttp 5392 25900 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:56:56 basehttp 5392 25716 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:56:59 basehttp 5392 31500 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:57:06 basehttp 5392 15564 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:57:08 basehttp 5392 15632 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:57:15 basehttp 5392 28804 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:57:17 basehttp 5392 15440 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:57:24 basehttp 5392 3144 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:57:26 basehttp 5392 21228 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:57:34 basehttp 5392 21996 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 01:57:36 basehttp 5392 9792 "GET /api/tasks/22/ HTTP/1.1" 200 273
+INFO 2025-11-17 01:57:43 basehttp 5392 4064 "GET /api/tasks/ HTTP/1.1" 200 31903
+INFO 2025-11-17 02:03:20 autoreload 4072 3848 Watching for file changes with StatReloader

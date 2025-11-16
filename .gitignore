@@ -1,0 +1,12 @@
+venv/ 
+__pycache__/ 
+*.pyc 
+.env 
+Dockerfile 
+docker-compose.yml 
+deploy.sh 
+.env.example 
+frontend/ 
+.github/ 
+*.backup 
+final_report.json 
