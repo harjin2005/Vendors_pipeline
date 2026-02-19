@@ -32,7 +32,7 @@ CRITICAL INSTRUCTIONS:
 
 3. VALIDATE YOUR FINDINGS (This is critical)
     - For each vendor you find:
-     a) Check if product actually exists (visit official website)
+    a) Check if product actually exists (visit official website)
      b) Verify the name and features match documentation
      c) Confirm the capability matches the task
      d) Find official announcement/evidence link
