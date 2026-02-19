@@ -19,7 +19,7 @@ Your goal: Find ALL specific vendor solutions that automate or assist with this 
 CRITICAL INSTRUCTIONS:
 
 1. UNDERSTAND THE TASK
-   - What does this task involve?
+    - What does this task involve?
    - What are the typical subtasks?
    - What are the pain points?
 
