@@ -1,7 +1,6 @@
 import asyncio
 import json
 import logging
-import re
 from django.db import transaction
 from asgiref.sync import sync_to_async
 from pipeline.models import Task, Vendor, Subtask, CapabilityMapping
