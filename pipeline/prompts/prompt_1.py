@@ -25,7 +25,7 @@ CRITICAL INSTRUCTIONS:
 
 2. SEARCH FOR VENDORS (Search thoroughly)
     - Search vendor documentation
-   - Search official product pages
+    - Search official product pages
    - Search recent blog posts
    - Look for SPECIFIC product names (not generic AI)
    - Check: GitHub, OpenAI, Anthropic, Google, Amazon, Microsoft, Hugging Face, industry-specific vendors
