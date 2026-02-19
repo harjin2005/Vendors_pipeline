@@ -31,7 +31,7 @@ CRITICAL INSTRUCTIONS:
     - Check: GitHub, OpenAI, Anthropic, Google, Amazon, Microsoft, Hugging Face, industry-specific vendors
 
 3. VALIDATE YOUR FINDINGS (This is critical)
-   - For each vendor you find:
+    - For each vendor you find:
      a) Check if product actually exists (visit official website)
      b) Verify the name and features match documentation
      c) Confirm the capability matches the task
