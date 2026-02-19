@@ -21,7 +21,7 @@ CRITICAL INSTRUCTIONS:
 1. UNDERSTAND THE TASK
     - What does this task involve?
     - What are the typical subtasks?
-   - What are the pain points?
+    - What are the pain points?
 
 2. SEARCH FOR VENDORS (Search thoroughly)
    - Search vendor documentation
