@@ -6,7 +6,7 @@ from typing import Any, Dict, List
 from django.db import transaction
 from asgiref.sync import sync_to_async
 
-from pipeline.models import Task, Vendor, Subtask, CapabilityMapping, FinalAnalysis
+from pipeline.models import Task, Vendor, CapabilityMapping, FinalAnalysis
 from pipeline.services.utils import safe_json_extract
 from pipeline.services.llm_service import llm_service
 from pipeline.prompts.prompt_4 import get_prompt_4
