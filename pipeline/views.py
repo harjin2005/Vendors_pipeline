@@ -15,7 +15,6 @@ from .tasks.phase3 import run_phase3
 from .tasks.phase4 import run_phase4
 from .tasks.phase5 import run_phase5
 from asgiref.sync import async_to_sync
-
 logger = logging.getLogger(__name__)
 
 
