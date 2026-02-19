@@ -22,7 +22,7 @@ class SubtaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Subtask
         fields = ['id', 'subtask_name', 'description', 'time_percent', 'importance', 
-                  'ai_applicable', 'onet_weight']
+                    'ai_applicable', 'onet_weight']
 
 class CapabilityMappingSerializer(serializers.ModelSerializer):
     vendor_name = serializers.CharField(source='vendor.vendor_name', read_only=True)
