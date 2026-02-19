@@ -39,7 +39,7 @@ class FinalAnalysisSerializer(serializers.ModelSerializer):
     class Meta:
         model = FinalAnalysis
         fields = ['id', 'best_vendor_name', 'automation_2024', 'automation_2025', 
-                  'automation_2026', 'hrf_scores', 'rpi_score', 'recommendations']
+                    'automation_2026', 'hrf_scores', 'rpi_score', 'recommendations']
 
 class TaskSerializer(serializers.ModelSerializer):
     vendors = VendorSerializer(many=True, read_only=True)
