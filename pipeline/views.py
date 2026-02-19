@@ -4,7 +4,6 @@ from rest_framework.response import Response
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import AllowAny
 import asyncio
-import json
 import logging
 import threading
 
