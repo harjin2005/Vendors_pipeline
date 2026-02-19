@@ -7,7 +7,7 @@ from django.db import transaction
 from asgiref.sync import sync_to_async
 
 from pipeline.models import Task, Subtask
-from pipeline.services.utils import safe_json_extract, validate_aps_score, from pipeline.services.llm_service import llm_service
+from pipeline.services.utils import safe_json_extract, from pipeline.services.llm_service import llm_service
 from pipeline.prompts.prompt_2 import get_prompt_2
 
 logger = logging.getLogger(__name__)
