@@ -1,6 +1,6 @@
  
 from django.db import models
-from django.utils import timezone
+# Removed unused: from django.utils import timezone
 import json
 
 class Task(models.Model):
