@@ -1,5 +1,4 @@
 import requests
-import os
 
 def test_frontend_backend_connection():
     """Test if frontend can connect to backend"""
