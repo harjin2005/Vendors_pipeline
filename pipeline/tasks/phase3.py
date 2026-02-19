@@ -4,8 +4,7 @@ from django.db import transaction
 from asgiref.sync import sync_to_async
 from pipeline.models import Task, Vendor, Timeline
 from pipeline.services.llm_service import llm_service
-from pipeline.services.utils import safe_json_extract, validate_aps_score, get_years
-
+from pipeline.services.utils import safe_json_extract, validate_aps_score, 
 logger = logging.getLogger(__name__)
 
 
