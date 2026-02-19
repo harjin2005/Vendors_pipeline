@@ -2,8 +2,7 @@ import logging
 import json
 from django.db import transaction
 from asgiref.sync import sync_to_async
-from pipeline.models import Task, Vendor, Subtask
-from pipeline.services.llm_service import llm_service
+from pipeline.models import Task, Vendor, from pipeline.services.llm_service import llm_service
 from pipeline.services.vendor_collector import collector
 from pipeline.services.vendor_validator import validator
 from pipeline.services.utils import safe_json_extract
