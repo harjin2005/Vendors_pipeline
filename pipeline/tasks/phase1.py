@@ -5,7 +5,6 @@ from pipeline.models import Task, Vendor, from pipeline.services.llm_service imp
 from pipeline.services.vendor_collector import collector
 from pipeline.services.vendor_validator import validator
 from pipeline.services.utils import safe_json_extract
-
 logger = logging.getLogger(__name__)
 
 
