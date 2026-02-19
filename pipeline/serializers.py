@@ -15,7 +15,7 @@ class VendorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Vendor
         fields = ['id', 'vendor_name', 'product_name', 'status', 
-                  'evidence_url', 'source', 'aps_2024', 'aps_2025', 'aps_2026', 
+                    'evidence_url', 'source', 'aps_2024', 'aps_2025', 'aps_2026', 
                   'is_verified', 'created_at', 'timeline']
 
 class SubtaskSerializer(serializers.ModelSerializer):
