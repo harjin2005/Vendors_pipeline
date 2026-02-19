@@ -8,8 +8,7 @@ import json
 import logging
 import threading
 
-from .models import Task, Vendor, Subtask, CapabilityMapping, FinalAnalysis, Timeline
-from .serializers import TaskSerializer, VendorSerializer, SubtaskSerializer, TaskCreateSerializer
+from .models import Task, Vendor, Subtask, CapabilityMapping, FinalAnalysis, from .serializers import TaskSerializer, VendorSerializer, SubtaskSerializer, TaskCreateSerializer
 from .tasks.phase1 import run_phase1
 from .tasks.phase2 import run_phase2
 from .tasks.phase3 import run_phase3
