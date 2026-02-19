@@ -1,7 +1,6 @@
  
 from django.db import models
 # Removed unused: from django.utils import timezone
-import json
 
 class Task(models.Model):
     STATUS_CHOICES = [
