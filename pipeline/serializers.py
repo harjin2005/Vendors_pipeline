@@ -31,7 +31,7 @@ class CapabilityMappingSerializer(serializers.ModelSerializer):
     class Meta:
         model = CapabilityMapping
         fields = ['id', 'vendor_name', 'subtask_name', 'can_handle', 
-                  'aps_2024', 'aps_2025', 'aps_2026', 'improvement_rate']
+                    'aps_2024', 'aps_2025', 'aps_2026', 'improvement_rate']
 
 class FinalAnalysisSerializer(serializers.ModelSerializer):
     best_vendor_name = serializers.CharField(source='best_vendor.vendor_name', read_only=True)
