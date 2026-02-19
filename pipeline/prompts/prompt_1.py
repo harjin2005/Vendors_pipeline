@@ -24,7 +24,7 @@ CRITICAL INSTRUCTIONS:
     - What are the pain points?
 
 2. SEARCH FOR VENDORS (Search thoroughly)
-   - Search vendor documentation
+    - Search vendor documentation
    - Search official product pages
    - Search recent blog posts
    - Look for SPECIFIC product names (not generic AI)
