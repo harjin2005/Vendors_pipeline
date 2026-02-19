@@ -1,8 +1,7 @@
 from rest_framework import serializers
 from .models import (
     Task, Vendor, Timeline, Subtask, 
-    CapabilityMapping, FinalAnalysis, ValidationLog
-)
+    CapabilityMapping, FinalAnalysis, )
 
 class TimelineSerializer(serializers.ModelSerializer):
     class Meta:
